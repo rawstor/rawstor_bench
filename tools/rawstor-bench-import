@@ -1,0 +1,63 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import json
+from pathlib import Path
+import shutil
+
+
+def import_fio(
+    prefix=None, suite=None, name=None, branch=None, commit=None, date=None,
+    txt_file=None, json_file=None, **kwargs
+):
+    dest_dir = Path(prefix) / "data" / suite / name
+    dest_dir.mkdir(parents=True, exist_ok=True)
+
+    meta_filename = f"{commit}.meta"
+    txt_filename = f"{commit}.txt"
+    json_filename = f"{commit}.json"
+    meta_dest = dest_dir / meta_filename
+    txt_dest = dest_dir / txt_filename
+    json_dest = dest_dir / json_filename
+
+    meta = {
+        "suite": suite,
+        "name": name,
+        "branch": branch,
+        "commit": commit,
+        "date": date.isoformat(),
+        "data": {
+            "txt": txt_filename,
+            "json": json_filename,
+        },
+    }
+    with open(meta_dest, "w") as f:
+        json.dump(meta, f, indent=4)
+    shutil.copy(txt_file, txt_dest)
+    shutil.copy(json_file, json_dest)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prefix", help="prefix", required=True)
+    parser.add_argument("--suite", help="benchmark suite name", required=True)
+    parser.add_argument("--name", help="benchmark name", required=True)
+    parser.add_argument("--branch", help="branch name", required=True)
+    parser.add_argument("--commit", help="commit sha", required=True)
+    parser.add_argument(
+        "--date", help="date", required=True,
+        type=datetime.datetime.fromisoformat)
+    subparsers = parser.add_subparsers(required=True, dest="format")
+    import_parser = subparsers.add_parser(
+        "fio", help="import benchmark results")
+    import_parser.add_argument("txt_file", help="fio txt output file")
+    import_parser.add_argument("json_file", help="fio json output file")
+    args = parser.parse_args()
+
+    if args.format == "fio":
+        import_fio(**vars(args))
+
+
+if __name__ == '__main__':
+    main()
