@@ -9,7 +9,7 @@ import shutil
 
 def import_fio(
     prefix=None, suite=None, name=None, branch=None, commit=None, date=None,
-    normal_file=None, json_file=None, **kwargs
+    txt_file=None, json_file=None, **kwargs
 ):
     dest_dir = os.path.join(prefix, "data", suite, name)
     os.makedirs(dest_dir, exist_ok=True)
@@ -34,7 +34,7 @@ def import_fio(
     }
     with open(meta_dest, "w") as f:
         json.dump(meta, f, indent=4)
-    shutil.copy(normal_file, txt_dest)
+    shutil.copy(txt_file, txt_dest)
     shutil.copy(json_file, json_dest)
 
 
@@ -51,7 +51,7 @@ def main():
     subparsers = parser.add_subparsers(required=True, dest="format")
     import_parser = subparsers.add_parser(
         "fio", help="import benchmark results")
-    import_parser.add_argument("normal_file", help="fio normal output file")
+    import_parser.add_argument("txt_file", help="fio txt output file")
     import_parser.add_argument("json_file", help="fio json output file")
     args = parser.parse_args()
 
