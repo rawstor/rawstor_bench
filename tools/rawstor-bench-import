@@ -59,6 +59,8 @@ def main():
     if args.format == "fio":
         import_fio(**vars(args))
 
+    print("Imported successfully")
+
 
 if __name__ == '__main__':
     main()
