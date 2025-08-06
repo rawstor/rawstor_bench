@@ -1,3 +1,3 @@
 # rawstor benchmarks
 
-hello world
+[fio](fio/)
