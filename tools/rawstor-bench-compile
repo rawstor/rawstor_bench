@@ -1,0 +1,100 @@
+#!/usr/bin/env python3
+
+import argparse
+import datetime
+import json
+from pathlib import Path
+import shutil
+
+
+def read_fio_txt(prefix, meta):
+    filename = prefix / "data" / "fio" / meta["path"] / meta["data"]["txt"]
+    with open(filename) as f:
+        return f.read()
+
+
+def read_fio_json(prefix, meta):
+    filename = prefix / "data" / "fio" / meta["path"] / meta["data"]["json"]
+    with open(filename) as f:
+        return json.load(f)
+
+
+def load_meta(meta_path):
+    with open(meta_path, 'r') as f:
+        meta = json.load(f)
+        meta["date"] = datetime.datetime.fromisoformat(meta["date"])
+    return meta
+
+
+def compile_fio(prefix=None, **kwargs):
+    prefix = Path(prefix)
+    src_dir = prefix / "data" / "fio"
+
+    metas = []
+    for meta_path in src_dir.glob("**/*.meta"):
+        metas.append(load_meta(meta_path))
+
+    metas.sort(key=lambda meta: meta["date"])
+
+    dest_dir = Path(prefix) / "docs" / "fio"
+    shutil.rmtree(dest_dir, ignore_errors=True)
+
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    with open(dest_dir / "index.md", "w") as f:
+        f.write(
+            "| "
+            "Suite | "
+            "Name | "
+            "Branch | "
+            "Commit | "
+            "Date | "
+            "Read IOPS | "
+            "Read Latency | "
+            "Write IOPS | "
+            "Write Latency |"
+            "\n"
+        )
+        f.write(
+            "| "
+            ":---  | "
+            ":--- | "
+            ":---   | "
+            ":---   | "
+            ":--- | "
+            "     ---: | "
+            "        ---: | "
+            "      ---: | "
+            "         ---: |"
+            "\n"
+        )
+        for meta in metas:
+            fio = read_fio_json(prefix, meta)
+            f.write(
+                f"| "
+                f"{meta["suite"]} | "
+                f"{meta["name"]} | "
+                f"{meta["branch"]} | "
+                f"{meta["commit"]} | "
+                f"{meta["date"].isoformat()} | "
+                f"{fio["jobs"][0]["read"]["iops_mean"]} | "
+                f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
+                f"{fio["jobs"][0]["write"]["iops_mean"]} | "
+                f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
+                f"\n"
+            )
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prefix", help="prefix", required=True)
+    parser.add_argument("what", help="what to compile", choices=("fio",))
+    args = parser.parse_args()
+
+    if args.what == "fio":
+        compile_fio(**vars(args))
+
+    print("Compiled successfully")
+
+
+if __name__ == '__main__':
+    main()
