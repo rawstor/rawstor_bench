@@ -50,7 +50,7 @@ def compile_fio(prefix=None, **kwargs):
             "Date | "
             "Read IOPS | "
             "Read Latency | "
-            "Rrite IOPS | "
+            "Write IOPS | "
             "Write Latency |"
             "\n"
         )
