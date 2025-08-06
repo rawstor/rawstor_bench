@@ -24,6 +24,7 @@ def import_fio(
     meta = {
         "suite": suite,
         "name": name,
+        "path": f"{suite}/{name}",
         "branch": branch,
         "commit": commit,
         "date": date.isoformat(),
