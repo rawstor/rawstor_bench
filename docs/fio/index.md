@@ -12,6 +12,12 @@
 | :---   | :---   | :--- |      ---: |         ---: |       ---: |          ---: |
 | refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 2025-08-07T13:59:31+00:00 | 69222.0 | 5192.843759 | 69151.789474 | 22560.838487 |
 
+## perftest--without-liburing--disable-ost-4k-1-1
+
+| Branch | Commit | Date | Read IOPS | Read Latency | Write IOPS | Write Latency |
+| :---   | :---   | :--- |      ---: |         ---: |       ---: |          ---: |
+| refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 2025-08-07T13:59:38+00:00 | 140382.6 | 2926.136746 | 140191.9 | 3674.073272 |
+
 ## perftest-disable-ost-4k-1-1
 
 | Branch | Commit | Date | Read IOPS | Read Latency | Write IOPS | Write Latency |
