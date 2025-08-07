@@ -46,7 +46,7 @@ def compile_fio(prefix=None, **kwargs):
     shutil.rmtree(dest_dir, ignore_errors=True)
 
     dest_dir.mkdir(parents=True, exist_ok=True)
-    with open(dest_dir / "index.md", "w") as index_md:
+    with open(dest_dir / "README.md", "w") as index_md:
         for suite_name, suite in suites:
             suite = sorted(list(suite.items()))
             index_md.write(f"# {suite_name}\n\n")
@@ -75,7 +75,9 @@ def compile_fio(prefix=None, **kwargs):
                     "\n"
                 )
                 for meta in metas:
+                    fio = read_fio_json(prefix, meta)
                     fio_txt = read_fio_txt(prefix, meta)
+
                     commmit_md_dest_path = f"{suite_name}/{name}"
                     commmit_md_dest_dir = dest_dir / commmit_md_dest_path
                     commmit_md_dest_dir.mkdir(parents=True, exist_ok=True)
@@ -84,13 +86,20 @@ def compile_fio(prefix=None, **kwargs):
                         f"{commmit_md_dest_path}/{meta["commit"]}.md"
                     commmit_md_filename = \
                         commmit_md_dest_dir / f"{meta["commit"]}.md"
+                    job = fio["jobs"][0]["job options"]
                     with open(commmit_md_filename, "w") as commit_md:
-                        commit_md.write(f"## {name}\n\n")
+                        commit_md.write(f"## [<](../..) {name}\n\n")
+                        commit_md.write(f"{meta["date"].isoformat()}\n\n")
+                        commit_md.write(f"{meta["branch"]}\n\n")
+                        commit_md.write(f"{meta["commit"]}\n\n")
+                        commit_md.write(f"rw = {job["rw"]}, ")
+                        commit_md.write(f"bs = {job["bs"]}, ")
+                        commit_md.write(f"iodepth = {job["iodepth"]}, ")
+                        commit_md.write(f"numjobs = {job["numjobs"]}\n\n")
                         commit_md.write("```\n")
                         commit_md.write(fio_txt)
                         commit_md.write("```\n")
 
-                    fio = read_fio_json(prefix, meta)
                     index_md.write(
                         f"| "
                         f"[{meta["date"].isoformat()}]"
