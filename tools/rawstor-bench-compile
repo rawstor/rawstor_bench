@@ -76,8 +76,12 @@ def compile_fio(prefix=None, **kwargs):
                 )
                 for meta in metas:
                     fio_txt = read_fio_txt(prefix, meta)
-                    commmit_md_dest_dir = dest_dir / suite_name / name
+                    commmit_md_dest_path = f"{suite_name}/{name}"
+                    commmit_md_dest_dir = dest_dir / commmit_md_dest_path
                     commmit_md_dest_dir.mkdir(parents=True, exist_ok=True)
+
+                    commmit_md_filename_url = \
+                        f"{commmit_md_dest_path}/{meta["commit"]}.md"
                     commmit_md_filename = \
                         commmit_md_dest_dir / f"{meta["commit"]}.md"
                     with open(commmit_md_filename, "w") as commit_md:
@@ -91,7 +95,7 @@ def compile_fio(prefix=None, **kwargs):
                         f"| "
                         f"{meta["date"].isoformat()} | "
                         f"{meta["branch"]} | "
-                        f"[{meta["commit"]}]({commmit_md_filename}) | "
+                        f"[{meta["commit"]}]({commmit_md_filename_url}) | "
                         f"{fio["jobs"][0]["read"]["iops_mean"]} | "
                         f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
                         f"{fio["jobs"][0]["write"]["iops_mean"]} | "
