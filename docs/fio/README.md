@@ -19,6 +19,12 @@
 | [2025-08-07T14:30:42+00:00](librawstor/perftest--disable-ost-4k-1-1/ae83897e3fde532454f6cf3d6c4216188662d95b.md) | refs/heads/feat/matrix | ae83897e3fde532454f6cf3d6c4216188662d95b | 32653.0 | 3239.053242 | 32619.3 | 26567.514934 |
 | [2025-08-07T13:59:36+00:00](librawstor/perftest--disable-ost-4k-1-1/dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb.md) | refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 31540.421053 | 3465.195603 | 31526.947368 | 27233.908731 |
 
+## perftest--disable-ost-4k-16-1
+
+| Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
+| :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-08-07T22:43:07+00:00](librawstor/perftest--disable-ost-4k-16-1/55d4d52fcabf16257cb6ed5d6e1839c97502ba80.md) | refs/heads/feat/add-perftests | 55d4d52fcabf16257cb6ed5d6e1839c97502ba80 | 137915.473684 | 48702.895645 | 137746.105263 | 66942.692208 |
+
 ## perftest--disable-ost-4k-2-1
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
