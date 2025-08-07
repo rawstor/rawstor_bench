@@ -46,28 +46,28 @@ def compile_fio(prefix=None, **kwargs):
     shutil.rmtree(dest_dir, ignore_errors=True)
 
     dest_dir.mkdir(parents=True, exist_ok=True)
-    with open(dest_dir / "index.md", "w") as f:
+    with open(dest_dir / "index.md", "w") as index_md:
         for suite_name, suite in suites:
             suite = sorted(list(suite.items()))
-            f.write(f"# {suite_name}\n\n")
+            index_md.write(f"# {suite_name}\n\n")
             for name, metas in suite:
-                f.write(f"## {name}\n\n")
-                f.write(
+                index_md.write(f"## {name}\n\n")
+                index_md.write(
                     "| "
+                    "Date | "
                     "Branch | "
                     "Commit | "
-                    "Date | "
                     "Read IOPS | "
                     "Read Latency | "
                     "Write IOPS | "
                     "Write Latency |"
                     "\n"
                 )
-                f.write(
+                index_md.write(
                     "| "
-                    ":---   | "
-                    ":---   | "
                     ":--- | "
+                    ":---   | "
+                    ":---   | "
                     "     ---: | "
                     "        ---: | "
                     "      ---: | "
@@ -75,19 +75,27 @@ def compile_fio(prefix=None, **kwargs):
                     "\n"
                 )
                 for meta in metas:
+                    fio_txt = read_fio_txt(prefix, meta)                    
+                    with open(dest_dir / f"{meta["commit"]}.md", "w") \
+                            as commit_md:
+                        commit_md.write(f"## {name}\n\n")
+                        commit_md.write("```\n")
+                        commit_md.write(fio_txt)
+                        commit_md.write("```\n")
+
                     fio = read_fio_json(prefix, meta)
-                    f.write(
+                    index_md.write(
                         f"| "
-                        f"{meta["branch"]} | "
-                        f"{meta["commit"]} | "
                         f"{meta["date"].isoformat()} | "
+                        f"{meta["branch"]} | "
+                        f"[{meta["commit"]}]({meta["commit"]}.md) | "
                         f"{fio["jobs"][0]["read"]["iops_mean"]} | "
                         f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
                         f"{fio["jobs"][0]["write"]["iops_mean"]} | "
                         f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
                         f"\n"
                     )
-                f.write("\n")
+                index_md.write("\n")
 
 
 def main():
