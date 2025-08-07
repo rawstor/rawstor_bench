@@ -10,6 +10,7 @@
 
 | Branch | Commit | Date | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :---   | :---   | :--- |      ---: |         ---: |       ---: |          ---: |
+| refs/heads/feat/matrix | ae83897e3fde532454f6cf3d6c4216188662d95b | 2025-08-07T14:30:30+00:00 | 71693.789474 | 4928.125862 | 71605.473684 | 21917.193458 |
 | refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 2025-08-07T13:59:31+00:00 | 69222.0 | 5192.843759 | 69151.789474 | 22560.838487 |
 
 ## perftest--without-liburing--disable-ost-4k-1-1
