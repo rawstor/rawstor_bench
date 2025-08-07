@@ -34,54 +34,59 @@ def compile_fio(prefix=None, **kwargs):
     for meta_path in src_dir.glob("**/*.meta"):
         metas.append(load_meta(meta_path))
 
-    metas.sort(key=lambda meta: meta["date"])
+    metas.sort(key=lambda meta: meta["date"], reverse=True)
+
+    suites = {}
+    for meta in metas:
+        suite = suites.setdefault(meta["suite"], {})
+        suite.setdefault(meta["name"], []).append(meta)
+    suites = sorted(list(suites.items()))
 
     dest_dir = Path(prefix) / "docs" / "fio"
     shutil.rmtree(dest_dir, ignore_errors=True)
 
     dest_dir.mkdir(parents=True, exist_ok=True)
     with open(dest_dir / "index.md", "w") as f:
-        f.write(
-            "| "
-            "Suite | "
-            "Name | "
-            "Branch | "
-            "Commit | "
-            "Date | "
-            "Read IOPS | "
-            "Read Latency | "
-            "Write IOPS | "
-            "Write Latency |"
-            "\n"
-        )
-        f.write(
-            "| "
-            ":---  | "
-            ":--- | "
-            ":---   | "
-            ":---   | "
-            ":--- | "
-            "     ---: | "
-            "        ---: | "
-            "      ---: | "
-            "         ---: |"
-            "\n"
-        )
-        for meta in metas:
-            fio = read_fio_json(prefix, meta)
-            f.write(
-                f"| "
-                f"{meta["suite"]} | "
-                f"{meta["name"]} | "
-                f"{meta["branch"]} | "
-                f"{meta["commit"]} | "
-                f"{meta["date"].isoformat()} | "
-                f"{fio["jobs"][0]["read"]["iops_mean"]} | "
-                f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
-                f"{fio["jobs"][0]["write"]["iops_mean"]} | "
-                f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
-                f"\n"
-            )
+        for suite_name, suite in suites:
+            suite = sorted(list(suite.items()))
+            f.write(f"# {suite_name}\n")
+            for name, metas in suite:
+                f.write(f"## {name}\n")
+                f.write(
+                    "| "
+                    "Branch | "
+                    "Commit | "
+                    "Date | "
+                    "Read IOPS | "
+                    "Read Latency | "
+                    "Write IOPS | "
+                    "Write Latency |"
+                    "\n"
+                )
+                f.write(
+                    "| "
+                    ":---   | "
+                    ":---   | "
+                    ":--- | "
+                    "     ---: | "
+                    "        ---: | "
+                    "      ---: | "
+                    "         ---: |"
+                    "\n"
+                )
+                for meta in metas:
+                    fio = read_fio_json(prefix, meta)
+                    f.write(
+                        f"| "
+                        f"{meta["branch"]} | "
+                        f"{meta["commit"]} | "
+                        f"{meta["date"].isoformat()} | "
+                        f"{fio["jobs"][0]["read"]["iops_mean"]} | "
+                        f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
+                        f"{fio["jobs"][0]["write"]["iops_mean"]} | "
+                        f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
+                        f"\n"
+                    )
 
 
 def main():
