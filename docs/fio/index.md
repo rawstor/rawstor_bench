@@ -1,5 +1,11 @@
 # librawstor
 
+## perftest--disable-ost-4k-2-1
+
+| Branch | Commit | Date | Read IOPS | Read Latency | Write IOPS | Write Latency |
+| :---   | :---   | :--- |      ---: |         ---: |       ---: |          ---: |
+| refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 2025-08-07T13:59:31+00:00 | 69222.0 | 5192.843759 | 69151.789474 | 22560.838487 |
+
 ## perftest-disable-ost-4k-1-1
 
 | Branch | Commit | Date | Read IOPS | Read Latency | Write IOPS | Write Latency |
