@@ -49,9 +49,9 @@ def compile_fio(prefix=None, **kwargs):
     with open(dest_dir / "index.md", "w") as f:
         for suite_name, suite in suites:
             suite = sorted(list(suite.items()))
-            f.write(f"# {suite_name}\n")
+            f.write(f"# {suite_name}\n\n")
             for name, metas in suite:
-                f.write(f"## {name}\n")
+                f.write(f"## {name}\n\n")
                 f.write(
                     "| "
                     "Branch | "
@@ -87,6 +87,7 @@ def compile_fio(prefix=None, **kwargs):
                         f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
                         f"\n"
                     )
+                f.write("\n")
 
 
 def main():
