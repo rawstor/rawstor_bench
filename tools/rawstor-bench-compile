@@ -93,9 +93,10 @@ def compile_fio(prefix=None, **kwargs):
                     fio = read_fio_json(prefix, meta)
                     index_md.write(
                         f"| "
-                        f"{meta["date"].isoformat()} | "
+                        f"[{meta["date"].isoformat()}]"
+                        f"({commmit_md_filename_url}) | "
                         f"{meta["branch"]} | "
-                        f"[{meta["commit"]}]({commmit_md_filename_url}) | "
+                        f"{meta["commit"]} | "
                         f"{fio["jobs"][0]["read"]["iops_mean"]} | "
                         f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
                         f"{fio["jobs"][0]["write"]["iops_mean"]} | "
