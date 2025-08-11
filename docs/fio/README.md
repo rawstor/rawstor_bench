@@ -57,16 +57,6 @@
 | [2025-08-07T14:30:42+00:00](librawstor/perftest--disable-ost-4k-1-1/ae83897e3fde532454f6cf3d6c4216188662d95b.md) | refs/heads/feat/matrix | ae83897e3fde532454f6cf3d6c4216188662d95b | 32653.0 | 3239.053242 | 32619.3 | 26567.514934 |
 | [2025-08-07T13:59:36+00:00](librawstor/perftest--disable-ost-4k-1-1/dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb.md) | refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 31540.421053 | 3465.195603 | 31526.947368 | 27233.908731 |
 
-## perftest--disable-ost-4k-16-1
-
-| Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
-| :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
-| [2025-08-07T23:00:37+00:00](librawstor/perftest--disable-ost-4k-16-1/d1adcd35cb7171111ee3f75b98830761d4037847.md) | refs/heads/feat/add-perftests | d1adcd35cb7171111ee3f75b98830761d4037847 | 140656.421053 | 48342.331721 | 140476.210526 | 64881.765792 |
-| [2025-08-07T22:58:07+00:00](librawstor/perftest--disable-ost-4k-16-1/a3cf9173ffeb209198bcdef7ece702784965a513.md) | refs/heads/feat/add-perftests | a3cf9173ffeb209198bcdef7ece702784965a513 | 131206.3 | 51681.437577 | 131043.2 | 69331.439595 |
-| [2025-08-07T22:50:43+00:00](librawstor/perftest--disable-ost-4k-16-1/21d58abaf95f98cf0e63818670def9a521f4f896.md) | refs/heads/feat/add-perftests | 21d58abaf95f98cf0e63818670def9a521f4f896 | 123504.947368 | 53551.964711 | 123434.947368 | 75131.693845 |
-| [2025-08-07T22:48:28+00:00](librawstor/perftest--disable-ost-4k-16-1/862d8dbe2aceb056a15c5f5af48d2347553ef190.md) | refs/heads/feat/add-perftests | 862d8dbe2aceb056a15c5f5af48d2347553ef190 | 132669.157895 | 51257.558833 | 132545.684211 | 68089.947915 |
-| [2025-08-07T22:43:07+00:00](librawstor/perftest--disable-ost-4k-16-1/55d4d52fcabf16257cb6ed5d6e1839c97502ba80.md) | refs/heads/feat/add-perftests | 55d4d52fcabf16257cb6ed5d6e1839c97502ba80 | 137915.473684 | 48702.895645 | 137746.105263 | 66942.692208 |
-
 ## perftest--disable-ost-4k-2-1
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
@@ -178,15 +168,6 @@
 | [2025-08-07T20:37:01+00:00](librawstor/perftest--without-liburing--disable-ost-4k-1-1/6870525510a72297405331398288100e83315fac.md) | refs/heads/feat/matrix | 6870525510a72297405331398288100e83315fac | 139448.5 | 2973.115836 | 139266.7 | 3675.555655 |
 | [2025-08-07T14:30:38+00:00](librawstor/perftest--without-liburing--disable-ost-4k-1-1/ae83897e3fde532454f6cf3d6c4216188662d95b.md) | refs/heads/feat/matrix | ae83897e3fde532454f6cf3d6c4216188662d95b | 137315.894737 | 2985.614253 | 137154.947368 | 3734.665849 |
 | [2025-08-07T13:59:38+00:00](librawstor/perftest--without-liburing--disable-ost-4k-1-1/dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb.md) | refs/heads/feat/matrix | dffaf1a8f748fb5ee5b5820a8add1973d5bd69fb | 140382.6 | 2926.136746 | 140191.9 | 3674.073272 |
-
-## perftest--without-liburing--disable-ost-4k-16-1
-
-| Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
-| :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
-| [2025-08-07T23:03:55+00:00](librawstor/perftest--without-liburing--disable-ost-4k-16-1/ccd75ec34014fe6ae1cae90b5a6486aa41ba8d99.md) | refs/heads/feat/add-perftests | ccd75ec34014fe6ae1cae90b5a6486aa41ba8d99 | 185891.789474 | 2071.799532 | 185699.789474 | 83141.645345 |
-| [2025-08-07T23:00:37+00:00](librawstor/perftest--without-liburing--disable-ost-4k-16-1/d1adcd35cb7171111ee3f75b98830761d4037847.md) | refs/heads/feat/add-perftests | d1adcd35cb7171111ee3f75b98830761d4037847 | 187437.947368 | 2068.420735 | 187229.157895 | 82510.847613 |
-| [2025-08-07T22:57:55+00:00](librawstor/perftest--without-liburing--disable-ost-4k-16-1/a3cf9173ffeb209198bcdef7ece702784965a513.md) | refs/heads/feat/add-perftests | a3cf9173ffeb209198bcdef7ece702784965a513 | 177674.95 | 2199.865968 | 177483.65 | 87421.43091 |
-| [2025-08-07T22:48:11+00:00](librawstor/perftest--without-liburing--disable-ost-4k-16-1/862d8dbe2aceb056a15c5f5af48d2347553ef190.md) | refs/heads/feat/add-perftests | 862d8dbe2aceb056a15c5f5af48d2347553ef190 | 190530.105263 | 2018.488164 | 190347.052632 | 81079.834201 |
 
 ## perftest--without-liburing--disable-ost-4k-2-1
 
