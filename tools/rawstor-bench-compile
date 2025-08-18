@@ -46,7 +46,7 @@ def compile_commit_md(
     filename = dest_abspath / f"{commit_sha}.md"
     job = fio["jobs"][0]["job options"]
     with open(filename, "w") as commit_md:
-        commit_md.write("[<](..) back\n\n")
+        commit_md.write("[< back](..)\n\n")
         commit_md.write(f"# {name}\n\n")
         commit_md.write(f"{meta["date"].isoformat()}\n\n")
         commit_md.write(f"{meta["branch"]}\n\n")
@@ -68,7 +68,7 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
     url = f"{dest_path}/README.md"
     filename = dest_abspath / "README.md"
     with open(filename, "w") as repo_md:
-        repo_md.write("[<](..) back\n\n")
+        repo_md.write("[< back](..)\n\n")
         for name, metas in repo:
             repo_md.write(f"# {name}\n\n")
             repo_md.write(
