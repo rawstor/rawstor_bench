@@ -1,4 +1,4 @@
-## [<](../..) perftest--without-liburing--disable-ost-4k-2-1
+## [<](..) perftest--without-liburing--disable-ost-4k-2-1
 
 2025-08-10T17:09:28+00:00
 

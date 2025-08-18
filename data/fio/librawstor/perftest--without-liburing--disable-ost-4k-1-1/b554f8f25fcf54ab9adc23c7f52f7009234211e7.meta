@@ -1,5 +1,5 @@
 {
-    "suite": "librawstor",
+    "repo": "librawstor",
     "name": "perftest--without-liburing--disable-ost-4k-1-1",
     "path": "librawstor/perftest--without-liburing--disable-ost-4k-1-1",
     "branch": "refs/heads/feat/rawstorstd",

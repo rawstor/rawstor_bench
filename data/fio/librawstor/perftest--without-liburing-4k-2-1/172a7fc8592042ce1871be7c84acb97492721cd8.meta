@@ -1,5 +1,5 @@
 {
-    "suite": "librawstor",
+    "repo": "librawstor",
     "name": "perftest--without-liburing-4k-2-1",
     "path": "librawstor/perftest--without-liburing-4k-2-1",
     "branch": "refs/heads/feat/naming",

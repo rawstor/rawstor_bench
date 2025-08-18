@@ -26,6 +26,115 @@ def load_meta(meta_path):
     return meta
 
 
+def compile_commit_md(prefix, dest_abspath, dest_path, meta, fio, name):
+    fio_txt = read_fio_txt(prefix, meta)
+
+    dest_abspath.mkdir(parents=True, exist_ok=True)
+
+    commit_sha = meta["commit"]
+
+    url = f"{dest_path}/{commit_sha}.md"
+    filename = dest_abspath / f"{commit_sha}.md"
+    job = fio["jobs"][0]["job options"]
+    with open(filename, "w") as commit_md:
+        commit_md.write(f"## [<](..) {name}\n\n")
+        commit_md.write(f"{meta["date"].isoformat()}\n\n")
+        commit_md.write(f"{meta["branch"]}\n\n")
+        commit_md.write(f"{commit_sha}\n\n")
+        commit_md.write(f"rw = {job["rw"]}, ")
+        commit_md.write(f"bs = {job["bs"]}, ")
+        commit_md.write(f"iodepth = {job["iodepth"]}, ")
+        commit_md.write(f"numjobs = {job["numjobs"]}\n\n")
+        commit_md.write("```\n")
+        commit_md.write(fio_txt)
+        commit_md.write("```\n")
+
+    return url
+
+
+def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
+    dest_abspath.mkdir(parents=True, exist_ok=True)
+
+    url = f"{dest_path}/README.md"
+    filename = dest_abspath / "README.md"
+    with open(filename, "w") as repo_md:
+        for name, metas in repo:
+            repo_md.write(f"## [<](..) {name}\n\n")
+            repo_md.write(
+                "| "
+                "Date | "
+                "Branch | "
+                "Commit | "
+                "Read IOPS | "
+                "Read Latency | "
+                "Write IOPS | "
+                "Write Latency |"
+                "\n"
+                "| "
+                ":--- | "
+                ":---   | "
+                ":---   | "
+                "     ---: | "
+                "        ---: | "
+                "      ---: | "
+                "         ---: |"
+                "\n"
+            )
+            for meta in metas:
+                fio = read_fio_json(prefix, meta)
+
+                commmit_md_dest_path = f"{name}"
+                commmit_md_dest_abspath = dest_abspath / commmit_md_dest_path
+                commmit_md_url = compile_commit_md(
+                    prefix,
+                    commmit_md_dest_abspath,
+                    commmit_md_dest_path,
+                    meta,
+                    fio,
+                    name,
+                )
+
+                commit_sha = meta["commit"]
+
+                commit_url = \
+                    f"https://github.com/rawstor/{repo_name}/commit/" \
+                    f"{commit_sha}"
+
+                commit_txt = f"[{commit_sha}]({commit_url})"
+
+                repo_md.write(
+                    f"| "
+                    f"[{meta["date"].isoformat()}]({commmit_md_url}) | "
+                    f"{meta["branch"]} | "
+                    f"{commit_txt} | "
+                    f"{fio["jobs"][0]["read"]["iops_mean"]} | "
+                    f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
+                    f"{fio["jobs"][0]["write"]["iops_mean"]} | "
+                    f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
+                    f"\n"
+                )
+            repo_md.write("\n")
+
+    return url
+
+
+def compile_index_md(prefix, dest_abspath, repos):
+    dest_abspath.mkdir(parents=True, exist_ok=True)
+    with open(dest_abspath / "README.md", "w") as index_md:
+        for repo_name, repo in repos:
+            repo = sorted(list(repo.items()))
+            repo_md_dest_path = f"{repo_name}"
+            repo_md_dest_abspath = dest_abspath / repo_md_dest_path
+            repo_md_url = compile_repo_md(
+                prefix,
+                repo_md_dest_abspath,
+                repo_md_dest_path,
+                repo_name,
+                repo,
+            )
+            index_md.write(f"[{repo_name}]({repo_md_url})\n")
+
+
 def compile_fio(prefix=None, **kwargs):
     prefix = Path(prefix)
     src_dir = prefix / "data" / "fio"
@@ -36,83 +145,15 @@ def compile_fio(prefix=None, **kwargs):
 
     metas.sort(key=lambda meta: meta["date"], reverse=True)
 
-    suites = {}
+    repos = {}
     for meta in metas:
-        suite = suites.setdefault(meta["suite"], {})
-        suite.setdefault(meta["name"], []).append(meta)
-    suites = sorted(list(suites.items()))
+        repo = repos.setdefault(meta["repo"], {})
+        repo.setdefault(meta["name"], []).append(meta)
+    repos = sorted(list(repos.items()))
 
-    dest_dir = Path(prefix) / "docs" / "fio"
-    shutil.rmtree(dest_dir, ignore_errors=True)
-
-    dest_dir.mkdir(parents=True, exist_ok=True)
-    with open(dest_dir / "README.md", "w") as index_md:
-        for suite_name, suite in suites:
-            suite = sorted(list(suite.items()))
-            index_md.write(f"# {suite_name}\n\n")
-            for name, metas in suite:
-                index_md.write(f"## {name}\n\n")
-                index_md.write(
-                    "| "
-                    "Date | "
-                    "Branch | "
-                    "Commit | "
-                    "Read IOPS | "
-                    "Read Latency | "
-                    "Write IOPS | "
-                    "Write Latency |"
-                    "\n"
-                )
-                index_md.write(
-                    "| "
-                    ":--- | "
-                    ":---   | "
-                    ":---   | "
-                    "     ---: | "
-                    "        ---: | "
-                    "      ---: | "
-                    "         ---: |"
-                    "\n"
-                )
-                for meta in metas:
-                    fio = read_fio_json(prefix, meta)
-                    fio_txt = read_fio_txt(prefix, meta)
-
-                    commmit_md_dest_path = f"{suite_name}/{name}"
-                    commmit_md_dest_dir = dest_dir / commmit_md_dest_path
-                    commmit_md_dest_dir.mkdir(parents=True, exist_ok=True)
-
-                    commmit_md_filename_url = \
-                        f"{commmit_md_dest_path}/{meta["commit"]}.md"
-                    commmit_md_filename = \
-                        commmit_md_dest_dir / f"{meta["commit"]}.md"
-                    job = fio["jobs"][0]["job options"]
-                    with open(commmit_md_filename, "w") as commit_md:
-                        commit_md.write(f"## [<](../..) {name}\n\n")
-                        commit_md.write(f"{meta["date"].isoformat()}\n\n")
-                        commit_md.write(f"{meta["branch"]}\n\n")
-                        commit_md.write(f"{meta["commit"]}\n\n")
-                        commit_md.write(f"rw = {job["rw"]}, ")
-                        commit_md.write(f"bs = {job["bs"]}, ")
-                        commit_md.write(f"iodepth = {job["iodepth"]}, ")
-                        commit_md.write(f"numjobs = {job["numjobs"]}\n\n")
-                        commit_md.write("```\n")
-                        commit_md.write(fio_txt)
-                        commit_md.write("```\n")
-
-                    index_md.write(
-                        f"| "
-                        f"[{meta["date"].isoformat()}]"
-                        f"({commmit_md_filename_url}) | "
-                        f"{meta["branch"]} | "
-                        f"{meta["commit"]} | "
-                        f"{fio["jobs"][0]["read"]["iops_mean"]} | "
-                        f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
-                        f"{fio["jobs"][0]["write"]["iops_mean"]} | "
-                        f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
-                        f"\n"
-                    )
-                index_md.write("\n")
+    dest_abspath = Path(prefix) / "docs" / "fio"
+    shutil.rmtree(dest_abspath, ignore_errors=True)
+    compile_index_md(prefix, dest_abspath, repos)
 
 
 def main():
