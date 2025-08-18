@@ -7,6 +7,13 @@ from pathlib import Path
 import shutil
 
 
+def get_commit_txt(repo_name, commit_sha):
+    commit_url = \
+        f"https://github.com/rawstor/{repo_name}/commit/" \
+        f"{commit_sha}"
+    return f"[{commit_sha}]({commit_url})"
+
+
 def read_fio_txt(prefix, meta):
     filename = prefix / "data" / "fio" / meta["path"] / meta["data"]["txt"]
     with open(filename) as f:
@@ -26,7 +33,9 @@ def load_meta(meta_path):
     return meta
 
 
-def compile_commit_md(prefix, dest_abspath, dest_path, meta, fio, name):
+def compile_commit_md(
+    prefix, dest_abspath, dest_path, repo_name, meta, fio, name,
+):
     fio_txt = read_fio_txt(prefix, meta)
 
     dest_abspath.mkdir(parents=True, exist_ok=True)
@@ -37,10 +46,11 @@ def compile_commit_md(prefix, dest_abspath, dest_path, meta, fio, name):
     filename = dest_abspath / f"{commit_sha}.md"
     job = fio["jobs"][0]["job options"]
     with open(filename, "w") as commit_md:
-        commit_md.write(f"## [<](..) {name}\n\n")
+        commit_md.write("[<](..) back\n\n")
+        commit_md.write(f"# {name}\n\n")
         commit_md.write(f"{meta["date"].isoformat()}\n\n")
         commit_md.write(f"{meta["branch"]}\n\n")
-        commit_md.write(f"{commit_sha}\n\n")
+        commit_md.write(f"{get_commit_txt(repo_name, commit_sha)}\n\n")
         commit_md.write(f"rw = {job["rw"]}, ")
         commit_md.write(f"bs = {job["bs"]}, ")
         commit_md.write(f"iodepth = {job["iodepth"]}, ")
@@ -58,8 +68,9 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
     url = f"{dest_path}/README.md"
     filename = dest_abspath / "README.md"
     with open(filename, "w") as repo_md:
+        repo_md.write("[<](..) back\n\n")
         for name, metas in repo:
-            repo_md.write(f"## [<](..) {name}\n\n")
+            repo_md.write(f"# {name}\n\n")
             repo_md.write(
                 "| "
                 "Date | "
@@ -89,6 +100,7 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
                     prefix,
                     commmit_md_dest_abspath,
                     commmit_md_dest_path,
+                    repo_name,
                     meta,
                     fio,
                     name,
@@ -96,17 +108,11 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
 
                 commit_sha = meta["commit"]
 
-                commit_url = \
-                    f"https://github.com/rawstor/{repo_name}/commit/" \
-                    f"{commit_sha}"
-
-                commit_txt = f"[{commit_sha}]({commit_url})"
-
                 repo_md.write(
                     f"| "
                     f"[{meta["date"].isoformat()}]({commmit_md_url}) | "
                     f"{meta["branch"]} | "
-                    f"{commit_txt} | "
+                    f"{get_commit_txt(repo_name, commit_sha)} | "
                     f"{fio["jobs"][0]["read"]["iops_mean"]} | "
                     f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
                     f"{fio["jobs"][0]["write"]["iops_mean"]} | "

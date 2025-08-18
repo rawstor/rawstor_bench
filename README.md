@@ -1,1 +1,3 @@
 # rawstor benchmarks
+
+[docs](docs/)
