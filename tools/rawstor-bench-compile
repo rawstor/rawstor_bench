@@ -68,9 +68,9 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
     url = f"{dest_path}/README.md"
     filename = dest_abspath / "README.md"
     with open(filename, "w") as repo_md:
-        repo_md.write(f"[&lt;](..) {repo_name} tests\n\n")
+        repo_md.write(f"# [&lt;](..) {repo_name} tests\n\n")
         for name, metas in repo:
-            repo_md.write(f"# {name}\n\n")
+            repo_md.write(f"## {name}\n\n")
             repo_md.write(
                 "| "
                 "Date | "
