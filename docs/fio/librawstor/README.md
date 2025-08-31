@@ -557,6 +557,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-08-31T12:29:10+00:00](perftest--without-liburing-4k-1-1/c8372b35dcf66cff441b5250b19dfd8624d51033.md) | refs/heads/main | [c8372b35dcf66cff441b5250b19dfd8624d51033](https://github.com/rawstor/librawstor/commit/c8372b35dcf66cff441b5250b19dfd8624d51033) | 6039.0 | 68833.056665 | 6025.8 | 93844.767301 |
 | [2025-08-31T12:26:40+00:00](perftest--without-liburing-4k-1-1/7a327eaf980ebafc192abd39e5181088f87a7c5b.md) | refs/heads/fix/objcleanup | [7a327eaf980ebafc192abd39e5181088f87a7c5b](https://github.com/rawstor/librawstor/commit/7a327eaf980ebafc192abd39e5181088f87a7c5b) | 5936.7 | 71705.628396 | 5919.9 | 93892.970152 |
 | [2025-08-31T09:34:40+00:00](perftest--without-liburing-4k-1-1/68cf55953ec1c3ced8bd7c69f930fb7337b8aacd.md) | refs/heads/feat/no_poll | [68cf55953ec1c3ced8bd7c69f930fb7337b8aacd](https://github.com/rawstor/librawstor/commit/68cf55953ec1c3ced8bd7c69f930fb7337b8aacd) | 4097.9 | 120925.692721 | 4087.9 | 120177.01842 |
 | [2025-08-31T09:32:35+00:00](perftest--without-liburing-4k-1-1/022a761e45112d161bd24e5399e06dcdd83d9e00.md) | refs/heads/feat/ci | [022a761e45112d161bd24e5399e06dcdd83d9e00](https://github.com/rawstor/librawstor/commit/022a761e45112d161bd24e5399e06dcdd83d9e00) | 5976.0 | 70696.892654 | 5961.1 | 93787.787321 |
