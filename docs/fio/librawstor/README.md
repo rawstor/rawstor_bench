@@ -50,6 +50,7 @@
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2025-09-15 21:09:46](perftest--without-liburing--disable-ost-4k-2-1/f7488810fa2dbb569549d5a9c2559166ee98011b.md) | refs/heads/feat/no_poll | [f748881](https://github.com/rawstor/librawstor/commit/f7488810fa2dbb569549d5a9c2559166ee98011b) | 29806.7 | 31687.539862 | 29796.6 | 34015.844479 |
+| [2025-09-15 21:09:27](perftest--without-liburing--disable-ost-4k-2-1/ebd793d3358e51b5f7040012abb464ab32bab328.md) | refs/heads/feat/ci | [ebd793d](https://github.com/rawstor/librawstor/commit/ebd793d3358e51b5f7040012abb464ab32bab328) | 168763.789474 | 2337.56501 | 168617.368421 | 8902.405651 |
 | [2025-09-15 21:07:47](perftest--without-liburing--disable-ost-4k-2-1/a8637515a066735c17f842e05389244f83145f65.md) | refs/heads/main | [a863751](https://github.com/rawstor/librawstor/commit/a8637515a066735c17f842e05389244f83145f65) | 168739.842105 | 2338.97777 | 168593.473684 | 8926.924776 |
 | [2025-09-15 21:02:00](perftest--without-liburing--disable-ost-4k-2-1/dbd6035fe521f94d463b68cc948aa21c5746b2b0.md) | refs/heads/feat/sessions | [dbd6035](https://github.com/rawstor/librawstor/commit/dbd6035fe521f94d463b68cc948aa21c5746b2b0) | 174696.947368 | 2250.17217 | 174553.473684 | 8621.421219 |
 | [2025-09-15 20:28:46](perftest--without-liburing--disable-ost-4k-2-1/a7668560d2f144fc8a9b0297b232adbe870e66a4.md) | refs/heads/feat/sessions | [a766856](https://github.com/rawstor/librawstor/commit/a7668560d2f144fc8a9b0297b232adbe870e66a4) | 172542.0 | 2294.256265 | 172370.6 | 8776.664969 |
@@ -58,7 +59,6 @@
 | [2025-09-15 08:50:52](perftest--without-liburing--disable-ost-4k-2-1/c5393a62afe47f3b1b312bd428eef205dead6f9f.md) | refs/heads/feat/ci | [c5393a6](https://github.com/rawstor/librawstor/commit/c5393a62afe47f3b1b312bd428eef205dead6f9f) | 172654.631579 | 2272.080133 | 172504.842105 | 8727.536729 |
 | [2025-09-15 08:50:49](perftest--without-liburing--disable-ost-4k-2-1/eb6e9fb8795b0684c06298605f7bca80ba8b551a.md) | refs/heads/feat/no_poll | [eb6e9fb](https://github.com/rawstor/librawstor/commit/eb6e9fb8795b0684c06298605f7bca80ba8b551a) | 33946.4 | 27903.054916 | 33898.3 | 29812.183997 |
 | [2025-09-15 08:49:24](perftest--without-liburing--disable-ost-4k-2-1/eeecc4717d24730026371e819c28ee7c1b5e627c.md) | refs/heads/main | [eeecc47](https://github.com/rawstor/librawstor/commit/eeecc4717d24730026371e819c28ee7c1b5e627c) | 179038.526316 | 2187.864979 | 178889.157895 | 8404.389384 |
-| [2025-09-15 08:45:53](perftest--without-liburing--disable-ost-4k-2-1/719dc1e5353867e60ecb43e7affe429450b5cb86.md) | refs/heads/feat/filesocket | [719dc1e](https://github.com/rawstor/librawstor/commit/719dc1e5353867e60ecb43e7affe429450b5cb86) | 170419.4 | 2320.834869 | 170279.7 | 8888.602278 |
 
 ## perftest--without-liburing-4k-1-1
 
@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-15 21:10:13](perftest-4k-2-1/f7488810fa2dbb569549d5a9c2559166ee98011b.md) | refs/heads/feat/no_poll | [f748881](https://github.com/rawstor/librawstor/commit/f7488810fa2dbb569549d5a9c2559166ee98011b) | 10549.368421 | 80684.966278 | 10535.473684 | 106288.370552 |
 | [2025-09-15 21:08:40](perftest-4k-2-1/ebd793d3358e51b5f7040012abb464ab32bab328.md) | refs/heads/feat/ci | [ebd793d](https://github.com/rawstor/librawstor/commit/ebd793d3358e51b5f7040012abb464ab32bab328) | 10395.8 | 82779.285202 | 10378.5 | 106867.940695 |
 | [2025-09-15 21:08:20](perftest-4k-2-1/a8637515a066735c17f842e05389244f83145f65.md) | refs/heads/main | [a863751](https://github.com/rawstor/librawstor/commit/a8637515a066735c17f842e05389244f83145f65) | 10656.631579 | 80344.483759 | 10639.578947 | 104530.340961 |
 | [2025-09-15 21:02:34](perftest-4k-2-1/dbd6035fe521f94d463b68cc948aa21c5746b2b0.md) | refs/heads/feat/sessions | [dbd6035](https://github.com/rawstor/librawstor/commit/dbd6035fe521f94d463b68cc948aa21c5746b2b0) | 10854.0 | 80865.845882 | 10823.4 | 100978.391263 |
@@ -118,5 +119,4 @@
 | [2025-09-15 08:50:18](perftest-4k-2-1/c5393a62afe47f3b1b312bd428eef205dead6f9f.md) | refs/heads/feat/ci | [c5393a6](https://github.com/rawstor/librawstor/commit/c5393a62afe47f3b1b312bd428eef205dead6f9f) | 10752.947368 | 80767.583774 | 10732.947368 | 103109.692376 |
 | [2025-09-15 08:49:53](perftest-4k-2-1/eeecc4717d24730026371e819c28ee7c1b5e627c.md) | refs/heads/main | [eeecc47](https://github.com/rawstor/librawstor/commit/eeecc4717d24730026371e819c28ee7c1b5e627c) | 10298.105263 | 83556.658114 | 10277.052632 | 108697.189146 |
 | [2025-09-15 08:46:49](perftest-4k-2-1/719dc1e5353867e60ecb43e7affe429450b5cb86.md) | refs/heads/feat/filesocket | [719dc1e](https://github.com/rawstor/librawstor/commit/719dc1e5353867e60ecb43e7affe429450b5cb86) | 11027.684211 | 78557.645144 | 11010.736842 | 101296.899728 |
-| [2025-09-15 08:45:16](perftest-4k-2-1/d64ece9eb3cbe4383e6153ffb9d0ca46af1f66e6.md) | refs/heads/feat/filesocket | [d64ece9](https://github.com/rawstor/librawstor/commit/d64ece9eb3cbe4383e6153ffb9d0ca46af1f66e6) | 10356.1 | 83870.96603 | 10339.4 | 106657.645976 |
 
