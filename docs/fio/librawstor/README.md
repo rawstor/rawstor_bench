@@ -49,6 +49,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-15 21:02:00](perftest--without-liburing--disable-ost-4k-2-1/dbd6035fe521f94d463b68cc948aa21c5746b2b0.md) | refs/heads/feat/sessions | [dbd6035](https://github.com/rawstor/librawstor/commit/dbd6035fe521f94d463b68cc948aa21c5746b2b0) | 174696.947368 | 2250.17217 | 174553.473684 | 8621.421219 |
 | [2025-09-15 20:28:46](perftest--without-liburing--disable-ost-4k-2-1/a7668560d2f144fc8a9b0297b232adbe870e66a4.md) | refs/heads/feat/sessions | [a766856](https://github.com/rawstor/librawstor/commit/a7668560d2f144fc8a9b0297b232adbe870e66a4) | 172542.0 | 2294.256265 | 172370.6 | 8776.664969 |
 | [2025-09-15 18:40:00](perftest--without-liburing--disable-ost-4k-2-1/3ba8fb676d5bcbc79ce00aab4e3ae35f89555f24.md) | refs/heads/feat/sessions | [3ba8fb6](https://github.com/rawstor/librawstor/commit/3ba8fb676d5bcbc79ce00aab4e3ae35f89555f24) | 169793.052632 | 2326.788447 | 169647.052632 | 8866.857675 |
 | [2025-09-15 18:08:54](perftest--without-liburing--disable-ost-4k-2-1/7e999bd60fcca240a1239f7868c6dc36dcb6b6be.md) | refs/heads/feat/sessions | [7e999bd](https://github.com/rawstor/librawstor/commit/7e999bd60fcca240a1239f7868c6dc36dcb6b6be) | 170229.368421 | 2303.629384 | 170106.210526 | 8844.984338 |
@@ -58,7 +59,6 @@
 | [2025-09-15 08:45:53](perftest--without-liburing--disable-ost-4k-2-1/719dc1e5353867e60ecb43e7affe429450b5cb86.md) | refs/heads/feat/filesocket | [719dc1e](https://github.com/rawstor/librawstor/commit/719dc1e5353867e60ecb43e7affe429450b5cb86) | 170419.4 | 2320.834869 | 170279.7 | 8888.602278 |
 | [2025-09-15 08:44:33](perftest--without-liburing--disable-ost-4k-2-1/d64ece9eb3cbe4383e6153ffb9d0ca46af1f66e6.md) | refs/heads/feat/filesocket | [d64ece9](https://github.com/rawstor/librawstor/commit/d64ece9eb3cbe4383e6153ffb9d0ca46af1f66e6) | 177307.5 | 2231.009272 | 177123.9 | 8521.843312 |
 | [2025-09-15 08:36:07](perftest--without-liburing--disable-ost-4k-2-1/72fe513415b76157f1324ea1530c1820e37812d7.md) | refs/heads/feat/filesocket | [72fe513](https://github.com/rawstor/librawstor/commit/72fe513415b76157f1324ea1530c1820e37812d7) | 173548.2 | 2283.246143 | 173375.0 | 8731.639986 |
-| [2025-09-14 19:02:02](perftest--without-liburing--disable-ost-4k-2-1/ccebdb485177db68933c31eab3081a538b34fbd3.md) | refs/heads/feat/filesocket | [ccebdb4](https://github.com/rawstor/librawstor/commit/ccebdb485177db68933c31eab3081a538b34fbd3) | 176448.0 | 2233.693456 | 176262.4 | 8569.110711 |
 
 ## perftest--without-liburing-4k-1-1
 
