@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-18 10:11:35](perftest-4k-2-1/a13a28337ea872ce060090017edc0747a82055a2.md) | refs/heads/ref/errno | [a13a283](https://github.com/rawstor/librawstor/commit/a13a28337ea872ce060090017edc0747a82055a2) | 10321.1 | 82719.873918 | 10303.0 | 108336.077977 |
 | [2025-09-18 09:55:19](perftest-4k-2-1/ddc6374348d589cdf97c1de5e3b58dcda9ae8d55.md) | refs/heads/ref/errno | [ddc6374](https://github.com/rawstor/librawstor/commit/ddc6374348d589cdf97c1de5e3b58dcda9ae8d55) | 10814.526316 | 79688.923559 | 10798.842105 | 102903.781963 |
 | [2025-09-18 09:08:45](perftest-4k-2-1/f6a46c1ceb42fc6e869d4a8a370daac734011cf0.md) | refs/heads/ref/errno | [f6a46c1](https://github.com/rawstor/librawstor/commit/f6a46c1ceb42fc6e869d4a8a370daac734011cf0) | 9446.210526 | 92522.382948 | 9418.421053 | 118478.863796 |
 | [2025-09-16 21:11:52](perftest-4k-2-1/5c27da7b0a2487c170dbefe5bd16c944def4422a.md) | refs/heads/feat/no_poll | [5c27da7](https://github.com/rawstor/librawstor/commit/5c27da7b0a2487c170dbefe5bd16c944def4422a) | 10252.210526 | 84384.903664 | 10229.578947 | 107703.78872 |
@@ -118,5 +119,4 @@
 | [2025-09-15 21:10:13](perftest-4k-2-1/f7488810fa2dbb569549d5a9c2559166ee98011b.md) | refs/heads/feat/no_poll | [f748881](https://github.com/rawstor/librawstor/commit/f7488810fa2dbb569549d5a9c2559166ee98011b) | 10549.368421 | 80684.966278 | 10535.473684 | 106288.370552 |
 | [2025-09-15 21:08:40](perftest-4k-2-1/ebd793d3358e51b5f7040012abb464ab32bab328.md) | refs/heads/feat/ci | [ebd793d](https://github.com/rawstor/librawstor/commit/ebd793d3358e51b5f7040012abb464ab32bab328) | 10395.8 | 82779.285202 | 10378.5 | 106867.940695 |
 | [2025-09-15 21:08:20](perftest-4k-2-1/a8637515a066735c17f842e05389244f83145f65.md) | refs/heads/main | [a863751](https://github.com/rawstor/librawstor/commit/a8637515a066735c17f842e05389244f83145f65) | 10656.631579 | 80344.483759 | 10639.578947 | 104530.340961 |
-| [2025-09-15 21:02:34](perftest-4k-2-1/dbd6035fe521f94d463b68cc948aa21c5746b2b0.md) | refs/heads/feat/sessions | [dbd6035](https://github.com/rawstor/librawstor/commit/dbd6035fe521f94d463b68cc948aa21c5746b2b0) | 10854.0 | 80865.845882 | 10823.4 | 100978.391263 |
 
