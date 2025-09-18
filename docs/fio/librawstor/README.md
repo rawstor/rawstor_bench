@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-18 10:36:47](perftest--without-liburing-4k-1-1/f1efcb43db5e10e984714c1d52e02f3cec26fde1.md) | refs/heads/main | [f1efcb4](https://github.com/rawstor/librawstor/commit/f1efcb43db5e10e984714c1d52e02f3cec26fde1) | 6031.9 | 70395.080124 | 6019.7 | 92360.37349 |
 | [2025-09-18 10:29:10](perftest--without-liburing-4k-1-1/8738ba244c86e2cb2698c7f73898bbe4e74eb288.md) | refs/heads/ref/errno | [8738ba2](https://github.com/rawstor/librawstor/commit/8738ba244c86e2cb2698c7f73898bbe4e74eb288) | 5841.3 | 71134.097906 | 5820.9 | 97100.688021 |
 | [2025-09-18 10:12:05](perftest--without-liburing-4k-1-1/a13a28337ea872ce060090017edc0747a82055a2.md) | refs/heads/ref/errno | [a13a283](https://github.com/rawstor/librawstor/commit/a13a28337ea872ce060090017edc0747a82055a2) | 5959.1 | 69900.761541 | 5946.4 | 94819.610857 |
 | [2025-09-18 09:55:04](perftest--without-liburing-4k-1-1/ddc6374348d589cdf97c1de5e3b58dcda9ae8d55.md) | refs/heads/ref/errno | [ddc6374](https://github.com/rawstor/librawstor/commit/ddc6374348d589cdf97c1de5e3b58dcda9ae8d55) | 6083.263158 | 68831.16576 | 6060.105263 | 93097.200902 |
@@ -73,7 +74,6 @@
 | [2025-09-16 21:10:46](perftest--without-liburing-4k-1-1/9d9df2b96b23beff9fd3f0c0ca8afee0afc169a1.md) | refs/heads/main | [9d9df2b](https://github.com/rawstor/librawstor/commit/9d9df2b96b23beff9fd3f0c0ca8afee0afc169a1) | 5050.0 | 82544.173111 | 5020.578947 | 112238.31993 |
 | [2025-09-16 21:03:37](perftest--without-liburing-4k-1-1/7d61fd00cc16f47bc5d41423cb773758c8155101.md) | refs/heads/ref/socket | [7d61fd0](https://github.com/rawstor/librawstor/commit/7d61fd00cc16f47bc5d41423cb773758c8155101) | 5973.0 | 71325.225347 | 5959.3 | 93132.490141 |
 | [2025-09-15 21:09:54](perftest--without-liburing-4k-1-1/f7488810fa2dbb569549d5a9c2559166ee98011b.md) | refs/heads/feat/no_poll | [f748881](https://github.com/rawstor/librawstor/commit/f7488810fa2dbb569549d5a9c2559166ee98011b) | 3975.6 | 124576.991926 | 3965.1 | 123490.037981 |
-| [2025-09-15 21:09:26](perftest--without-liburing-4k-1-1/ebd793d3358e51b5f7040012abb464ab32bab328.md) | refs/heads/feat/ci | [ebd793d](https://github.com/rawstor/librawstor/commit/ebd793d3358e51b5f7040012abb464ab32bab328) | 5901.4 | 70706.539974 | 5882.0 | 95704.316576 |
 
 ## perftest--without-liburing-4k-2-1
 
