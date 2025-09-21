@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-21 12:54:34](perftest--without-liburing-4k-1-1/04cbc2b6d8b7fdb1510400bf187797873e6a8849.md) | refs/heads/main | [04cbc2b](https://github.com/rawstor/librawstor/commit/04cbc2b6d8b7fdb1510400bf187797873e6a8849) | 6148.421053 | 69404.756893 | 6125.578947 | 90982.910082 |
 | [2025-09-21 12:50:23](perftest--without-liburing-4k-1-1/0f2a510f95930fda5688badd9fb217e190967120.md) | refs/heads/add/pollopt | [0f2a510](https://github.com/rawstor/librawstor/commit/0f2a510f95930fda5688badd9fb217e190967120) | 5913.473684 | 71685.767276 | 5882.631579 | 94398.492403 |
 | [2025-09-21 12:48:39](perftest--without-liburing-4k-1-1/71eeaaa8b9e5abe323a6a2ea76f6642ffe1da180.md) | refs/heads/add/pollopt | [71eeaaa](https://github.com/rawstor/librawstor/commit/71eeaaa8b9e5abe323a6a2ea76f6642ffe1da180) | 5917.5 | 72505.517575 | 5899.3 | 93903.050582 |
 | [2025-09-21 08:34:53](perftest--without-liburing-4k-1-1/8272849528a40cb10ad2210437e7ff1eba81a2f5.md) | refs/heads/feat/no_poll | [8272849](https://github.com/rawstor/librawstor/commit/8272849528a40cb10ad2210437e7ff1eba81a2f5) | 3938.2 | 126017.745594 | 3932.5 | 124302.987489 |
@@ -73,7 +74,6 @@
 | [2025-09-21 08:22:33](perftest--without-liburing-4k-1-1/70a79e3490995c117f5e4c4b1e0f5249261f7a49.md) | refs/heads/add/cppringbuf | [70a79e3](https://github.com/rawstor/librawstor/commit/70a79e3490995c117f5e4c4b1e0f5249261f7a49) | 5902.0 | 70535.163843 | 5882.8 | 95857.357517 |
 | [2025-09-21 07:39:52](perftest--without-liburing-4k-1-1/ee97c0550aded342dffbccc4f2b998e8f1f8546b.md) | refs/heads/add/cppringbuf | [ee97c05](https://github.com/rawstor/librawstor/commit/ee97c0550aded342dffbccc4f2b998e8f1f8546b) | 6028.842105 | 70370.162624 | 6004.0 | 92512.222272 |
 | [2025-09-21 07:39:00](perftest--without-liburing-4k-1-1/c01d9e1875cfb8da94e7dc4629160987f401d895.md) | refs/heads/add/cppringbuf | [c01d9e1](https://github.com/rawstor/librawstor/commit/c01d9e1875cfb8da94e7dc4629160987f401d895) | 5858.9 | 72579.501289 | 5837.0 | 95058.523882 |
-| [2025-09-21 07:26:47](perftest--without-liburing-4k-1-1/548101ed413572b0d030255e25da35c95993c3da.md) | refs/heads/add/cppringbuf | [548101e](https://github.com/rawstor/librawstor/commit/548101ed413572b0d030255e25da35c95993c3da) | 5812.3 | 72970.864563 | 5791.3 | 96127.132561 |
 
 ## perftest--without-liburing-4k-2-1
 
