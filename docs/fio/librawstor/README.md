@@ -49,6 +49,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-21 12:56:52](perftest--without-liburing--disable-ost-4k-2-1/520f420d8a7d9da0a388dc0f110ffa8a48c00916.md) | refs/heads/feat/ci | [520f420](https://github.com/rawstor/librawstor/commit/520f420d8a7d9da0a388dc0f110ffa8a48c00916) | 177930.947368 | 2218.312287 | 177793.368421 | 8453.019806 |
 | [2025-09-21 12:55:42](perftest--without-liburing--disable-ost-4k-2-1/e1aff63d5ce35fcae96f9af9f765c6d11830045b.md) | refs/heads/feat/no_poll | [e1aff63](https://github.com/rawstor/librawstor/commit/e1aff63d5ce35fcae96f9af9f765c6d11830045b) | 34415.2 | 27508.068316 | 34365.5 | 29438.956136 |
 | [2025-09-21 12:54:21](perftest--without-liburing--disable-ost-4k-2-1/04cbc2b6d8b7fdb1510400bf187797873e6a8849.md) | refs/heads/main | [04cbc2b](https://github.com/rawstor/librawstor/commit/04cbc2b6d8b7fdb1510400bf187797873e6a8849) | 175204.421053 | 2235.426003 | 175075.842105 | 8570.175941 |
 | [2025-09-21 12:50:06](perftest--without-liburing--disable-ost-4k-2-1/0f2a510f95930fda5688badd9fb217e190967120.md) | refs/heads/add/pollopt | [0f2a510](https://github.com/rawstor/librawstor/commit/0f2a510f95930fda5688badd9fb217e190967120) | 175708.789474 | 2236.021955 | 175563.263158 | 8565.548765 |
@@ -58,7 +59,6 @@
 | [2025-09-21 08:24:40](perftest--without-liburing--disable-ost-4k-2-1/0b7baeea903e02f3caed63cc682af4fd8215bd17.md) | refs/heads/add/cppringbuf | [0b7baee](https://github.com/rawstor/librawstor/commit/0b7baeea903e02f3caed63cc682af4fd8215bd17) | 178537.157895 | 2200.234325 | 178392.0 | 8419.879231 |
 | [2025-09-21 08:22:30](perftest--without-liburing--disable-ost-4k-2-1/70a79e3490995c117f5e4c4b1e0f5249261f7a49.md) | refs/heads/add/cppringbuf | [70a79e3](https://github.com/rawstor/librawstor/commit/70a79e3490995c117f5e4c4b1e0f5249261f7a49) | 177152.631579 | 2216.943586 | 177011.578947 | 8481.214746 |
 | [2025-09-21 07:39:28](perftest--without-liburing--disable-ost-4k-2-1/ee97c0550aded342dffbccc4f2b998e8f1f8546b.md) | refs/heads/add/cppringbuf | [ee97c05](https://github.com/rawstor/librawstor/commit/ee97c0550aded342dffbccc4f2b998e8f1f8546b) | 174999.368421 | 2256.359602 | 174863.684211 | 8597.011601 |
-| [2025-09-21 07:38:37](perftest--without-liburing--disable-ost-4k-2-1/c01d9e1875cfb8da94e7dc4629160987f401d895.md) | refs/heads/add/cppringbuf | [c01d9e1](https://github.com/rawstor/librawstor/commit/c01d9e1875cfb8da94e7dc4629160987f401d895) | 166752.842105 | 2363.998967 | 166593.052632 | 9031.544646 |
 
 ## perftest--without-liburing-4k-1-1
 
