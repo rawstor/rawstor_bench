@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-25 10:01:46](perftest-4k-2-1/301ea910723e7dda2ee7e9519019f873847e0e67.md) | refs/heads/add/asan | [301ea91](https://github.com/rawstor/librawstor/commit/301ea910723e7dda2ee7e9519019f873847e0e67) | 10367.842105 | 82552.257343 | 10351.578947 | 107571.004797 |
 | [2025-09-25 09:51:44](perftest-4k-2-1/966e366ee21c093d40e8d45eb04c6ac6c8ab3385.md) | refs/heads/add/asan | [966e366](https://github.com/rawstor/librawstor/commit/966e366ee21c093d40e8d45eb04c6ac6c8ab3385) | 10866.157895 | 78788.922756 | 10846.526316 | 102725.706468 |
 | [2025-09-25 09:42:57](perftest-4k-2-1/5355231dd1c6d4529d7fe06ba4a2916d72604823.md) | refs/heads/add/asan | [5355231](https://github.com/rawstor/librawstor/commit/5355231dd1c6d4529d7fe06ba4a2916d72604823) | 10489.8 | 82259.663209 | 10472.5 | 105990.082033 |
 | [2025-09-24 20:28:19](perftest-4k-2-1/13f1488c19221d9483bb63e469079dbe967258f2.md) | refs/heads/add/connerr | [13f1488](https://github.com/rawstor/librawstor/commit/13f1488c19221d9483bb63e469079dbe967258f2) | 10608.947368 | 81303.29334 | 10594.0 | 104196.015742 |
@@ -118,5 +119,4 @@
 | [2025-09-22 11:53:44](perftest-4k-2-1/bb7ccbe329d2a58606ae866f2ff3d2532e6498a1.md) | refs/heads/main | [bb7ccbe](https://github.com/rawstor/librawstor/commit/bb7ccbe329d2a58606ae866f2ff3d2532e6498a1) | 10731.3 | 79649.244239 | 10703.7 | 104226.905472 |
 | [2025-09-22 11:51:18](perftest-4k-2-1/c8d8a55a02ce3d9eead08e0be4e34e50bdd0c28f.md) | refs/heads/add/cppost | [c8d8a55](https://github.com/rawstor/librawstor/commit/c8d8a55a02ce3d9eead08e0be4e34e50bdd0c28f) | 10401.6 | 82920.87057 | 10383.9 | 107138.944135 |
 | [2025-09-22 11:49:11](perftest-4k-2-1/ee2193359cdcef28197dab0fc46f9352b4a32f23.md) | refs/heads/add/cppost | [ee21933](https://github.com/rawstor/librawstor/commit/ee2193359cdcef28197dab0fc46f9352b4a32f23) | 10131.684211 | 84374.869537 | 10113.368421 | 110695.752705 |
-| [2025-09-22 10:53:12](perftest-4k-2-1/a0e0ac66a0c19e7a018551e426552968418bc78f.md) | refs/heads/add/cppost | [a0e0ac6](https://github.com/rawstor/librawstor/commit/a0e0ac66a0c19e7a018551e426552968418bc78f) | 11020.842105 | 78598.29786 | 11005.263158 | 100851.454057 |
 
