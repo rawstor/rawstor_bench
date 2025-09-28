@@ -79,6 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-09-28 19:32:12](perftest--without-liburing-4k-2-1/f23f1551546048c272b7ed41f34e030d6ef5c977.md) | refs/heads/add/socket | [f23f155](https://github.com/rawstor/librawstor/commit/f23f1551546048c272b7ed41f34e030d6ef5c977) | 10065.7 | 91748.38363 | 10052.4 | 104682.717998 |
 | [2025-09-28 19:24:46](perftest--without-liburing-4k-2-1/59db35bd6ebcdf6b432b4e94a18dfaaa3c59c0ca.md) | refs/heads/add/socket | [59db35b](https://github.com/rawstor/librawstor/commit/59db35bd6ebcdf6b432b4e94a18dfaaa3c59c0ca) | 10258.7 | 90920.121916 | 10242.4 | 101842.099196 |
 | [2025-09-28 17:03:39](perftest--without-liburing-4k-2-1/51f2a29c756dd0c28de9d811c0beba4dd47bbdd7.md) | refs/heads/test/asan | [51f2a29](https://github.com/rawstor/librawstor/commit/51f2a29c756dd0c28de9d811c0beba4dd47bbdd7) | 9359.473684 | 99095.323439 | 9332.947368 | 112193.630731 |
 | [2025-09-28 17:00:13](perftest--without-liburing-4k-2-1/79a2fb7b821ea0fce808117ca6847573e30eb2ed.md) | refs/heads/test/asan | [79a2fb7](https://github.com/rawstor/librawstor/commit/79a2fb7b821ea0fce808117ca6847573e30eb2ed) | 9898.0 | 93443.305294 | 9883.3 | 106195.078638 |
@@ -88,7 +89,6 @@
 | [2025-09-28 10:46:26](perftest--without-liburing-4k-2-1/9ee5192ab7f775dc6101c5699ec89513eaf29fce.md) | refs/heads/feat/no_poll | [9ee5192](https://github.com/rawstor/librawstor/commit/9ee5192ab7f775dc6101c5699ec89513eaf29fce) | 6714.7 | 151604.130789 | 6685.3 | 143589.159094 |
 | [2025-09-28 10:44:52](perftest--without-liburing-4k-2-1/b93a17c55c2d419d0f501449fc3b64260bc67cf5.md) | refs/heads/main | [b93a17c](https://github.com/rawstor/librawstor/commit/b93a17c55c2d419d0f501449fc3b64260bc67cf5) | 9950.3 | 92044.580163 | 9944.1 | 106421.819622 |
 | [2025-09-28 10:16:11](perftest--without-liburing-4k-2-1/b5377bf670072301ff6366d367e7eb0c6539d09c.md) | refs/heads/add/connerr | [b5377bf](https://github.com/rawstor/librawstor/commit/b5377bf670072301ff6366d367e7eb0c6539d09c) | 9925.5 | 94584.755156 | 9914.3 | 104478.295714 |
-| [2025-09-27 10:40:55](perftest--without-liburing-4k-2-1/66d855bb0afcc453824e96a71841068809a7c0a2.md) | refs/heads/add/connerr | [66d855b](https://github.com/rawstor/librawstor/commit/66d855bb0afcc453824e96a71841068809a7c0a2) | 10067.0 | 92355.358885 | 10053.1 | 104016.482667 |
 
 ## perftest-4k-1-1
 
