@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-05 18:39:40](perftest-4k-2-1/9572153dc3ef8b3611711fc637af0a7f60242684.md) | refs/heads/ref/templ | [9572153](https://github.com/rawstor/librawstor/commit/9572153dc3ef8b3611711fc637af0a7f60242684) | 10584.0 | 81213.477986 | 10568.3 | 105166.778091 |
 | [2025-10-05 14:33:38](perftest-4k-2-1/2b3f5e52907d6c74b7703c5990c979d8ac6b024f.md) | refs/heads/feat/ci | [2b3f5e5](https://github.com/rawstor/librawstor/commit/2b3f5e52907d6c74b7703c5990c979d8ac6b024f) | 10242.631579 | 83291.225606 | 10220.0 | 109110.743401 |
 | [2025-10-05 14:33:17](perftest-4k-2-1/a9437418adee5d78eb416f075ca344f56cc80736.md) | refs/heads/test/asan | [a943741](https://github.com/rawstor/librawstor/commit/a9437418adee5d78eb416f075ca344f56cc80736) | 10898.2 | 79640.823172 | 10863.6 | 101244.704612 |
 | [2025-10-05 14:31:31](perftest-4k-2-1/5c9ada8287790d241b9ac06fa8fc495ba5c31a76.md) | refs/heads/main | [5c9ada8](https://github.com/rawstor/librawstor/commit/5c9ada8287790d241b9ac06fa8fc495ba5c31a76) | 10168.210526 | 83280.082061 | 10149.578947 | 111146.943111 |
@@ -118,5 +119,4 @@
 | [2025-10-05 14:15:20](perftest-4k-2-1/52cb9f02d46bae1d30d95d31cdaaadc38b48c131.md) | refs/heads/feat/ci | [52cb9f0](https://github.com/rawstor/librawstor/commit/52cb9f02d46bae1d30d95d31cdaaadc38b48c131) | 10631.8 | 80645.729011 | 10610.8 | 104768.588834 |
 | [2025-10-05 14:13:47](perftest-4k-2-1/13aaba90b93c59fd13c7a2ceb356281852b2ee99.md) | refs/heads/test/asan | [13aaba9](https://github.com/rawstor/librawstor/commit/13aaba90b93c59fd13c7a2ceb356281852b2ee99) | 10349.789474 | 83568.095705 | 10335.157895 | 107497.884127 |
 | [2025-10-05 14:10:06](perftest-4k-2-1/afbe7c0e2367e76de6169a16a5cad2f8a80e57bc.md) | refs/heads/main | [afbe7c0](https://github.com/rawstor/librawstor/commit/afbe7c0e2367e76de6169a16a5cad2f8a80e57bc) | 10542.8 | 80696.050385 | 10526.0 | 106515.577769 |
-| [2025-10-05 14:04:12](perftest-4k-2-1/34dce588858c129b9845777a1931045dc1b6dba5.md) | refs/heads/add/cppqueue | [34dce58](https://github.com/rawstor/librawstor/commit/34dce588858c129b9845777a1931045dc1b6dba5) | 10300.315789 | 83187.974438 | 10279.157895 | 107978.084897 |
 
