@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-05 13:12:11](perftest--disable-ost-4k-1-1/f9b75e1fad970b5049be1be5e645702dda99968e.md) | refs/heads/add/cppqueue | [f9b75e1](https://github.com/rawstor/librawstor/commit/f9b75e1fad970b5049be1be5e645702dda99968e) | 31572.736842 | 3344.563172 | 31562.105263 | 27239.742949 |
 | [2025-10-05 11:47:38](perftest--disable-ost-4k-1-1/d3f04f4b95db5540e294d7a79300e0cb45fecb2d.md) | refs/heads/add/cppqueue | [d3f04f4](https://github.com/rawstor/librawstor/commit/d3f04f4b95db5540e294d7a79300e0cb45fecb2d) | 33501.789474 | 3114.827183 | 33471.894737 | 25965.14847 |
 | [2025-10-05 11:21:11](perftest--disable-ost-4k-1-1/622a9104e063991c084f09f401c6271f82e8c93f.md) | refs/heads/add/cppqueue | [622a910](https://github.com/rawstor/librawstor/commit/622a9104e063991c084f09f401c6271f82e8c93f) | 30110.842105 | 3353.537244 | 30122.105263 | 29029.544653 |
 | [2025-10-05 10:55:31](perftest--disable-ost-4k-1-1/01b108d45bb8470c988dad79d0ebe2bd7b3fbe49.md) | refs/heads/add/cppqueue | [01b108d](https://github.com/rawstor/librawstor/commit/01b108d45bb8470c988dad79d0ebe2bd7b3fbe49) | 32644.421053 | 3163.179371 | 32622.421053 | 26654.755293 |
@@ -13,7 +14,6 @@
 | [2025-10-03 16:34:17](perftest--disable-ost-4k-1-1/3f9c232386b11a2f6b8072769f6044d3fd38780f.md) | refs/heads/add/badge | [3f9c232](https://github.com/rawstor/librawstor/commit/3f9c232386b11a2f6b8072769f6044d3fd38780f) | 32768.842105 | 3185.520181 | 32748.315789 | 26347.756137 |
 | [2025-10-03 16:24:11](perftest--disable-ost-4k-1-1/4377bc3c353c93afd3356ff4a058f3b2c6e9354d.md) | refs/heads/add/badge | [4377bc3](https://github.com/rawstor/librawstor/commit/4377bc3c353c93afd3356ff4a058f3b2c6e9354d) | 32679.894737 | 3085.142778 | 32660.421053 | 26537.572324 |
 | [2025-10-03 16:20:49](perftest--disable-ost-4k-1-1/58d0618c20fad0d1b2cbbcfff28d133fd5ffb337.md) | refs/heads/add/badge | [58d0618](https://github.com/rawstor/librawstor/commit/58d0618c20fad0d1b2cbbcfff28d133fd5ffb337) | 31988.526316 | 3280.489335 | 31970.736842 | 27149.316662 |
-| [2025-09-28 20:52:19](perftest--disable-ost-4k-1-1/9c164196eb7cd713b33e553feb88598fa3f2c9e6.md) | refs/heads/test/asan | [9c16419](https://github.com/rawstor/librawstor/commit/9c164196eb7cd713b33e553feb88598fa3f2c9e6) | 31693.263158 | 3330.390957 | 31678.315789 | 27171.209973 |
 
 ## perftest--disable-ost-4k-2-1
 
