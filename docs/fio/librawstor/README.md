@@ -34,6 +34,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-06 18:03:52](perftest--without-liburing-ost-4k-1-1/1c28263d3ccec1c4adb90c67450376f9f91188f0.md) | refs/heads/ref/driverop | [1c28263](https://github.com/rawstor/librawstor/commit/1c28263d3ccec1c4adb90c67450376f9f91188f0) | 5912.2 | 70201.611803 | 5894.3 | 95971.475561 |
 | [2025-10-06 15:35:51](perftest--without-liburing-ost-4k-1-1/9273fd2e2c49ea1110da2826985fc4a03afcfadb.md) | refs/heads/feat/ci | [9273fd2](https://github.com/rawstor/librawstor/commit/9273fd2e2c49ea1110da2826985fc4a03afcfadb) | 5910.8 | 72144.844556 | 5892.5 | 94053.149359 |
 | [2025-10-06 15:16:32](perftest--without-liburing-ost-4k-1-1/d835636b654d08214410b7809d2576ac94967d4c.md) | refs/heads/test/asan | [d835636](https://github.com/rawstor/librawstor/commit/d835636b654d08214410b7809d2576ac94967d4c) | 5924.052632 | 71905.627682 | 5893.368421 | 94465.548696 |
 | [2025-10-06 15:15:20](perftest--without-liburing-ost-4k-1-1/0986ddee22ab9b7201d12198041ccda36be7da99.md) | refs/heads/main | [0986dde](https://github.com/rawstor/librawstor/commit/0986ddee22ab9b7201d12198041ccda36be7da99) | 5980.5 | 70238.910626 | 5965.2 | 94093.79595 |
@@ -43,7 +44,6 @@
 | [2025-10-06 14:37:10](perftest--without-liburing-ost-4k-1-1/a37281e4e78d433ee440cdadfd91224ef4f62e3f.md) | refs/heads/add/uri | [a37281e](https://github.com/rawstor/librawstor/commit/a37281e4e78d433ee440cdadfd91224ef4f62e3f) | 5726.4 | 74101.784332 | 5703.0 | 97575.203191 |
 | [2025-10-06 14:04:57](perftest--without-liburing-ost-4k-1-1/a8293c22675277a5402d07be0d597ee65eb04387.md) | refs/heads/add/uri | [a8293c2](https://github.com/rawstor/librawstor/commit/a8293c22675277a5402d07be0d597ee65eb04387) | 6000.842105 | 70706.658291 | 5977.368421 | 92669.410268 |
 | [2025-10-06 10:03:26](perftest--without-liburing-ost-4k-1-1/b71f9c5a388b86ae19aebccd5e0d3d1e4df32897.md) | refs/heads/add/uri | [b71f9c5](https://github.com/rawstor/librawstor/commit/b71f9c5a388b86ae19aebccd5e0d3d1e4df32897) | 6087.789474 | 69558.277395 | 6063.473684 | 92006.515036 |
-| [2025-10-06 09:57:17](perftest--without-liburing-ost-4k-1-1/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40.md) | refs/heads/add/uri | [7d5ccdc](https://github.com/rawstor/librawstor/commit/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40) | 5731.0 | 73657.265277 | 5707.4 | 97844.438273 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
