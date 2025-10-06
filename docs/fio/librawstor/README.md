@@ -120,3 +120,9 @@
 | [2025-10-05 14:26:05](perftest-4k-2-1/d469c22156ff7874065aca949857035481931243.md) | refs/heads/fix/mleaks | [d469c22](https://github.com/rawstor/librawstor/commit/d469c22156ff7874065aca949857035481931243) | 10855.894737 | 79391.564751 | 10837.368421 | 102156.182301 |
 | [2025-10-05 14:22:12](perftest-4k-2-1/b1c5cfc6163105a82128436d0d9ce18cc5d48a7e.md) | refs/heads/test/asan | [b1c5cfc](https://github.com/rawstor/librawstor/commit/b1c5cfc6163105a82128436d0d9ce18cc5d48a7e) | 10724.052632 | 79584.232289 | 10704.0 | 104293.606013 |
 
+## perftest-file-4k-1-1
+
+| Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
+| :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-06 09:56:47](perftest-file-4k-1-1/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40.md) | refs/heads/add/uri | [7d5ccdc](https://github.com/rawstor/librawstor/commit/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40) | 31593.6 | 3473.970586 | 31576.7 | 27284.76412 |
+
