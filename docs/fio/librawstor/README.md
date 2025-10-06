@@ -138,6 +138,12 @@
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2025-10-06 09:56:47](perftest-file-4k-1-1/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40.md) | refs/heads/add/uri | [7d5ccdc](https://github.com/rawstor/librawstor/commit/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40) | 31593.6 | 3473.970586 | 31576.7 | 27284.76412 |
 
+## perftest-file-4k-2-1
+
+| Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
+| :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-06 09:57:09](perftest-file-4k-2-1/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40.md) | refs/heads/add/uri | [7d5ccdc](https://github.com/rawstor/librawstor/commit/7d5ccdce3ba82ca4a4ebd0dd1adf6e8799c84a40) | 72133.526316 | 5017.524451 | 72044.052632 | 21840.455583 |
+
 ## perftest-ost-4k-1-1
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
