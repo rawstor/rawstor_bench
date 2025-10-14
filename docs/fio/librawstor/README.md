@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-14 20:51:32](perftest-file-4k-1-1/95098e51bbb546e5f9f6f12221d2bdc995080b82.md) | refs/heads/main | [95098e5](https://github.com/rawstor/librawstor/commit/95098e51bbb546e5f9f6f12221d2bdc995080b82) | 31693.26 | 3341.61 | 31678.42 | 27208.56 |
 | [2025-10-14 20:42:49](perftest-file-4k-1-1/55f60c38e99d217d55e8f0d06b70bebbe5f75b6d.md) | refs/heads/ref/driverop | [55f60c3](https://github.com/rawstor/librawstor/commit/55f60c38e99d217d55e8f0d06b70bebbe5f75b6d) | 31416.20 | 3346.43 | 31392.10 | 27611.73 |
 | [2025-10-14 20:36:30](perftest-file-4k-1-1/d4173d65973b4bcaf32adbc17f1cd5d7102a4b43.md) | refs/heads/ref/driverop | [d4173d6](https://github.com/rawstor/librawstor/commit/d4173d65973b4bcaf32adbc17f1cd5d7102a4b43) | 31879.47 | 3376.88 | 31864.32 | 26998.13 |
 | [2025-10-14 17:24:20](perftest-file-4k-1-1/67541765080331965c3d1e89a116f548dda9f310.md) | refs/heads/ref/driverop | [6754176](https://github.com/rawstor/librawstor/commit/67541765080331965c3d1e89a116f548dda9f310) | 31718.95 | 3383.04 | 31703.26 | 27220.15 |
@@ -73,7 +74,6 @@
 | [2025-10-14 10:54:56](perftest-file-4k-1-1/d8686018553a352f2e4e15f8a6bb9143d7d11f6f.md) | refs/heads/ref/driverop | [d868601](https://github.com/rawstor/librawstor/commit/d8686018553a352f2e4e15f8a6bb9143d7d11f6f) | 31927.47 | 3364.55 | 31910.21 | 27022.33 |
 | [2025-10-14 09:24:05](perftest-file-4k-1-1/aa0d2c326a5558f1ebc2ea153979a42d530f6eb1.md) | refs/heads/test/asan | [aa0d2c3](https://github.com/rawstor/librawstor/commit/aa0d2c326a5558f1ebc2ea153979a42d530f6eb1) | 32308.63 | 3275.06 | 32292.00 | 26772.00 |
 | [2025-10-14 09:08:17](perftest-file-4k-1-1/402ff56f281aaf8297a3b7f2289cd555d01b1b5b.md) | refs/heads/test/asan | [402ff56](https://github.com/rawstor/librawstor/commit/402ff56f281aaf8297a3b7f2289cd555d01b1b5b) | 32360.74 | 3233.51 | 32346.42 | 26731.47 |
-| [2025-10-14 08:55:50](perftest-file-4k-1-1/f2b9de9979f6697ba34d5270ee274d532585fc72.md) | refs/heads/test/asan | [f2b9de9](https://github.com/rawstor/librawstor/commit/f2b9de9979f6697ba34d5270ee274d532585fc72) | 32187.79 | 3235.27 | 32168.42 | 26833.84 |
 
 ## perftest-file-4k-2-1
 
