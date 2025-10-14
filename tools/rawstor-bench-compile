@@ -117,10 +117,10 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
                     f"[{get_date_txt(meta["date"])}]({commmit_md_url}) | "
                     f"{meta["branch"]} | "
                     f"{get_commit_txt(repo_name, commit_sha)} | "
-                    f"{fio["jobs"][0]["read"]["iops_mean"]} | "
-                    f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]} | "
-                    f"{fio["jobs"][0]["write"]["iops_mean"]} | "
-                    f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]} |"
+                    f"{fio["jobs"][0]["read"]["iops_mean"]:.2f} | "
+                    f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]:.2f} | "
+                    f"{fio["jobs"][0]["write"]["iops_mean"]:.2f} | "
+                    f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]:.2f} |"
                     f"\n"
                 )
             repo_md.write("\n")
