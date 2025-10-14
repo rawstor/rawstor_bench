@@ -19,6 +19,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-14 16:34:31](perftest--without-liburing-file-4k-2-1/ee36ceb0cb666226edc40db2d48ac5c0c0193f75.md) | refs/heads/ref/driverop | [ee36ceb](https://github.com/rawstor/librawstor/commit/ee36ceb0cb666226edc40db2d48ac5c0c0193f75) | 166786.40 | 2389.20 | 166650.50 | 9088.78 |
 | [2025-10-14 12:00:13](perftest--without-liburing-file-4k-2-1/ac243f0daa7477c92cd61ead036697059b19c2c0.md) | refs/heads/ref/driverop | [ac243f0](https://github.com/rawstor/librawstor/commit/ac243f0daa7477c92cd61ead036697059b19c2c0) | 166966.11 | 2372.53 | 166797.68 | 9033.35 |
 | [2025-10-14 11:27:24](perftest--without-liburing-file-4k-2-1/3c940ef1c9f9d5cb95b557997b3e4e35f0e49dd5.md) | refs/heads/ref/driverop | [3c940ef](https://github.com/rawstor/librawstor/commit/3c940ef1c9f9d5cb95b557997b3e4e35f0e49dd5) | 168038.74 | 2360.15 | 167886.21 | 8957.74 |
 | [2025-10-14 10:54:44](perftest--without-liburing-file-4k-2-1/d8686018553a352f2e4e15f8a6bb9143d7d11f6f.md) | refs/heads/ref/driverop | [d868601](https://github.com/rawstor/librawstor/commit/d8686018553a352f2e4e15f8a6bb9143d7d11f6f) | 169752.21 | 2341.78 | 169602.84 | 8870.44 |
@@ -28,7 +29,6 @@
 | [2025-10-14 09:16:02](perftest--without-liburing-file-4k-2-1/eca71a94e216a9195ebbc614ed4b581e10ebf5e8.md) | refs/heads/test/asan | [eca71a9](https://github.com/rawstor/librawstor/commit/eca71a94e216a9195ebbc614ed4b581e10ebf5e8) | 167237.90 | 2374.34 | 167108.30 | 9038.73 |
 | [2025-10-14 08:56:01](perftest--without-liburing-file-4k-2-1/f2b9de9979f6697ba34d5270ee274d532585fc72.md) | refs/heads/test/asan | [f2b9de9](https://github.com/rawstor/librawstor/commit/f2b9de9979f6697ba34d5270ee274d532585fc72) | 172528.53 | 2303.85 | 172385.05 | 8730.97 |
 | [2025-10-14 08:48:59](perftest--without-liburing-file-4k-2-1/242c68704ff52e4668b176a729a7fde61d345bb8.md) | refs/heads/ref/driverop | [242c687](https://github.com/rawstor/librawstor/commit/242c68704ff52e4668b176a729a7fde61d345bb8) | 171335.10 | 2360.52 | 171192.90 | 8802.32 |
-| [2025-10-12 14:48:30](perftest--without-liburing-file-4k-2-1/324bac4ffe698627287858236f1ae1bd541b7c71.md) | refs/heads/ref/driverop | [324bac4](https://github.com/rawstor/librawstor/commit/324bac4ffe698627287858236f1ae1bd541b7c71) | 168785.60 | 2353.89 | 168655.30 | 8980.86 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
