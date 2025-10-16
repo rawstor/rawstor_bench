@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-16 10:05:06](perftest-ost-4k-2-1/79023d3856e7fecbd749351a48d53ff85809ee5c.md) | refs/heads/feat/ci | [79023d3](https://github.com/rawstor/librawstor/commit/79023d3856e7fecbd749351a48d53ff85809ee5c) | 10273.58 | 83873.69 | 10250.63 | 108587.83 |
 | [2025-10-16 10:03:09](perftest-ost-4k-2-1/abeb128b99d4f6ebb43ca85ad8b6e79fb748935e.md) | refs/heads/main | [abeb128](https://github.com/rawstor/librawstor/commit/abeb128b99d4f6ebb43ca85ad8b6e79fb748935e) | 10424.30 | 81590.74 | 10407.30 | 107599.14 |
 | [2025-10-16 09:51:28](perftest-ost-4k-2-1/77ab4c0e27f4bd5a454840aeec63789277f1cb6e.md) | refs/heads/ref/event | [77ab4c0](https://github.com/rawstor/librawstor/commit/77ab4c0e27f4bd5a454840aeec63789277f1cb6e) | 10656.00 | 81014.76 | 10639.05 | 104226.57 |
 | [2025-10-16 09:26:55](perftest-ost-4k-2-1/7f450f55ec733768758fd4c2edbcc3cfb144b501.md) | refs/heads/ref/event | [7f450f5](https://github.com/rawstor/librawstor/commit/7f450f55ec733768758fd4c2edbcc3cfb144b501) | 10579.89 | 82433.17 | 10566.11 | 104592.39 |
@@ -118,5 +119,4 @@
 | [2025-10-16 05:36:50](perftest-ost-4k-2-1/5f94542cb61e6862aaf663760ac810c53fa3c131.md) | refs/heads/ref/task | [5f94542](https://github.com/rawstor/librawstor/commit/5f94542cb61e6862aaf663760ac810c53fa3c131) | 10190.74 | 83071.34 | 10169.26 | 110992.99 |
 | [2025-10-16 05:30:23](perftest-ost-4k-2-1/16f67b94a118f0beb4370b0bae0e3f8845b8ba80.md) | refs/heads/ref/task | [16f67b9](https://github.com/rawstor/librawstor/commit/16f67b94a118f0beb4370b0bae0e3f8845b8ba80) | 10387.60 | 81709.75 | 10369.20 | 108137.97 |
 | [2025-10-15 21:21:01](perftest-ost-4k-2-1/99866ace73779856feba700249c179aab833a8b3.md) | refs/heads/ref/task | [99866ac](https://github.com/rawstor/librawstor/commit/99866ace73779856feba700249c179aab833a8b3) | 10659.79 | 80041.56 | 10642.74 | 105245.43 |
-| [2025-10-15 14:38:32](perftest-ost-4k-2-1/deea83f3388c2a2c0ed02d46e5088444ceb3ea43.md) | refs/heads/ref/task | [deea83f](https://github.com/rawstor/librawstor/commit/deea83f3388c2a2c0ed02d46e5088444ceb3ea43) | 14717.00 | 59479.34 | 14735.30 | 75332.69 |
 
