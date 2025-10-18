@@ -2,48 +2,48 @@
 
 # perftest--without-liburing-file-4k-2-1
 
-2025-10-16 10:05:19
+2025-10-18 20:38:28
 
-refs/heads/feat/ci
+refs/heads/test/asan
 
-[79023d3](https://github.com/rawstor/librawstor/commit/79023d3856e7fecbd749351a48d53ff85809ee5c)
+[faa6023](https://github.com/rawstor/librawstor/commit/faa6023e2edfba88ac376fc2a65a2e5ed572cac6)
 
 rw = randrw, bs = 4k, iodepth = 2, numjobs = 1
 
 ```
 
-rawstor: (groupid=0, jobs=1): err= 0: pid=10740: Thu Oct 16 10:05:17 2025
+rawstor: (groupid=0, jobs=1): err= 0: pid=10752: Sat Oct 18 20:38:25 2025
   read: IOPS=169k, BW=660MiB/s (692MB/s)(6604MiB/10001msec)
     slat (nsec): min=0, max=0, avg= 0.00, stdev= 0.00
-    clat (msec): min=111, max=10111, avg=5504.87, stdev=2732.64
-     lat (nsec): min=1643, max=114493, avg=2343.82, stdev=1239.75
+    clat (msec): min=105, max=10104, avg=5494.43, stdev=2731.91
+     lat (nsec): min=1733, max=104966, avg=2380.12, stdev=1195.33
     clat percentiles (msec):
-     |  1.00th=[  275],  5.00th=[  986], 10.00th=[ 1687], 20.00th=[ 2769],
+     |  1.00th=[  284],  5.00th=[  995], 10.00th=[ 1687], 20.00th=[ 2769],
      | 30.00th=[ 3742], 40.00th=[ 4665], 50.00th=[ 5604], 60.00th=[ 6477],
      | 70.00th=[ 7416], 80.00th=[ 8288], 90.00th=[ 9194], 95.00th=[ 9597],
      | 99.00th=[10000], 99.50th=[10000], 99.90th=[10134], 99.95th=[10134],
      | 99.99th=[10134]
-   bw (  KiB/s): min=373344, max=752664, per=100.00%, avg=676272.80, stdev=119559.33, samples=20
-   iops        : min=93336, max=188166, avg=169068.20, stdev=29889.83, samples=20
+   bw (  KiB/s): min=373352, max=756512, per=99.54%, avg=673114.53, stdev=121995.11, samples=19
+   iops        : min=93338, max=189128, avg=168278.63, stdev=30498.78, samples=19
   write: IOPS=169k, BW=660MiB/s (692MB/s)(6599MiB/10001msec); 0 zone resets
     slat (nsec): min=0, max=0, avg= 0.00, stdev= 0.00
-    clat (msec): min=111, max=10111, avg=5506.22, stdev=2733.15
-     lat (usec): min=4, max=145, avg= 8.97, stdev= 4.68
+    clat (msec): min=105, max=10104, avg=5495.76, stdev=2732.42
+     lat (usec): min=4, max=171, avg= 8.94, stdev= 4.69
     clat percentiles (msec):
-     |  1.00th=[  275],  5.00th=[  986], 10.00th=[ 1687], 20.00th=[ 2769],
+     |  1.00th=[  284],  5.00th=[  995], 10.00th=[ 1687], 20.00th=[ 2769],
      | 30.00th=[ 3742], 40.00th=[ 4665], 50.00th=[ 5604], 60.00th=[ 6477],
      | 70.00th=[ 7416], 80.00th=[ 8288], 90.00th=[ 9194], 95.00th=[ 9597],
      | 99.00th=[10000], 99.50th=[10000], 99.90th=[10134], 99.95th=[10134],
      | 99.99th=[10134]
-   bw (  KiB/s): min=374320, max=754888, per=100.00%, avg=675741.60, stdev=119446.02, samples=20
-   iops        : min=93580, max=188722, avg=168935.40, stdev=29861.51, samples=20
-  lat (msec)   : 250=0.85%, 500=1.45%, 750=1.40%, 1000=1.36%, 2000=7.66%
-  lat (msec)   : >=2000=87.28%
-  cpu          : usr=28.26%, sys=71.72%, ctx=73, majf=0, minf=37
+   bw (  KiB/s): min=374016, max=752504, per=99.54%, avg=672563.79, stdev=121912.86, samples=19
+   iops        : min=93504, max=188126, avg=168140.95, stdev=30478.21, samples=19
+  lat (msec)   : 250=0.81%, 500=1.46%, 750=1.38%, 1000=1.37%, 2000=7.79%
+  lat (msec)   : >=2000=87.19%
+  cpu          : usr=29.24%, sys=70.71%, ctx=318, majf=0, minf=36
   IO depths    : 1=0.1%, 2=100.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
      submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
      complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
-     issued rwts: total=1690682,1689354,0,0 short=0,0,0,0 dropped=0,0,0,0
+     issued rwts: total=1690741,1689407,0,0 short=0,0,0,0 dropped=0,0,0,0
      latency   : target=0, window=0, percentile=100.00%, depth=2
 
 Run status group 0 (all jobs):
@@ -51,5 +51,5 @@ Run status group 0 (all jobs):
   WRITE: bw=660MiB/s (692MB/s), 660MiB/s-660MiB/s (692MB/s-692MB/s), io=6599MiB (6920MB), run=10001-10001msec
 
 Disk stats (read/write):
-  sda: ios=0/67, sectors=0/125440, merge=0/166, ticks=0/505, in_queue=505, util=0.14%
+  sdb: ios=0/17, sectors=0/7336, merge=0/46, ticks=0/20, in_queue=20, util=0.03%
 ```
