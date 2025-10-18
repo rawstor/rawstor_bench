@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-18 20:38:36](perftest-file-4k-1-1/faa6023e2edfba88ac376fc2a65a2e5ed572cac6.md) | refs/heads/test/asan | [faa6023](https://github.com/rawstor/librawstor/commit/faa6023e2edfba88ac376fc2a65a2e5ed572cac6) | 28681.47 | 3543.49 | 28720.53 | 30219.06 |
 | [2025-10-18 20:37:14](perftest-file-4k-1-1/820cd8050c613106f2a870c178081658f9a2f2b2.md) | refs/heads/feat/ci | [820cd80](https://github.com/rawstor/librawstor/commit/820cd8050c613106f2a870c178081658f9a2f2b2) | 30643.05 | 3346.55 | 30632.95 | 28289.45 |
 | [2025-10-18 20:36:06](perftest-file-4k-1-1/5d2f6f8e1612df78a1959c1a62ee28117eddd4ed.md) | refs/heads/main | [5d2f6f8](https://github.com/rawstor/librawstor/commit/5d2f6f8e1612df78a1959c1a62ee28117eddd4ed) | 28382.95 | 3652.83 | 28421.26 | 30440.55 |
 | [2025-10-18 20:27:02](perftest-file-4k-1-1/36c9bf6349273bbed97b20aafd73e69d5c26808a.md) | refs/heads/ref/connop | [36c9bf6](https://github.com/rawstor/librawstor/commit/36c9bf6349273bbed97b20aafd73e69d5c26808a) | 31117.16 | 3348.64 | 31118.84 | 27909.50 |
@@ -73,7 +74,6 @@
 | [2025-10-18 12:14:44](perftest-file-4k-1-1/89a2248521a672a3bd981b802512aaac304b6864.md) | refs/heads/ref/connop | [89a2248](https://github.com/rawstor/librawstor/commit/89a2248521a672a3bd981b802512aaac304b6864) | 30086.21 | 3320.99 | 30096.95 | 28867.83 |
 | [2025-10-17 18:30:23](perftest-file-4k-1-1/3d884b7cf98f64bed2bd914fbc4b38f0d282d0e8.md) | refs/heads/ref/connop | [3d884b7](https://github.com/rawstor/librawstor/commit/3d884b7cf98f64bed2bd914fbc4b38f0d282d0e8) | 29470.21 | 3483.41 | 29494.84 | 29344.97 |
 | [2025-10-16 10:10:58](perftest-file-4k-1-1/ed0c60a17d740022077df63550589c75b1c8f2bd.md) | refs/heads/test/asan | [ed0c60a](https://github.com/rawstor/librawstor/commit/ed0c60a17d740022077df63550589c75b1c8f2bd) | 30545.05 | 3625.79 | 30542.53 | 27964.84 |
-| [2025-10-16 10:05:44](perftest-file-4k-1-1/79023d3856e7fecbd749351a48d53ff85809ee5c.md) | refs/heads/feat/ci | [79023d3](https://github.com/rawstor/librawstor/commit/79023d3856e7fecbd749351a48d53ff85809ee5c) | 30841.89 | 3312.81 | 30832.74 | 27960.76 |
 
 ## perftest-file-4k-2-1
 
