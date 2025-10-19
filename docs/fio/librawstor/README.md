@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-19 09:57:51](perftest-file-4k-1-1/79601ca526396bbdb2110815d14b975c4af3bdb0.md) | refs/heads/test/asan | [79601ca](https://github.com/rawstor/librawstor/commit/79601ca526396bbdb2110815d14b975c4af3bdb0) | 30867.10 | 3522.79 | 30852.60 | 28089.58 |
 | [2025-10-19 09:57:15](perftest-file-4k-1-1/c4cda52e7bbeebda8a218aede54afbaf883daef3.md) | refs/heads/feat/ci | [c4cda52](https://github.com/rawstor/librawstor/commit/c4cda52e7bbeebda8a218aede54afbaf883daef3) | 31076.32 | 3360.21 | 31073.68 | 27900.13 |
 | [2025-10-19 09:56:01](perftest-file-4k-1-1/519b142d8c42336b0056eba083e440c086f8fdc3.md) | refs/heads/main | [519b142](https://github.com/rawstor/librawstor/commit/519b142d8c42336b0056eba083e440c086f8fdc3) | 29804.21 | 3639.79 | 29829.05 | 28903.55 |
 | [2025-10-19 09:51:54](perftest-file-4k-1-1/f570bf5e645c63c6530d48989e5d93f8ef4846e3.md) | refs/heads/ref/override | [f570bf5](https://github.com/rawstor/librawstor/commit/f570bf5e645c63c6530d48989e5d93f8ef4846e3) | 30808.84 | 3371.22 | 30796.11 | 28275.01 |
@@ -73,7 +74,6 @@
 | [2025-10-18 20:38:36](perftest-file-4k-1-1/faa6023e2edfba88ac376fc2a65a2e5ed572cac6.md) | refs/heads/test/asan | [faa6023](https://github.com/rawstor/librawstor/commit/faa6023e2edfba88ac376fc2a65a2e5ed572cac6) | 28681.47 | 3543.49 | 28720.53 | 30219.06 |
 | [2025-10-18 20:37:14](perftest-file-4k-1-1/820cd8050c613106f2a870c178081658f9a2f2b2.md) | refs/heads/feat/ci | [820cd80](https://github.com/rawstor/librawstor/commit/820cd8050c613106f2a870c178081658f9a2f2b2) | 30643.05 | 3346.55 | 30632.95 | 28289.45 |
 | [2025-10-18 20:27:02](perftest-file-4k-1-1/36c9bf6349273bbed97b20aafd73e69d5c26808a.md) | refs/heads/ref/connop | [36c9bf6](https://github.com/rawstor/librawstor/commit/36c9bf6349273bbed97b20aafd73e69d5c26808a) | 31117.16 | 3348.64 | 31118.84 | 27909.50 |
-| [2025-10-18 20:20:59](perftest-file-4k-1-1/f3f5d8588b44830aa15fb1f3b669003c4fb7f33c.md) | refs/heads/ref/connop | [f3f5d85](https://github.com/rawstor/librawstor/commit/f3f5d8588b44830aa15fb1f3b669003c4fb7f33c) | 30639.58 | 3430.68 | 30629.37 | 28248.67 |
 
 ## perftest-file-4k-2-1
 
