@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-20 21:02:05](perftest-ost-4k-2-1/2126597e1ab674871f7c10e9a217fa46be01a9d0.md) | refs/heads/main | [2126597](https://github.com/rawstor/librawstor/commit/2126597e1ab674871f7c10e9a217fa46be01a9d0) | 10457.60 | 82357.43 | 10443.20 | 106333.56 |
 | [2025-10-20 20:59:01](perftest-ost-4k-2-1/8860270ddb5eebb3a87afc02bf49741112b353d9.md) | refs/heads/add/mirror | [8860270](https://github.com/rawstor/librawstor/commit/8860270ddb5eebb3a87afc02bf49741112b353d9) | 10156.95 | 85876.55 | 10139.68 | 108980.27 |
 | [2025-10-20 20:51:03](perftest-ost-4k-2-1/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12.md) | refs/heads/add/mirror | [d580eb8](https://github.com/rawstor/librawstor/commit/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12) | 10366.32 | 83102.65 | 10350.00 | 107345.26 |
 | [2025-10-20 20:29:22](perftest-ost-4k-2-1/cd0c2df9428c2c5ff66624bc86c66a2c91767163.md) | refs/heads/add/mirror | [cd0c2df](https://github.com/rawstor/librawstor/commit/cd0c2df9428c2c5ff66624bc86c66a2c91767163) | 11010.21 | 78513.44 | 10995.47 | 100338.49 |
@@ -118,5 +119,4 @@
 | [2025-10-19 20:07:48](perftest-ost-4k-2-1/6ad3105e085ccfaf68f10a03bc7027d299b04490.md) | refs/heads/add/mirror | [6ad3105](https://github.com/rawstor/librawstor/commit/6ad3105e085ccfaf68f10a03bc7027d299b04490) | 10118.74 | 84096.00 | 10097.47 | 109710.48 |
 | [2025-10-19 14:20:46](perftest-ost-4k-2-1/856bfb9542eeecbe43a40799e209c01a138fe5e3.md) | refs/heads/feat/ci | [856bfb9](https://github.com/rawstor/librawstor/commit/856bfb9542eeecbe43a40799e209c01a138fe5e3) | 10382.75 | 84240.39 | 10364.95 | 106093.50 |
 | [2025-10-19 14:19:54](perftest-ost-4k-2-1/ccc9236daeba851dd4126788cf985c627ae39ea8.md) | refs/heads/main | [ccc9236](https://github.com/rawstor/librawstor/commit/ccc9236daeba851dd4126788cf985c627ae39ea8) | 9711.16 | 89346.08 | 9680.11 | 114528.19 |
-| [2025-10-19 14:15:31](perftest-ost-4k-2-1/7be4b79d568d1c59c3db41d8633bf03ce6a24fc4.md) | refs/heads/ref/task | [7be4b79](https://github.com/rawstor/librawstor/commit/7be4b79d568d1c59c3db41d8633bf03ce6a24fc4) | 10136.53 | 86384.73 | 10119.05 | 108436.52 |
 
