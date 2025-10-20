@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-20 21:26:37](perftest--without-liburing-file-4k-1-1/5b9dd56f679bbb268c53112ee8f9c9bb3a17a51b.md) | refs/heads/test/asan | [5b9dd56](https://github.com/rawstor/librawstor/commit/5b9dd56f679bbb268c53112ee8f9c9bb3a17a51b) | 241435.05 | 1661.35 | 241216.63 | 1991.65 |
 | [2025-10-20 21:26:26](perftest--without-liburing-file-4k-1-1/a9ee5bb6d9e78171a5148fd8e4983e5b0edf646f.md) | refs/heads/feat/ci | [a9ee5bb](https://github.com/rawstor/librawstor/commit/a9ee5bb6d9e78171a5148fd8e4983e5b0edf646f) | 162895.05 | 2450.54 | 162707.89 | 3143.73 |
 | [2025-10-20 21:24:43](perftest--without-liburing-file-4k-1-1/134b7b91f7b2a48bd256d7b06b7c75e6d1cdb32b.md) | refs/heads/main | [134b7b9](https://github.com/rawstor/librawstor/commit/134b7b91f7b2a48bd256d7b06b7c75e6d1cdb32b) | 164314.80 | 2465.21 | 164163.30 | 3107.23 |
 | [2025-10-20 21:19:20](perftest--without-liburing-file-4k-1-1/2e72f7fb514125db15711cafba882718873c149f.md) | refs/heads/ci/mirror | [2e72f7f](https://github.com/rawstor/librawstor/commit/2e72f7fb514125db15711cafba882718873c149f) | 167874.00 | 2374.55 | 167713.47 | 3049.21 |
@@ -13,7 +14,6 @@
 | [2025-10-20 20:58:44](perftest--without-liburing-file-4k-1-1/8860270ddb5eebb3a87afc02bf49741112b353d9.md) | refs/heads/add/mirror | [8860270](https://github.com/rawstor/librawstor/commit/8860270ddb5eebb3a87afc02bf49741112b353d9) | 167198.32 | 2383.42 | 167022.63 | 3059.84 |
 | [2025-10-20 20:50:28](perftest--without-liburing-file-4k-1-1/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12.md) | refs/heads/add/mirror | [d580eb8](https://github.com/rawstor/librawstor/commit/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12) | 175597.80 | 2276.65 | 175412.60 | 2908.05 |
 | [2025-10-20 20:28:57](perftest--without-liburing-file-4k-1-1/cd0c2df9428c2c5ff66624bc86c66a2c91767163.md) | refs/heads/add/mirror | [cd0c2df](https://github.com/rawstor/librawstor/commit/cd0c2df9428c2c5ff66624bc86c66a2c91767163) | 162702.74 | 2449.30 | 162510.63 | 3137.35 |
-| [2025-10-20 09:55:41](perftest--without-liburing-file-4k-1-1/55a1c575b53f6ee15abcf152ecfa18f3b1c1234c.md) | refs/heads/add/mirror | [55a1c57](https://github.com/rawstor/librawstor/commit/55a1c575b53f6ee15abcf152ecfa18f3b1c1234c) | 160184.42 | 2511.98 | 159989.68 | 3184.70 |
 
 ## perftest--without-liburing-file-4k-2-1
 
