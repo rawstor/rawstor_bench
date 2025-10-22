@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-22 20:57:19](perftest-ost-4k-2-1/d672cc282829fc96f8d6616a5b41d433d21d416a.md) | refs/heads/ci/packages | [d672cc2](https://github.com/rawstor/librawstor/commit/d672cc282829fc96f8d6616a5b41d433d21d416a) | 10253.20 | 83886.54 | 10235.40 | 108484.69 |
 | [2025-10-20 21:33:02](perftest-ost-4k-2-1/996a53f4efe4239014d7ba8ea62d97295065adb4.md) | refs/heads/test/asan | [996a53f](https://github.com/rawstor/librawstor/commit/996a53f4efe4239014d7ba8ea62d97295065adb4) | 10549.50 | 83562.80 | 10533.80 | 103360.77 |
 | [2025-10-20 21:27:17](perftest-ost-4k-2-1/5b9dd56f679bbb268c53112ee8f9c9bb3a17a51b.md) | refs/heads/test/asan | [5b9dd56](https://github.com/rawstor/librawstor/commit/5b9dd56f679bbb268c53112ee8f9c9bb3a17a51b) | 10881.58 | 79142.03 | 10863.16 | 102073.71 |
 | [2025-10-20 21:26:58](perftest-ost-4k-2-1/a9ee5bb6d9e78171a5148fd8e4983e5b0edf646f.md) | refs/heads/feat/ci | [a9ee5bb](https://github.com/rawstor/librawstor/commit/a9ee5bb6d9e78171a5148fd8e4983e5b0edf646f) | 10570.10 | 80232.20 | 10554.20 | 106320.56 |
@@ -118,5 +119,4 @@
 | [2025-10-20 21:06:19](perftest-ost-4k-2-1/0c628a331658496fa577449b0cb43f48ddaf3c02.md) | refs/heads/test/asan | [0c628a3](https://github.com/rawstor/librawstor/commit/0c628a331658496fa577449b0cb43f48ddaf3c02) | 9982.10 | 85611.59 | 9971.70 | 112036.85 |
 | [2025-10-20 21:02:05](perftest-ost-4k-2-1/2126597e1ab674871f7c10e9a217fa46be01a9d0.md) | refs/heads/main | [2126597](https://github.com/rawstor/librawstor/commit/2126597e1ab674871f7c10e9a217fa46be01a9d0) | 10457.60 | 82357.43 | 10443.20 | 106333.56 |
 | [2025-10-20 20:59:01](perftest-ost-4k-2-1/8860270ddb5eebb3a87afc02bf49741112b353d9.md) | refs/heads/add/mirror | [8860270](https://github.com/rawstor/librawstor/commit/8860270ddb5eebb3a87afc02bf49741112b353d9) | 10156.95 | 85876.55 | 10139.68 | 108980.27 |
-| [2025-10-20 20:51:03](perftest-ost-4k-2-1/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12.md) | refs/heads/add/mirror | [d580eb8](https://github.com/rawstor/librawstor/commit/d580eb8e3314ed2bfc5e54c0a0e2221df7fbae12) | 10366.32 | 83102.65 | 10350.00 | 107345.26 |
 
