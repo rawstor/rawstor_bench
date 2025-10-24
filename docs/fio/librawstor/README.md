@@ -19,6 +19,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-24 07:18:30](perftest--without-liburing-file-4k-2-1/9483d88b66f1e1c3d0adb6adc7b67c667b414c71.md) | refs/heads/ci/packages | [9483d88](https://github.com/rawstor/librawstor/commit/9483d88b66f1e1c3d0adb6adc7b67c667b414c71) | 172064.50 | 2318.69 | 171901.30 | 8791.30 |
 | [2025-10-24 07:14:49](perftest--without-liburing-file-4k-2-1/cdec14c0f1cf5df283d6f4d7ca9b9c8cfe1400b4.md) | refs/heads/ci/packages | [cdec14c](https://github.com/rawstor/librawstor/commit/cdec14c0f1cf5df283d6f4d7ca9b9c8cfe1400b4) | 160676.05 | 2467.79 | 160473.16 | 9390.55 |
 | [2025-10-24 06:52:51](perftest--without-liburing-file-4k-2-1/de0f03a79884413738269291f1bf3b0d0211dc80.md) | refs/heads/ci/packages | [de0f03a](https://github.com/rawstor/librawstor/commit/de0f03a79884413738269291f1bf3b0d0211dc80) | 170794.84 | 2320.03 | 170651.47 | 8815.92 |
 | [2025-10-24 06:47:59](perftest--without-liburing-file-4k-2-1/bb55a3c4ce75decb1ec1fed6df7fc45be249663f.md) | refs/heads/ci/packages | [bb55a3c](https://github.com/rawstor/librawstor/commit/bb55a3c4ce75decb1ec1fed6df7fc45be249663f) | 165846.63 | 2387.59 | 165672.74 | 9120.35 |
@@ -28,7 +29,6 @@
 | [2025-10-24 06:21:28](perftest--without-liburing-file-4k-2-1/5e1c481adc434f56a49b13193bf09cf5add3f955.md) | refs/heads/ci/packages | [5e1c481](https://github.com/rawstor/librawstor/commit/5e1c481adc434f56a49b13193bf09cf5add3f955) | 163992.84 | 2426.34 | 163783.37 | 9205.62 |
 | [2025-10-23 21:34:41](perftest--without-liburing-file-4k-2-1/5163d46b54cf358b6fd0e0b090e9174efb228961.md) | refs/heads/ci/packages | [5163d46](https://github.com/rawstor/librawstor/commit/5163d46b54cf358b6fd0e0b090e9174efb228961) | 173579.40 | 2293.02 | 173407.10 | 8711.94 |
 | [2025-10-23 21:32:49](perftest--without-liburing-file-4k-2-1/31960006aea7c7087e6e261219bc73d0d5992768.md) | refs/heads/ci/packages | [3196000](https://github.com/rawstor/librawstor/commit/31960006aea7c7087e6e261219bc73d0d5992768) | 168205.70 | 2370.07 | 168068.20 | 9011.73 |
-| [2025-10-23 21:27:56](perftest--without-liburing-file-4k-2-1/d16f52d57fb9688571c3cb5aa40390f770c5da6c.md) | refs/heads/ci/packages | [d16f52d](https://github.com/rawstor/librawstor/commit/d16f52d57fb9688571c3cb5aa40390f770c5da6c) | 230871.79 | 1744.34 | 230638.95 | 6414.57 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
