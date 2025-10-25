@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-25 10:10:59](perftest-ost-4k-2-1/f29f8d1e1ba0a31e29dd9da2ce1df2e8a366156a.md) | refs/heads/ci/packages | [f29f8d1](https://github.com/rawstor/librawstor/commit/f29f8d1e1ba0a31e29dd9da2ce1df2e8a366156a) | 10627.60 | 81163.12 | 10605.10 | 104379.89 |
 | [2025-10-25 09:59:53](perftest-ost-4k-2-1/c5ea07bcb0260e438e2d74a3663a04ef7db818f6.md) | refs/heads/ci/packages | [c5ea07b](https://github.com/rawstor/librawstor/commit/c5ea07bcb0260e438e2d74a3663a04ef7db818f6) | 10319.89 | 83051.03 | 10296.21 | 108106.53 |
 | [2025-10-24 12:52:04](perftest-ost-4k-2-1/4442d76ec5cbc658a94458f0612ad95cbcb189d4.md) | refs/heads/ci/packages | [4442d76](https://github.com/rawstor/librawstor/commit/4442d76ec5cbc658a94458f0612ad95cbcb189d4) | 10066.32 | 85130.10 | 10045.16 | 110541.07 |
 | [2025-10-24 09:54:09](perftest-ost-4k-2-1/2bed5cae32ab1def478cc8f0e7e1588227eee0d3.md) | refs/heads/ci/packages | [2bed5ca](https://github.com/rawstor/librawstor/commit/2bed5cae32ab1def478cc8f0e7e1588227eee0d3) | 10527.05 | 80503.51 | 10513.58 | 106571.62 |
@@ -118,5 +119,4 @@
 | [2025-10-24 07:22:11](perftest-ost-4k-2-1/20d816a1846d283ad3d8addca6e3554b8869cb47.md) | refs/heads/ci/packages | [20d816a](https://github.com/rawstor/librawstor/commit/20d816a1846d283ad3d8addca6e3554b8869cb47) | 10663.47 | 80434.31 | 10644.95 | 105137.57 |
 | [2025-10-24 07:19:08](perftest-ost-4k-2-1/9483d88b66f1e1c3d0adb6adc7b67c667b414c71.md) | refs/heads/ci/packages | [9483d88](https://github.com/rawstor/librawstor/commit/9483d88b66f1e1c3d0adb6adc7b67c667b414c71) | 10189.10 | 84264.63 | 10170.20 | 109506.94 |
 | [2025-10-24 07:15:15](perftest-ost-4k-2-1/cdec14c0f1cf5df283d6f4d7ca9b9c8cfe1400b4.md) | refs/heads/ci/packages | [cdec14c](https://github.com/rawstor/librawstor/commit/cdec14c0f1cf5df283d6f4d7ca9b9c8cfe1400b4) | 16121.37 | 53705.41 | 16136.21 | 68899.61 |
-| [2025-10-24 06:53:27](perftest-ost-4k-2-1/de0f03a79884413738269291f1bf3b0d0211dc80.md) | refs/heads/ci/packages | [de0f03a](https://github.com/rawstor/librawstor/commit/de0f03a79884413738269291f1bf3b0d0211dc80) | 10960.95 | 77915.11 | 10943.37 | 102852.45 |
 
