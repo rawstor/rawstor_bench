@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-26 11:23:37](perftest-ost-4k-2-1/c24b58d8c2c45a4605485ef360cd564fd222422f.md) | refs/heads/ci/packages | [c24b58d](https://github.com/rawstor/librawstor/commit/c24b58d8c2c45a4605485ef360cd564fd222422f) | 16111.80 | 54115.17 | 16110.40 | 68476.38 |
 | [2025-10-26 11:22:15](perftest-ost-4k-2-1/54276a97d9b5416d8112b0c98a15b21a056a6f28.md) | refs/tags/v0.0.5 | [54276a9](https://github.com/rawstor/librawstor/commit/54276a97d9b5416d8112b0c98a15b21a056a6f28) | 10460.74 | 83258.14 | 10449.89 | 105863.55 |
 | [2025-10-26 11:18:40](perftest-ost-4k-2-1/ccedd8e497dc1017190f8ea3203d06a77837c688.md) | refs/tags/v0.0.4 | [ccedd8e](https://github.com/rawstor/librawstor/commit/ccedd8e497dc1017190f8ea3203d06a77837c688) | 10674.32 | 82089.78 | 10656.11 | 103112.28 |
 | [2025-10-26 11:14:49](perftest-ost-4k-2-1/3e85cc61710f81efb5d82a670f24f5efc8f7889d.md) | refs/tags/v0.0.3 | [3e85cc6](https://github.com/rawstor/librawstor/commit/3e85cc61710f81efb5d82a670f24f5efc8f7889d) | 10679.53 | 81475.10 | 10660.42 | 103365.82 |
@@ -118,5 +119,4 @@
 | [2025-10-26 10:44:14](perftest-ost-4k-2-1/cf21e682035481837ebbda38da2ff52bfe8fbe24.md) | refs/tags/foo | [cf21e68](https://github.com/rawstor/librawstor/commit/cf21e682035481837ebbda38da2ff52bfe8fbe24) | 9674.00 | 91044.07 | 9655.40 | 113707.97 |
 | [2025-10-26 08:51:41](perftest-ost-4k-2-1/1986ce9e4469083c4c44787c2d5cc00cded7fe67.md) | refs/heads/ci/packages | [1986ce9](https://github.com/rawstor/librawstor/commit/1986ce9e4469083c4c44787c2d5cc00cded7fe67) | 10725.89 | 80276.13 | 10705.58 | 103999.81 |
 | [2025-10-26 08:43:21](perftest-ost-4k-2-1/0488270298ce3d0b821f2eb08b0238dfba45ab12.md) | refs/heads/ci/packages | [0488270](https://github.com/rawstor/librawstor/commit/0488270298ce3d0b821f2eb08b0238dfba45ab12) | 15929.68 | 55313.99 | 15947.89 | 68217.31 |
-| [2025-10-26 08:26:27](perftest-ost-4k-2-1/d3ef2ef84c0c7518b6a26aee1ffdc18cde165b98.md) | refs/heads/ci/packages | [d3ef2ef](https://github.com/rawstor/librawstor/commit/d3ef2ef84c0c7518b6a26aee1ffdc18cde165b98) | 10812.42 | 80142.89 | 10796.00 | 102428.31 |
 
