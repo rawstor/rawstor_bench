@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-10-27 07:16:27](perftest-ost-4k-2-1/08b33955df75995c572acf68df2aa6bcee27035e.md) | refs/heads/main | [08b3395](https://github.com/rawstor/librawstor/commit/08b33955df75995c572acf68df2aa6bcee27035e) | 10720.11 | 82618.23 | 10699.68 | 101586.77 |
 | [2025-10-26 21:47:21](perftest-ost-4k-2-1/2c4d83e035ebe2d1c8be77c8e0766b544bd63b4b.md) | refs/heads/fix/rpmrelease | [2c4d83e](https://github.com/rawstor/librawstor/commit/2c4d83e035ebe2d1c8be77c8e0766b544bd63b4b) | 10030.95 | 85681.23 | 10006.74 | 111694.17 |
 | [2025-10-26 12:18:54](perftest-ost-4k-2-1/1225864622adcb8b62f9684c58364c497d967704.md) | refs/tags/v0.0.0 | [1225864](https://github.com/rawstor/librawstor/commit/1225864622adcb8b62f9684c58364c497d967704) | 10725.37 | 80082.98 | 10705.16 | 104149.61 |
 | [2025-10-26 12:13:59](perftest-ost-4k-2-1/357b3713de9baec4081306bcfb2c80a726a3af69.md) | refs/heads/main | [357b371](https://github.com/rawstor/librawstor/commit/357b3713de9baec4081306bcfb2c80a726a3af69) | 10554.42 | 80586.43 | 10540.11 | 105741.00 |
@@ -118,5 +119,4 @@
 | [2025-10-26 11:27:04](perftest-ost-4k-2-1/e7fd57adb424650e203a5a201b9b710dc97c2f40.md) | refs/heads/ci/packages | [e7fd57a](https://github.com/rawstor/librawstor/commit/e7fd57adb424650e203a5a201b9b710dc97c2f40) | 10413.37 | 80548.71 | 10397.79 | 109188.84 |
 | [2025-10-26 11:25:24](perftest-ost-4k-2-1/c24b58d8c2c45a4605485ef360cd564fd222422f.md) | refs/tags/v0.0.6 | [c24b58d](https://github.com/rawstor/librawstor/commit/c24b58d8c2c45a4605485ef360cd564fd222422f) | 10883.68 | 79397.57 | 10865.26 | 101929.85 |
 | [2025-10-26 11:22:15](perftest-ost-4k-2-1/54276a97d9b5416d8112b0c98a15b21a056a6f28.md) | refs/tags/v0.0.5 | [54276a9](https://github.com/rawstor/librawstor/commit/54276a97d9b5416d8112b0c98a15b21a056a6f28) | 10460.74 | 83258.14 | 10449.89 | 105863.55 |
-| [2025-10-26 11:18:40](perftest-ost-4k-2-1/ccedd8e497dc1017190f8ea3203d06a77837c688.md) | refs/tags/v0.0.4 | [ccedd8e](https://github.com/rawstor/librawstor/commit/ccedd8e497dc1017190f8ea3203d06a77837c688) | 10674.32 | 82089.78 | 10656.11 | 103112.28 |
 
