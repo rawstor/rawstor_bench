@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-03 21:08:54](perftest--without-liburing-file-4k-1-1/992492d304443fec2d018d4e1b386bf38f7e3227.md) | refs/heads/add/msg | [992492d](https://github.com/rawstor/librawstor/commit/992492d304443fec2d018d4e1b386bf38f7e3227) | 240947.40 | 1682.70 | 240740.20 | 2002.36 |
 | [2025-11-03 15:59:37](perftest--without-liburing-file-4k-1-1/86c978497928d44ae8134a9105f95da8e7333b50.md) | refs/heads/add/msg | [86c9784](https://github.com/rawstor/librawstor/commit/86c978497928d44ae8134a9105f95da8e7333b50) | 179554.53 | 2208.45 | 179407.37 | 2823.53 |
 | [2025-11-03 15:28:03](perftest--without-liburing-file-4k-1-1/ceecf7a0bbc575bcc00539ec45789f90b2902774.md) | refs/heads/add/msg | [ceecf7a](https://github.com/rawstor/librawstor/commit/ceecf7a0bbc575bcc00539ec45789f90b2902774) | 215688.42 | 2047.10 | 215412.63 | 2051.07 |
 | [2025-11-02 20:50:06](perftest--without-liburing-file-4k-1-1/3e3476e6ada27f8e7fe7c3881aee1062df58b903.md) | refs/heads/releases/v0.0 | [3e3476e](https://github.com/rawstor/librawstor/commit/3e3476e6ada27f8e7fe7c3881aee1062df58b903) | 163208.20 | 2445.11 | 163062.90 | 3117.78 |
@@ -13,7 +14,6 @@
 | [2025-11-02 20:37:05](perftest--without-liburing-file-4k-1-1/84215a4b9676f5bfd2bfd0cd4cc5a7aa0b0e4215.md) | refs/heads/main | [84215a4](https://github.com/rawstor/librawstor/commit/84215a4b9676f5bfd2bfd0cd4cc5a7aa0b0e4215) | 240205.50 | 1682.45 | 240001.70 | 2016.56 |
 | [2025-11-02 20:32:25](perftest--without-liburing-file-4k-1-1/524600466d8873ad1cce6982fb5eca6655b9dcd8.md) | refs/heads/add/ringbuf | [5246004](https://github.com/rawstor/librawstor/commit/524600466d8873ad1cce6982fb5eca6655b9dcd8) | 168057.37 | 2365.74 | 167908.11 | 3034.68 |
 | [2025-11-02 20:28:56](perftest--without-liburing-file-4k-1-1/dff84f89009ee01611fc43860f752de6a153e287.md) | refs/heads/add/ringbuf | [dff84f8](https://github.com/rawstor/librawstor/commit/dff84f89009ee01611fc43860f752de6a153e287) | 170623.10 | 2341.03 | 170488.40 | 3003.01 |
-| [2025-11-02 20:22:38](perftest--without-liburing-file-4k-1-1/deafa5bb7c4a666028f3620b518d3061edc50c0d.md) | refs/heads/add/ringbuf | [deafa5b](https://github.com/rawstor/librawstor/commit/deafa5bb7c4a666028f3620b518d3061edc50c0d) | 173508.74 | 2313.34 | 173352.21 | 2896.60 |
 
 ## perftest--without-liburing-file-4k-2-1
 
