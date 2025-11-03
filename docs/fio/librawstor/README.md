@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-03 16:00:05](perftest-ost-4k-1-1/86c978497928d44ae8134a9105f95da8e7333b50.md) | refs/heads/add/msg | [86c9784](https://github.com/rawstor/librawstor/commit/86c978497928d44ae8134a9105f95da8e7333b50) | 5417.10 | 77474.53 | 5393.30 | 103876.93 |
 | [2025-11-03 15:28:18](perftest-ost-4k-1-1/ceecf7a0bbc575bcc00539ec45789f90b2902774.md) | refs/heads/add/msg | [ceecf7a](https://github.com/rawstor/librawstor/commit/ceecf7a0bbc575bcc00539ec45789f90b2902774) | 5847.47 | 71182.80 | 5816.74 | 97096.24 |
 | [2025-11-02 20:50:12](perftest-ost-4k-1-1/3e3476e6ada27f8e7fe7c3881aee1062df58b903.md) | refs/heads/releases/v0.0 | [3e3476e](https://github.com/rawstor/librawstor/commit/3e3476e6ada27f8e7fe7c3881aee1062df58b903) | 8140.20 | 49617.18 | 8111.60 | 71417.95 |
 | [2025-11-02 20:40:09](perftest-ost-4k-1-1/8e8eaf631604c5bca6948d65d6f4d79efa85ae8a.md) | refs/heads/ref/ringbuf | [8e8eaf6](https://github.com/rawstor/librawstor/commit/8e8eaf631604c5bca6948d65d6f4d79efa85ae8a) | 5903.50 | 70685.15 | 5884.40 | 95751.01 |
@@ -103,7 +104,6 @@
 | [2025-11-02 20:33:29](perftest-ost-4k-1-1/524600466d8873ad1cce6982fb5eca6655b9dcd8.md) | refs/heads/add/ringbuf | [5246004](https://github.com/rawstor/librawstor/commit/524600466d8873ad1cce6982fb5eca6655b9dcd8) | 5935.40 | 69834.80 | 5918.70 | 95739.55 |
 | [2025-11-02 20:29:34](perftest-ost-4k-1-1/dff84f89009ee01611fc43860f752de6a153e287.md) | refs/heads/add/ringbuf | [dff84f8](https://github.com/rawstor/librawstor/commit/dff84f89009ee01611fc43860f752de6a153e287) | 5893.16 | 71427.98 | 5865.16 | 95751.06 |
 | [2025-11-02 20:23:04](perftest-ost-4k-1-1/deafa5bb7c4a666028f3620b518d3061edc50c0d.md) | refs/heads/add/ringbuf | [deafa5b](https://github.com/rawstor/librawstor/commit/deafa5bb7c4a666028f3620b518d3061edc50c0d) | 5962.20 | 70114.55 | 5948.70 | 94676.21 |
-| [2025-11-02 20:20:28](perftest-ost-4k-1-1/e95fce245619b3366d155e21be0c6a52ea02a9f1.md) | refs/heads/add/ringbuf | [e95fce2](https://github.com/rawstor/librawstor/commit/e95fce245619b3366d155e21be0c6a52ea02a9f1) | 5664.60 | 74287.12 | 5638.00 | 99183.72 |
 
 ## perftest-ost-4k-2-1
 
