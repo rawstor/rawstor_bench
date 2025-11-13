@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-13 16:10:34](perftest-ost-4k-2-1/cb0eb9120c9da769d7b28c7aff769cfb5d09e0d0.md) | refs/heads/add/poll | [cb0eb91](https://github.com/rawstor/librawstor/commit/cb0eb9120c9da769d7b28c7aff769cfb5d09e0d0) | 10680.53 | 80780.82 | 10661.26 | 103780.60 |
 | [2025-11-13 15:46:22](perftest-ost-4k-2-1/4422ff9d4210cd22e0976aff55ff1889b665d303.md) | refs/heads/add/poll | [4422ff9](https://github.com/rawstor/librawstor/commit/4422ff9d4210cd22e0976aff55ff1889b665d303) | 10135.58 | 84692.81 | 10118.11 | 110068.55 |
 | [2025-11-13 12:24:54](perftest-ost-4k-2-1/13877b98952ce1c41e7fd6639b4df83828b71424.md) | refs/heads/add/poll | [13877b9](https://github.com/rawstor/librawstor/commit/13877b98952ce1c41e7fd6639b4df83828b71424) | 10482.00 | 82339.89 | 10476.00 | 105792.28 |
 | [2025-11-13 12:20:43](perftest-ost-4k-2-1/5dd58d02ab9d6cc8badd60527e82ac042773c3ab.md) | refs/heads/add/poll | [5dd58d0](https://github.com/rawstor/librawstor/commit/5dd58d02ab9d6cc8badd60527e82ac042773c3ab) | 10456.53 | 81564.08 | 10444.63 | 106358.25 |
@@ -118,5 +119,4 @@
 | [2025-11-12 21:12:40](perftest-ost-4k-2-1/6913a1701e89c549e8e2d470d9ae431479536a01.md) | refs/heads/test/asan | [6913a17](https://github.com/rawstor/librawstor/commit/6913a1701e89c549e8e2d470d9ae431479536a01) | 10618.63 | 81509.33 | 10599.89 | 104266.76 |
 | [2025-11-12 21:12:17](perftest-ost-4k-2-1/00354d1e18ecaee934cb9163b4520c5a70979e87.md) | refs/heads/feat/ci | [00354d1](https://github.com/rawstor/librawstor/commit/00354d1e18ecaee934cb9163b4520c5a70979e87) | 10098.80 | 84704.97 | 10082.80 | 110534.07 |
 | [2025-11-12 21:11:12](perftest-ost-4k-2-1/6e818ecced5f6edf13411020586c771d0e1b0808.md) | refs/heads/add/vhost | [6e818ec](https://github.com/rawstor/librawstor/commit/6e818ecced5f6edf13411020586c771d0e1b0808) | 10027.05 | 86129.28 | 10002.21 | 110888.13 |
-| [2025-11-12 21:09:26](perftest-ost-4k-2-1/47063fc4c41404882ed7dce890bba074c12e99ef.md) | refs/heads/main | [47063fc](https://github.com/rawstor/librawstor/commit/47063fc4c41404882ed7dce890bba074c12e99ef) | 10591.50 | 81374.71 | 10575.10 | 105156.99 |
 
