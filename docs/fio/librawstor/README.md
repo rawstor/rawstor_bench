@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-14 11:20:21](perftest-file-4k-1-1/3b98f84ed379341a1961c579f649da884f429789.md) | refs/heads/add/poll | [3b98f84](https://github.com/rawstor/librawstor/commit/3b98f84ed379341a1961c579f649da884f429789) | 31366.63 | 3418.28 | 31358.42 | 27583.47 |
 | [2025-11-14 11:19:05](perftest-file-4k-1-1/a020b7b050d2b8d6f864f6da23b377859a6e28ce.md) | refs/heads/releases/v0.0 | [a020b7b](https://github.com/rawstor/librawstor/commit/a020b7b050d2b8d6f864f6da23b377859a6e28ce) | 30540.47 | 3573.84 | 30538.21 | 28095.02 |
 | [2025-11-14 11:15:24](perftest-file-4k-1-1/e57f8c4dd41f39a97870c8a217e0c5cf8a1ec133.md) | refs/heads/fix/distcheck | [e57f8c4](https://github.com/rawstor/librawstor/commit/e57f8c4dd41f39a97870c8a217e0c5cf8a1ec133) | 32484.95 | 3358.81 | 32468.95 | 26388.37 |
 | [2025-11-14 11:13:51](perftest-file-4k-1-1/dae0efff1eb2fbb07e95de8be041c04efc083a96.md) | refs/heads/main | [dae0eff](https://github.com/rawstor/librawstor/commit/dae0efff1eb2fbb07e95de8be041c04efc083a96) | 31272.32 | 3429.53 | 31268.11 | 27481.04 |
@@ -73,7 +74,6 @@
 | [2025-11-13 16:21:30](perftest-file-4k-1-1/05e33a9079cdcb8ebf1258fe7be9dc1eaea3fcf8.md) | refs/heads/add/poll | [05e33a9](https://github.com/rawstor/librawstor/commit/05e33a9079cdcb8ebf1258fe7be9dc1eaea3fcf8) | 30568.11 | 3474.84 | 30565.26 | 28029.82 |
 | [2025-11-13 16:10:35](perftest-file-4k-1-1/cb0eb9120c9da769d7b28c7aff769cfb5d09e0d0.md) | refs/heads/add/poll | [cb0eb91](https://github.com/rawstor/librawstor/commit/cb0eb9120c9da769d7b28c7aff769cfb5d09e0d0) | 31771.58 | 3376.81 | 31758.00 | 27089.41 |
 | [2025-11-13 15:46:07](perftest-file-4k-1-1/4422ff9d4210cd22e0976aff55ff1889b665d303.md) | refs/heads/add/poll | [4422ff9](https://github.com/rawstor/librawstor/commit/4422ff9d4210cd22e0976aff55ff1889b665d303) | 32829.89 | 3224.75 | 32808.95 | 26356.98 |
-| [2025-11-13 12:24:19](perftest-file-4k-1-1/13877b98952ce1c41e7fd6639b4df83828b71424.md) | refs/heads/add/poll | [13877b9](https://github.com/rawstor/librawstor/commit/13877b98952ce1c41e7fd6639b4df83828b71424) | 32504.11 | 3336.63 | 32487.26 | 26476.86 |
 
 ## perftest-file-4k-2-1
 
