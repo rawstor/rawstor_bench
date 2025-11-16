@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-16 10:45:41](perftest-file-4k-1-1/d6d046f45d2a33f2633423fb1e925e56292fe171.md) | refs/heads/add/vhost | [d6d046f](https://github.com/rawstor/librawstor/commit/d6d046f45d2a33f2633423fb1e925e56292fe171) | 30674.84 | 3464.94 | 30661.89 | 28174.48 |
 | [2025-11-16 10:44:56](perftest-file-4k-1-1/6809b12ec3a9584c07ff9671238fc83f70d3ff8f.md) | refs/heads/feat/ci | [6809b12](https://github.com/rawstor/librawstor/commit/6809b12ec3a9584c07ff9671238fc83f70d3ff8f) | 30253.50 | 3707.86 | 30239.60 | 28444.65 |
 | [2025-11-16 10:44:35](perftest-file-4k-1-1/ac17fb7e0422e5508a9a72da77a9c904b212831b.md) | refs/heads/add/libvhost | [ac17fb7](https://github.com/rawstor/librawstor/commit/ac17fb7e0422e5508a9a72da77a9c904b212831b) | 176767.20 | 2247.28 | 176592.20 | 2893.46 |
 | [2025-11-16 10:43:51](perftest-file-4k-1-1/38d88fb0deba5c6ed9066169115f904122e3e2bc.md) | refs/heads/add/poll | [38d88fb](https://github.com/rawstor/librawstor/commit/38d88fb0deba5c6ed9066169115f904122e3e2bc) | 31809.58 | 3425.66 | 31793.58 | 27070.50 |
@@ -73,7 +74,6 @@
 | [2025-11-16 10:33:21](perftest-file-4k-1-1/849884d45f0d3f8c30f70bc0bf58facb706ba40f.md) | refs/heads/add/lic | [849884d](https://github.com/rawstor/librawstor/commit/849884d45f0d3f8c30f70bc0bf58facb706ba40f) | 30377.16 | 3454.64 | 30376.95 | 28604.76 |
 | [2025-11-16 10:23:08](perftest-file-4k-1-1/4301d77615e936de41cc13011fceff138ebda4d1.md) | refs/heads/add/libvhost | [4301d77](https://github.com/rawstor/librawstor/commit/4301d77615e936de41cc13011fceff138ebda4d1) | 236832.74 | 1705.97 | 236619.89 | 2024.10 |
 | [2025-11-14 16:41:15](perftest-file-4k-1-1/676d918f4c147a1e72d4a8c315ca306dd02ca9f2.md) | refs/heads/add/libvhost | [676d918](https://github.com/rawstor/librawstor/commit/676d918f4c147a1e72d4a8c315ca306dd02ca9f2) | 176203.89 | 2262.28 | 176064.11 | 2870.73 |
-| [2025-11-14 16:33:29](perftest-file-4k-1-1/c967ab4679d37516a5791c55f93195c5747c5c95.md) | refs/heads/add/libvhost | [c967ab4](https://github.com/rawstor/librawstor/commit/c967ab4679d37516a5791c55f93195c5747c5c95) | 171833.26 | 2326.50 | 171683.58 | 2956.72 |
 
 ## perftest-file-4k-2-1
 
