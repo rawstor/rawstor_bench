@@ -79,6 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-11-16 19:57:35](perftest-file-4k-2-1/07a72c29cf5cbabd2d029fcefd70fe6df27732d6.md) | refs/heads/test/asan | [07a72c2](https://github.com/rawstor/librawstor/commit/07a72c29cf5cbabd2d029fcefd70fe6df27732d6) | 71403.89 | 5177.94 | 71313.47 | 21681.35 |
 | [2025-11-16 19:57:01](perftest-file-4k-2-1/05b247c633a18a6eb0110086bec2cca1d09d93fe.md) | refs/heads/add/libvhost | [05b247c](https://github.com/rawstor/librawstor/commit/05b247c633a18a6eb0110086bec2cca1d09d93fe) | 188037.10 | 4624.25 | 187839.80 | 5477.77 |
 | [2025-11-16 19:56:39](perftest-file-4k-2-1/bb2bbd48816962103fe23bd751f591e41a93ea10.md) | refs/heads/add/poll | [bb2bbd4](https://github.com/rawstor/librawstor/commit/bb2bbd48816962103fe23bd751f591e41a93ea10) | 65725.26 | 5807.88 | 65661.05 | 23534.94 |
 | [2025-11-16 19:55:38](perftest-file-4k-2-1/e61f55a28c9651c61b400376097a4199b775fb64.md) | refs/heads/main | [e61f55a](https://github.com/rawstor/librawstor/commit/e61f55a28c9651c61b400376097a4199b775fb64) | 65873.26 | 5680.24 | 65810.21 | 23526.05 |
@@ -88,7 +89,6 @@
 | [2025-11-16 19:36:24](perftest-file-4k-2-1/e1b69c9b023cffd49c753a0b32b25f16f8c7a575.md) | refs/heads/add/contrib | [e1b69c9](https://github.com/rawstor/librawstor/commit/e1b69c9b023cffd49c753a0b32b25f16f8c7a575) | 69578.60 | 5317.75 | 69479.90 | 22452.42 |
 | [2025-11-16 19:14:37](perftest-file-4k-2-1/dd5a547d4f17c5b038abe1f616306ad80816739c.md) | refs/heads/add/contrib | [dd5a547](https://github.com/rawstor/librawstor/commit/dd5a547d4f17c5b038abe1f616306ad80816739c) | 67141.16 | 5603.15 | 67097.05 | 23188.33 |
 | [2025-11-16 11:13:46](perftest-file-4k-2-1/fae59b71489444ded1b2cdd5310710065a3c1f59.md) | refs/heads/releases/v0.0 | [fae59b7](https://github.com/rawstor/librawstor/commit/fae59b71489444ded1b2cdd5310710065a3c1f59) | 67377.47 | 5406.02 | 67338.32 | 23059.02 |
-| [2025-11-16 11:10:23](perftest-file-4k-2-1/6fcc51fafda16feb023c12aab5c9450676e34111.md) | refs/heads/fix/lic | [6fcc51f](https://github.com/rawstor/librawstor/commit/6fcc51fafda16feb023c12aab5c9450676e34111) | 63271.79 | 5974.10 | 63200.32 | 24535.50 |
 
 ## perftest-ost-4k-1-1
 
