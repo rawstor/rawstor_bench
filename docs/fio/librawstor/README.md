@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-12-25 11:24:15](perftest-file-4k-1-1/295039692ea0bc1f9a336432e7f4d6a2692c56b3.md) | refs/heads/add/libvhost | [2950396](https://github.com/rawstor/librawstor/commit/295039692ea0bc1f9a336432e7f4d6a2692c56b3) | 31702.00 | 3407.87 | 31687.58 | 27304.63 |
 | [2025-12-25 11:23:27](perftest-file-4k-1-1/44bc5abcee6d4335ec51552da7a37c550c7cc3bd.md) | refs/heads/test/asan | [44bc5ab](https://github.com/rawstor/librawstor/commit/44bc5abcee6d4335ec51552da7a37c550c7cc3bd) | 29512.11 | 3587.69 | 29533.58 | 29105.60 |
 | [2025-12-25 11:22:31](perftest-file-4k-1-1/812e8d21305acbd836a50ecc8c7f4acb28bd243c.md) | refs/heads/add/poll | [812e8d2](https://github.com/rawstor/librawstor/commit/812e8d21305acbd836a50ecc8c7f4acb28bd243c) | 31354.32 | 3476.10 | 31347.79 | 27410.20 |
 | [2025-12-25 11:21:45](perftest-file-4k-1-1/d745f2f99a5a1e32feec4a372407985d50d5a577.md) | refs/heads/main | [d745f2f](https://github.com/rawstor/librawstor/commit/d745f2f99a5a1e32feec4a372407985d50d5a577) | 28961.68 | 3846.08 | 29002.53 | 29439.44 |
@@ -73,7 +74,6 @@
 | [2025-12-24 11:59:00](perftest-file-4k-1-1/89c32f04d0faccb4b9387145213ba3416f64d869.md) | refs/heads/add/libvhost | [89c32f0](https://github.com/rawstor/librawstor/commit/89c32f04d0faccb4b9387145213ba3416f64d869) | 178081.40 | 2231.88 | 177887.70 | 2837.25 |
 | [2025-12-23 12:40:35](perftest-file-4k-1-1/54e1f96c76be99d1e929292ee324bb0253332a29.md) | refs/heads/add/libvhost | [54e1f96](https://github.com/rawstor/librawstor/commit/54e1f96c76be99d1e929292ee324bb0253332a29) | 180375.37 | 2206.98 | 180224.42 | 2808.93 |
 | [2025-12-22 21:05:34](perftest-file-4k-1-1/46397331e2c04c7dbc362f3d4706bfaf32e12644.md) | refs/heads/releases/v0.0 | [4639733](https://github.com/rawstor/librawstor/commit/46397331e2c04c7dbc362f3d4706bfaf32e12644) | 32261.37 | 3262.03 | 32243.05 | 26888.39 |
-| [2025-12-22 21:02:19](perftest-file-4k-1-1/2346a55c6ad192dcc7651ad837f10f8ee6976d9b.md) | refs/heads/add/iovec | [2346a55](https://github.com/rawstor/librawstor/commit/2346a55c6ad192dcc7651ad837f10f8ee6976d9b) | 32434.63 | 3196.17 | 32416.74 | 26707.35 |
 
 ## perftest-file-4k-2-1
 
