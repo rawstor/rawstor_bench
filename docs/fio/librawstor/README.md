@@ -34,6 +34,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-12-26 08:44:56](perftest--without-liburing-ost-4k-1-1/564fcfd04e34352d3d8b99133ff5026744b2a53a.md) | refs/heads/fix/uuid | [564fcfd](https://github.com/rawstor/librawstor/commit/564fcfd04e34352d3d8b99133ff5026744b2a53a) | 6008.30 | 69808.14 | 5994.70 | 93823.02 |
 | [2025-12-25 15:09:18](perftest--without-liburing-ost-4k-1-1/b1eff45c2e5a716e863a0e2e9e68ff6d199c1b83.md) | refs/heads/add/vhost | [b1eff45](https://github.com/rawstor/librawstor/commit/b1eff45c2e5a716e863a0e2e9e68ff6d199c1b83) | 5911.47 | 71368.00 | 5880.53 | 95005.48 |
 | [2025-12-25 15:08:39](perftest--without-liburing-ost-4k-1-1/c148fbe3ad29d7a7499656e0f122b700816ba531.md) | refs/heads/feat/ci | [c148fbe](https://github.com/rawstor/librawstor/commit/c148fbe3ad29d7a7499656e0f122b700816ba531) | 5599.79 | 74597.34 | 5580.21 | 101049.73 |
 | [2025-12-25 15:08:38](perftest--without-liburing-ost-4k-1-1/f1e413d3aca9325cb525b01f168fef83cd3cf7ca.md) | refs/heads/test/asan | [f1e413d](https://github.com/rawstor/librawstor/commit/f1e413d3aca9325cb525b01f168fef83cd3cf7ca) | 5532.70 | 77127.47 | 5504.30 | 100610.86 |
@@ -43,7 +44,6 @@
 | [2025-12-25 14:40:52](perftest--without-liburing-ost-4k-1-1/a7759a7a1fb6d0721cac907b4808bcaa6f831912.md) | refs/heads/ref/uriv | [a7759a7](https://github.com/rawstor/librawstor/commit/a7759a7a1fb6d0721cac907b4808bcaa6f831912) | 5921.89 | 71112.01 | 5891.05 | 95055.12 |
 | [2025-12-25 14:24:56](perftest--without-liburing-ost-4k-1-1/8adc70760fd7fe94dc979194c0d564f176f64e2b.md) | refs/heads/ref/uriv | [8adc707](https://github.com/rawstor/librawstor/commit/8adc70760fd7fe94dc979194c0d564f176f64e2b) | 5688.95 | 73862.09 | 5665.47 | 98991.10 |
 | [2025-12-25 11:49:14](perftest--without-liburing-ost-4k-1-1/a2d833a52c302fd072b542729382cca1ca99bca7.md) | refs/heads/test/asan | [a2d833a](https://github.com/rawstor/librawstor/commit/a2d833a52c302fd072b542729382cca1ca99bca7) | 5999.16 | 70382.84 | 5975.26 | 93229.03 |
-| [2025-12-25 11:49:13](perftest--without-liburing-ost-4k-1-1/5be01d63a13dcffdfa3ac1d354e3172b5ca99cc5.md) | refs/heads/add/vhost | [5be01d6](https://github.com/rawstor/librawstor/commit/5be01d63a13dcffdfa3ac1d354e3172b5ca99cc5) | 5744.11 | 74530.54 | 5716.42 | 96390.00 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
