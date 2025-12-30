@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2025-12-30 14:04:31](perftest-ost-4k-1-1/52081df24b8b1f9b61ed2af0a154d63552310bc4.md) | refs/heads/releases/v0.1 | [52081df](https://github.com/rawstor/librawstor/commit/52081df24b8b1f9b61ed2af0a154d63552310bc4) | 5431.26 | 77946.81 | 5413.26 | 103225.35 |
 | [2025-12-30 14:01:41](perftest-ost-4k-1-1/1c9d4701cd59d5b5b74e2b95b59c4b9c2f76d2c0.md) | refs/heads/test/asan | [1c9d470](https://github.com/rawstor/librawstor/commit/1c9d4701cd59d5b5b74e2b95b59c4b9c2f76d2c0) | 5508.80 | 76089.75 | 5481.80 | 102454.00 |
 | [2025-12-30 14:01:40](perftest-ost-4k-1-1/5adea66cc38c86cdd95cf12c4086608005ef2cc3.md) | refs/heads/v0.1/linter | [5adea66](https://github.com/rawstor/librawstor/commit/5adea66cc38c86cdd95cf12c4086608005ef2cc3) | 8517.37 | 49272.52 | 8486.95 | 67027.85 |
 | [2025-12-30 13:59:27](perftest-ost-4k-1-1/1a88742fcddd514b0a00aba47e99293d93d7b643.md) | refs/heads/feat/ci | [1a88742](https://github.com/rawstor/librawstor/commit/1a88742fcddd514b0a00aba47e99293d93d7b643) | 5441.20 | 76077.47 | 5416.60 | 104328.54 |
@@ -103,7 +104,6 @@
 | [2025-12-30 12:22:06](perftest-ost-4k-1-1/878c8e98cb24c0de4a3b1832cffb7540b53980bb.md) | refs/heads/add/linter | [878c8e9](https://github.com/rawstor/librawstor/commit/878c8e98cb24c0de4a3b1832cffb7540b53980bb) | 5753.00 | 73371.56 | 5730.80 | 97570.17 |
 | [2025-12-30 12:17:32](perftest-ost-4k-1-1/81e9761c67f19bebe4d2088b31c84541fc62fd5b.md) | refs/heads/add/linter | [81e9761](https://github.com/rawstor/librawstor/commit/81e9761c67f19bebe4d2088b31c84541fc62fd5b) | 8781.26 | 46639.73 | 8746.00 | 65682.37 |
 | [2025-12-30 11:57:36](perftest-ost-4k-1-1/e36f38a4a7906dc32623a6e004fe03f5cc7b1125.md) | refs/heads/add/linter | [e36f38a](https://github.com/rawstor/librawstor/commit/e36f38a4a7906dc32623a6e004fe03f5cc7b1125) | 5939.40 | 70352.60 | 5923.10 | 95008.48 |
-| [2025-12-30 11:55:58](perftest-ost-4k-1-1/0cf4695c06876d3065b2422630df26ce5c259699.md) | refs/heads/add/linter | [0cf4695](https://github.com/rawstor/librawstor/commit/0cf4695c06876d3065b2422630df26ce5c259699) | 5980.90 | 70017.60 | 5965.80 | 94255.56 |
 
 ## perftest-ost-4k-2-1
 
