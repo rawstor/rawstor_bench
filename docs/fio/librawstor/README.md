@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-02 21:51:47](perftest-ost-4k-2-1/fc36e8580c00a505e51e47a136f4fae3bee70dbb.md) | refs/heads/v0.0/gtest | [fc36e85](https://github.com/rawstor/librawstor/commit/fc36e8580c00a505e51e47a136f4fae3bee70dbb) | 9598.95 | 88469.43 | 9571.16 | 116902.91 |
 | [2026-01-02 21:46:37](perftest-ost-4k-2-1/2ff9253724977c9bea82ac369343b61b0abff023.md) | refs/heads/v0.1/gtest | [2ff9253](https://github.com/rawstor/librawstor/commit/2ff9253724977c9bea82ac369343b61b0abff023) | 10427.37 | 83744.34 | 10411.58 | 105782.08 |
 | [2026-01-02 21:45:41](perftest-ost-4k-2-1/cb304f4d8f9a7a23a71e2a3d2419ef484918382d.md) | refs/heads/feat/ci | [cb304f4](https://github.com/rawstor/librawstor/commit/cb304f4d8f9a7a23a71e2a3d2419ef484918382d) | 10153.20 | 83459.83 | 10135.40 | 110850.35 |
 | [2026-01-02 21:40:25](perftest-ost-4k-2-1/771a7a892fc7c02a7340c15ea5521e2f82035ed2.md) | refs/heads/main | [771a7a8](https://github.com/rawstor/librawstor/commit/771a7a892fc7c02a7340c15ea5521e2f82035ed2) | 10653.58 | 80890.35 | 10636.84 | 104662.59 |
@@ -118,5 +119,4 @@
 | [2026-01-02 15:24:16](perftest-ost-4k-2-1/474c6506243d341c0d4ed8b9571d3ef4ded85303.md) | refs/heads/add/gtest | [474c650](https://github.com/rawstor/librawstor/commit/474c6506243d341c0d4ed8b9571d3ef4ded85303) | 10560.42 | 81710.47 | 10545.68 | 105307.08 |
 | [2026-01-02 15:11:32](perftest-ost-4k-2-1/9e55c477537540ec05474843fea29102b6a6ff8b.md) | refs/heads/add/gtest | [9e55c47](https://github.com/rawstor/librawstor/commit/9e55c477537540ec05474843fea29102b6a6ff8b) | 10784.84 | 78534.30 | 10767.05 | 104246.93 |
 | [2026-01-02 15:04:40](perftest-ost-4k-2-1/7778f67ed52ca7fd7389345248068874bd1756d3.md) | refs/heads/add/gtest | [7778f67](https://github.com/rawstor/librawstor/commit/7778f67ed52ca7fd7389345248068874bd1756d3) | 10778.60 | 79608.62 | 10751.40 | 103448.65 |
-| [2026-01-02 15:00:17](perftest-ost-4k-2-1/5bde78a169bd91eb0dd2ecd155b6b2a563ed379a.md) | refs/heads/add/gtest | [5bde78a](https://github.com/rawstor/librawstor/commit/5bde78a169bd91eb0dd2ecd155b6b2a563ed379a) | 10011.47 | 86330.50 | 9986.21 | 111258.21 |
 
