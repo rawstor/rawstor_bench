@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-02 15:04:31](perftest-file-4k-1-1/7778f67ed52ca7fd7389345248068874bd1756d3.md) | refs/heads/add/gtest | [7778f67](https://github.com/rawstor/librawstor/commit/7778f67ed52ca7fd7389345248068874bd1756d3) | 32022.21 | 3387.55 | 32005.37 | 26938.68 |
 | [2026-01-02 14:59:56](perftest-file-4k-1-1/5bde78a169bd91eb0dd2ecd155b6b2a563ed379a.md) | refs/heads/add/gtest | [5bde78a](https://github.com/rawstor/librawstor/commit/5bde78a169bd91eb0dd2ecd155b6b2a563ed379a) | 30985.20 | 3540.34 | 30965.80 | 27864.09 |
 | [2026-01-02 14:45:06](perftest-file-4k-1-1/405c9736f4e52cfb99ad520c52b0d023c3a130fa.md) | refs/heads/add/gtest | [405c973](https://github.com/rawstor/librawstor/commit/405c9736f4e52cfb99ad520c52b0d023c3a130fa) | 30620.30 | 3543.94 | 30600.40 | 28168.46 |
 | [2026-01-02 14:39:25](perftest-file-4k-1-1/d2f4b3a2cb8f97adeaf21a1bf5714c2848f32e1e.md) | refs/heads/add/gtest | [d2f4b3a](https://github.com/rawstor/librawstor/commit/d2f4b3a2cb8f97adeaf21a1bf5714c2848f32e1e) | 31649.47 | 3433.86 | 31639.16 | 27166.07 |
@@ -73,7 +74,6 @@
 | [2026-01-02 13:06:07](perftest-file-4k-1-1/0d7f179f818fce216d74db4f2611f743073b98b2.md) | refs/heads/add/gtest | [0d7f179](https://github.com/rawstor/librawstor/commit/0d7f179f818fce216d74db4f2611f743073b98b2) | 32516.74 | 3252.72 | 32498.63 | 26595.10 |
 | [2026-01-01 22:56:06](perftest-file-4k-1-1/aa709e8dd92a90842ffb26ab87127642badb7766.md) | refs/heads/add/gtest | [aa709e8](https://github.com/rawstor/librawstor/commit/aa709e8dd92a90842ffb26ab87127642badb7766) | 32919.79 | 3207.14 | 32889.05 | 26260.65 |
 | [2026-01-01 21:24:04](perftest-file-4k-1-1/a0e8e332b3d73772b9d09fa94621e67f63b744bf.md) | refs/heads/add/gtest | [a0e8e33](https://github.com/rawstor/librawstor/commit/a0e8e332b3d73772b9d09fa94621e67f63b744bf) | 30701.79 | 3436.20 | 30687.89 | 28037.48 |
-| [2026-01-01 21:12:59](perftest-file-4k-1-1/e6bc3e46cd4fa9fe1749a5c41c7403fa5d240d93.md) | refs/heads/add/gtest | [e6bc3e4](https://github.com/rawstor/librawstor/commit/e6bc3e46cd4fa9fe1749a5c41c7403fa5d240d93) | 32035.37 | 3285.00 | 32018.00 | 26999.01 |
 
 ## perftest-file-4k-2-1
 
