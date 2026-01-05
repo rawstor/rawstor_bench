@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-05 21:06:02](perftest-ost-4k-2-1/d87dd3bf9b7de870bf7a8807cc893cad26af96ec.md) | refs/heads/fix/pollhup | [d87dd3b](https://github.com/rawstor/librawstor/commit/d87dd3bf9b7de870bf7a8807cc893cad26af96ec) | 11754.89 | 72792.94 | 11727.00 | 96030.76 |
 | [2026-01-05 20:53:27](perftest-ost-4k-2-1/0ea3eb61e94c1b50a9918e4d51a02dcedcaf65c9.md) | refs/heads/fix/pollhup | [0ea3eb6](https://github.com/rawstor/librawstor/commit/0ea3eb61e94c1b50a9918e4d51a02dcedcaf65c9) | 9908.42 | 86362.14 | 9874.21 | 112683.34 |
 | [2026-01-05 19:46:49](perftest-ost-4k-2-1/9a5947a082ef3268d371dbf6ddf00654b8428db0.md) | refs/heads/fix/pollhup | [9a5947a](https://github.com/rawstor/librawstor/commit/9a5947a082ef3268d371dbf6ddf00654b8428db0) | 10035.16 | 83909.04 | 10012.95 | 112419.73 |
 | [2026-01-05 19:43:12](perftest-ost-4k-2-1/9aa0def1c1346c571804f8463a292aa8a3c1fd64.md) | refs/heads/fix/pollhup | [9aa0def](https://github.com/rawstor/librawstor/commit/9aa0def1c1346c571804f8463a292aa8a3c1fd64) | 10254.53 | 82900.69 | 10232.84 | 109860.13 |
@@ -118,5 +119,4 @@
 | [2026-01-05 11:29:59](perftest-ost-4k-2-1/df030c82f95763cf93d663b18e2d0156a3feb427.md) | refs/heads/fix/pollhup | [df030c8](https://github.com/rawstor/librawstor/commit/df030c82f95763cf93d663b18e2d0156a3feb427) | 10245.26 | 84584.61 | 10221.47 | 108230.15 |
 | [2026-01-05 11:24:57](perftest-ost-4k-2-1/1616925639b53e5a579a1ee204e52f6636f29d6d.md) | refs/heads/fix/pollhup | [1616925](https://github.com/rawstor/librawstor/commit/1616925639b53e5a579a1ee204e52f6636f29d6d) | 10733.26 | 79007.99 | 10712.00 | 105000.10 |
 | [2026-01-05 11:22:14](perftest-ost-4k-2-1/2cd195f6dd3f5085dfa98ed6695d514c8ed3832a.md) | refs/heads/fix/pollhup | [2cd195f](https://github.com/rawstor/librawstor/commit/2cd195f6dd3f5085dfa98ed6695d514c8ed3832a) | 10327.58 | 82798.01 | 10307.37 | 108704.53 |
-| [2026-01-05 11:06:40](perftest-ost-4k-2-1/e69a1fa1180b1404a0860b19b4ee562d5db2536e.md) | refs/heads/fix/pollhup | [e69a1fa](https://github.com/rawstor/librawstor/commit/e69a1fa1180b1404a0860b19b4ee562d5db2536e) | 10756.74 | 79595.28 | 10738.11 | 103054.37 |
 
