@@ -34,6 +34,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-05 16:58:27](perftest--without-liburing-ost-4k-1-1/d329564855c1d73dd0fd9113eed4848e82efd270.md) | refs/heads/fix/pollhup | [d329564](https://github.com/rawstor/librawstor/commit/d329564855c1d73dd0fd9113eed4848e82efd270) | 7532.74 | 54715.11 | 7478.53 | 77226.72 |
 | [2026-01-05 11:30:14](perftest--without-liburing-ost-4k-1-1/df030c82f95763cf93d663b18e2d0156a3feb427.md) | refs/heads/fix/pollhup | [df030c8](https://github.com/rawstor/librawstor/commit/df030c82f95763cf93d663b18e2d0156a3feb427) | 6004.32 | 70747.80 | 5980.11 | 93246.95 |
 | [2026-01-05 11:24:44](perftest--without-liburing-ost-4k-1-1/1616925639b53e5a579a1ee204e52f6636f29d6d.md) | refs/heads/fix/pollhup | [1616925](https://github.com/rawstor/librawstor/commit/1616925639b53e5a579a1ee204e52f6636f29d6d) | 5474.40 | 77359.48 | 5450.30 | 102273.40 |
 | [2026-01-05 11:22:01](perftest--without-liburing-ost-4k-1-1/2cd195f6dd3f5085dfa98ed6695d514c8ed3832a.md) | refs/heads/fix/pollhup | [2cd195f](https://github.com/rawstor/librawstor/commit/2cd195f6dd3f5085dfa98ed6695d514c8ed3832a) | 5869.89 | 71539.00 | 5841.37 | 96308.79 |
@@ -43,7 +44,6 @@
 | [2026-01-05 11:00:00](perftest--without-liburing-ost-4k-1-1/72059e929786be56d17ef14711886c4e12557891.md) | refs/heads/fix/pollhup | [72059e9](https://github.com/rawstor/librawstor/commit/72059e929786be56d17ef14711886c4e12557891) | 5970.74 | 69789.64 | 5944.53 | 94818.78 |
 | [2026-01-05 10:55:28](perftest--without-liburing-ost-4k-1-1/07ccee82601738d266fe0abf34d867f7ba086c9e.md) | refs/heads/fix/pollhup | [07ccee8](https://github.com/rawstor/librawstor/commit/07ccee82601738d266fe0abf34d867f7ba086c9e) | 5877.50 | 71434.74 | 5856.90 | 95855.68 |
 | [2026-01-04 12:10:58](perftest--without-liburing-ost-4k-1-1/437c353732ac088138bf57c982835ed21f228d18.md) | refs/heads/fix/pollhup | [437c353](https://github.com/rawstor/librawstor/commit/437c353732ac088138bf57c982835ed21f228d18) | 5931.79 | 71253.58 | 5900.21 | 94695.05 |
-| [2026-01-04 12:08:10](perftest--without-liburing-ost-4k-1-1/3e257a670071b42e5a70fa573b6c6af489f39463.md) | refs/heads/fix/sockaddr | [3e257a6](https://github.com/rawstor/librawstor/commit/3e257a670071b42e5a70fa573b6c6af489f39463) | 5502.20 | 76022.99 | 5475.00 | 102773.03 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
