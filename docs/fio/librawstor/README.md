@@ -79,6 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-05 10:59:42](perftest-file-4k-2-1/72059e929786be56d17ef14711886c4e12557891.md) | refs/heads/fix/pollhup | [72059e9](https://github.com/rawstor/librawstor/commit/72059e929786be56d17ef14711886c4e12557891) | 67772.63 | 5476.45 | 67731.37 | 22985.79 |
 | [2026-01-05 10:55:06](perftest-file-4k-2-1/07ccee82601738d266fe0abf34d867f7ba086c9e.md) | refs/heads/fix/pollhup | [07ccee8](https://github.com/rawstor/librawstor/commit/07ccee82601738d266fe0abf34d867f7ba086c9e) | 67781.47 | 5503.97 | 67739.37 | 22948.43 |
 | [2026-01-04 12:11:00](perftest-file-4k-2-1/437c353732ac088138bf57c982835ed21f228d18.md) | refs/heads/fix/pollhup | [437c353](https://github.com/rawstor/librawstor/commit/437c353732ac088138bf57c982835ed21f228d18) | 69313.47 | 5308.07 | 69243.26 | 22373.90 |
 | [2026-01-04 12:08:20](perftest-file-4k-2-1/3e257a670071b42e5a70fa573b6c6af489f39463.md) | refs/heads/fix/sockaddr | [3e257a6](https://github.com/rawstor/librawstor/commit/3e257a670071b42e5a70fa573b6c6af489f39463) | 62320.00 | 6093.59 | 62253.37 | 24512.06 |
@@ -88,7 +89,6 @@
 | [2026-01-02 21:51:36](perftest-file-4k-2-1/fc36e8580c00a505e51e47a136f4fae3bee70dbb.md) | refs/heads/v0.0/gtest | [fc36e85](https://github.com/rawstor/librawstor/commit/fc36e8580c00a505e51e47a136f4fae3bee70dbb) | 68047.89 | 5512.67 | 68000.74 | 22604.15 |
 | [2026-01-02 21:46:23](perftest-file-4k-2-1/2ff9253724977c9bea82ac369343b61b0abff023.md) | refs/heads/v0.1/gtest | [2ff9253](https://github.com/rawstor/librawstor/commit/2ff9253724977c9bea82ac369343b61b0abff023) | 68002.53 | 5474.75 | 67959.16 | 22935.70 |
 | [2026-01-02 21:45:18](perftest-file-4k-2-1/cb304f4d8f9a7a23a71e2a3d2419ef484918382d.md) | refs/heads/feat/ci | [cb304f4](https://github.com/rawstor/librawstor/commit/cb304f4d8f9a7a23a71e2a3d2419ef484918382d) | 67477.05 | 5496.97 | 67437.47 | 22886.65 |
-| [2026-01-02 21:40:11](perftest-file-4k-2-1/771a7a892fc7c02a7340c15ea5521e2f82035ed2.md) | refs/heads/main | [771a7a8](https://github.com/rawstor/librawstor/commit/771a7a892fc7c02a7340c15ea5521e2f82035ed2) | 75207.30 | 3993.06 | 75052.60 | 21947.34 |
 
 ## perftest-ost-4k-1-1
 
