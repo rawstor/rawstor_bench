@@ -64,6 +64,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-06 19:39:29](perftest-file-4k-1-1/feef14446b34e31f538e1c05ef1a2e71c2c99fed.md) | refs/heads/v0.1/sigpipe | [feef144](https://github.com/rawstor/librawstor/commit/feef14446b34e31f538e1c05ef1a2e71c2c99fed) | 32186.74 | 3286.10 | 32167.58 | 26878.47 |
 | [2026-01-06 19:38:10](perftest-file-4k-1-1/a8d198773a727a1aefee1042c3eca136ba03d33d.md) | refs/heads/main | [a8d1987](https://github.com/rawstor/librawstor/commit/a8d198773a727a1aefee1042c3eca136ba03d33d) | 30090.53 | 3494.45 | 30102.63 | 28640.29 |
 | [2026-01-06 19:29:24](perftest-file-4k-1-1/21dc5ea5558e79f5345161893268bd47f3c9c6ae.md) | refs/heads/fix/sigpipe | [21dc5ea](https://github.com/rawstor/librawstor/commit/21dc5ea5558e79f5345161893268bd47f3c9c6ae) | 29387.05 | 3682.82 | 29415.37 | 29122.37 |
 | [2026-01-06 19:07:43](perftest-file-4k-1-1/242b91a7072180044a1a6cb9475fb22e4fb5f0ac.md) | refs/heads/fix/sigpipe | [242b91a](https://github.com/rawstor/librawstor/commit/242b91a7072180044a1a6cb9475fb22e4fb5f0ac) | 29465.10 | 3893.82 | 29464.00 | 28992.35 |
@@ -73,7 +74,6 @@
 | [2026-01-05 21:42:43](perftest-file-4k-1-1/09236713b1ea7f852700f1547c8981f84710c497.md) | refs/heads/releases/v0.1 | [0923671](https://github.com/rawstor/librawstor/commit/09236713b1ea7f852700f1547c8981f84710c497) | 32155.26 | 3277.75 | 32133.58 | 26788.44 |
 | [2026-01-05 21:40:26](perftest-file-4k-1-1/0490913e9622625427e2144bdbd9513251298777.md) | refs/heads/main | [0490913](https://github.com/rawstor/librawstor/commit/0490913e9622625427e2144bdbd9513251298777) | 35858.42 | 2541.71 | 35801.47 | 24684.45 |
 | [2026-01-05 21:31:44](perftest-file-4k-1-1/729033e3d41deb1d18c3712a3b73b61740e687ad.md) | refs/heads/v0.1/pollhup | [729033e](https://github.com/rawstor/librawstor/commit/729033e3d41deb1d18c3712a3b73b61740e687ad) | 31270.11 | 3547.31 | 31266.11 | 27415.72 |
-| [2026-01-05 21:31:08](perftest-file-4k-1-1/890db1b83df54ab59651952c3e11fba7028c1d7d.md) | refs/heads/fix/sockaddr | [890db1b](https://github.com/rawstor/librawstor/commit/890db1b83df54ab59651952c3e11fba7028c1d7d) | 32186.84 | 3195.04 | 32167.58 | 26887.78 |
 
 ## perftest-file-4k-2-1
 
