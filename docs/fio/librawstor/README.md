@@ -79,6 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-07 22:47:16](perftest-file-4k-2-1/d8cf6bb7d6fca3ac15a661f5ca9818ffdf3639ec.md) | refs/heads/add/partial | [d8cf6bb](https://github.com/rawstor/librawstor/commit/d8cf6bb7d6fca3ac15a661f5ca9818ffdf3639ec) | 62465.30 | 6062.56 | 62403.00 | 24851.16 |
 | [2026-01-07 22:09:49](perftest-file-4k-2-1/53146c1502bc44bdb02d340cb11d02ded5e6414e.md) | refs/heads/add/partial | [53146c1](https://github.com/rawstor/librawstor/commit/53146c1502bc44bdb02d340cb11d02ded5e6414e) | 64764.21 | 5876.45 | 64700.74 | 23704.32 |
 | [2026-01-07 09:37:41](perftest-file-4k-2-1/c5671629dbb7e5e9fb109178a9d582c85c385635.md) | refs/heads/add/partial | [c567162](https://github.com/rawstor/librawstor/commit/c5671629dbb7e5e9fb109178a9d582c85c385635) | 67743.79 | 5624.18 | 67704.42 | 22884.89 |
 | [2026-01-07 09:26:25](perftest-file-4k-2-1/dba6c5ec5d462eb4a35ff31b61908d757e43d11b.md) | refs/heads/add/partial | [dba6c5e](https://github.com/rawstor/librawstor/commit/dba6c5ec5d462eb4a35ff31b61908d757e43d11b) | 68680.32 | 5815.13 | 68624.74 | 22435.91 |
@@ -88,7 +89,6 @@
 | [2026-01-06 19:39:06](perftest-file-4k-2-1/feef14446b34e31f538e1c05ef1a2e71c2c99fed.md) | refs/heads/v0.1/sigpipe | [feef144](https://github.com/rawstor/librawstor/commit/feef14446b34e31f538e1c05ef1a2e71c2c99fed) | 69640.53 | 5290.45 | 69564.95 | 22362.13 |
 | [2026-01-06 19:38:00](perftest-file-4k-2-1/a8d198773a727a1aefee1042c3eca136ba03d33d.md) | refs/heads/main | [a8d1987](https://github.com/rawstor/librawstor/commit/a8d198773a727a1aefee1042c3eca136ba03d33d) | 62812.11 | 6019.85 | 62741.79 | 24524.12 |
 | [2026-01-06 19:29:24](perftest-file-4k-2-1/21dc5ea5558e79f5345161893268bd47f3c9c6ae.md) | refs/heads/fix/sigpipe | [21dc5ea](https://github.com/rawstor/librawstor/commit/21dc5ea5558e79f5345161893268bd47f3c9c6ae) | 67095.79 | 5555.56 | 67052.11 | 23170.35 |
-| [2026-01-06 19:07:47](perftest-file-4k-2-1/242b91a7072180044a1a6cb9475fb22e4fb5f0ac.md) | refs/heads/fix/sigpipe | [242b91a](https://github.com/rawstor/librawstor/commit/242b91a7072180044a1a6cb9475fb22e4fb5f0ac) | 65950.63 | 5403.05 | 65893.89 | 23956.04 |
 
 ## perftest-ost-4k-1-1
 
