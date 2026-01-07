@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-07 22:52:19](perftest-ost-4k-1-1/1dafeb776fd81214c5a0dd8d877cb487fbc058db.md) | refs/heads/add/partial | [1dafeb7](https://github.com/rawstor/librawstor/commit/1dafeb776fd81214c5a0dd8d877cb487fbc058db) | 5558.00 | 74652.87 | 5529.20 | 102394.29 |
 | [2026-01-07 22:47:33](perftest-ost-4k-1-1/d8cf6bb7d6fca3ac15a661f5ca9818ffdf3639ec.md) | refs/heads/add/partial | [d8cf6bb](https://github.com/rawstor/librawstor/commit/d8cf6bb7d6fca3ac15a661f5ca9818ffdf3639ec) | 5885.79 | 70838.37 | 5856.74 | 96631.51 |
 | [2026-01-07 22:09:57](perftest-ost-4k-1-1/53146c1502bc44bdb02d340cb11d02ded5e6414e.md) | refs/heads/add/partial | [53146c1](https://github.com/rawstor/librawstor/commit/53146c1502bc44bdb02d340cb11d02ded5e6414e) | 7983.90 | 51753.06 | 7942.40 | 71738.09 |
 | [2026-01-07 09:37:40](perftest-ost-4k-1-1/c5671629dbb7e5e9fb109178a9d582c85c385635.md) | refs/heads/add/partial | [c567162](https://github.com/rawstor/librawstor/commit/c5671629dbb7e5e9fb109178a9d582c85c385635) | 5864.30 | 71454.67 | 5842.60 | 96182.70 |
@@ -103,7 +104,6 @@
 | [2026-01-06 19:45:02](perftest-ost-4k-1-1/1c1c42605f173327cd6fbb72845be9463fefc14b.md) | refs/heads/add/partial | [1c1c426](https://github.com/rawstor/librawstor/commit/1c1c42605f173327cd6fbb72845be9463fefc14b) | 6036.53 | 68327.31 | 6012.00 | 94983.25 |
 | [2026-01-06 19:39:32](perftest-ost-4k-1-1/feef14446b34e31f538e1c05ef1a2e71c2c99fed.md) | refs/heads/v0.1/sigpipe | [feef144](https://github.com/rawstor/librawstor/commit/feef14446b34e31f538e1c05ef1a2e71c2c99fed) | 5745.47 | 74356.26 | 5718.32 | 97241.65 |
 | [2026-01-06 19:38:25](perftest-ost-4k-1-1/a8d198773a727a1aefee1042c3eca136ba03d33d.md) | refs/heads/main | [a8d1987](https://github.com/rawstor/librawstor/commit/a8d198773a727a1aefee1042c3eca136ba03d33d) | 5457.70 | 77250.13 | 5431.30 | 103132.64 |
-| [2026-01-06 19:29:44](perftest-ost-4k-1-1/21dc5ea5558e79f5345161893268bd47f3c9c6ae.md) | refs/heads/fix/sigpipe | [21dc5ea](https://github.com/rawstor/librawstor/commit/21dc5ea5558e79f5345161893268bd47f3c9c6ae) | 8173.00 | 50554.16 | 8144.20 | 70131.91 |
 
 ## perftest-ost-4k-2-1
 
