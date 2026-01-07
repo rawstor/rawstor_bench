@@ -34,6 +34,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-07 09:26:47](perftest--without-liburing-ost-4k-1-1/dba6c5ec5d462eb4a35ff31b61908d757e43d11b.md) | refs/heads/add/partial | [dba6c5e](https://github.com/rawstor/librawstor/commit/dba6c5ec5d462eb4a35ff31b61908d757e43d11b) | 5847.00 | 71485.20 | 5826.20 | 96660.53 |
 | [2026-01-06 19:46:43](perftest--without-liburing-ost-4k-1-1/47cea6dffe9e09285473aa96ca83ea4045d056ba.md) | refs/heads/releases/v0.1 | [47cea6d](https://github.com/rawstor/librawstor/commit/47cea6dffe9e09285473aa96ca83ea4045d056ba) | 5956.60 | 69592.10 | 5943.80 | 95330.20 |
 | [2026-01-06 19:46:20](perftest--without-liburing-ost-4k-1-1/e0523e54879b9e99de720549f539740f1a03e883.md) | refs/heads/feat/ci | [e0523e5](https://github.com/rawstor/librawstor/commit/e0523e54879b9e99de720549f539740f1a03e883) | 6120.84 | 69587.71 | 6098.74 | 91065.83 |
 | [2026-01-06 19:45:05](perftest--without-liburing-ost-4k-1-1/1c1c42605f173327cd6fbb72845be9463fefc14b.md) | refs/heads/add/partial | [1c1c426](https://github.com/rawstor/librawstor/commit/1c1c42605f173327cd6fbb72845be9463fefc14b) | 5836.11 | 71539.70 | 5805.16 | 97407.58 |
@@ -43,7 +44,6 @@
 | [2026-01-06 19:07:58](perftest--without-liburing-ost-4k-1-1/242b91a7072180044a1a6cb9475fb22e4fb5f0ac.md) | refs/heads/fix/sigpipe | [242b91a](https://github.com/rawstor/librawstor/commit/242b91a7072180044a1a6cb9475fb22e4fb5f0ac) | 5790.70 | 73635.45 | 5768.90 | 96224.93 |
 | [2026-01-06 18:43:21](perftest--without-liburing-ost-4k-1-1/971f466ece3e82d8a9ae34a0c19c556140764d23.md) | refs/heads/add/partial | [971f466](https://github.com/rawstor/librawstor/commit/971f466ece3e82d8a9ae34a0c19c556140764d23) | 5655.80 | 75161.47 | 5629.00 | 98750.28 |
 | [2026-01-05 21:48:14](perftest--without-liburing-ost-4k-1-1/16d1d582fd872274af17b242ff0046e7ddb972ad.md) | refs/heads/releases/v0.1 | [16d1d58](https://github.com/rawstor/librawstor/commit/16d1d582fd872274af17b242ff0046e7ddb972ad) | 5406.30 | 77109.08 | 5384.50 | 104643.39 |
-| [2026-01-05 21:45:13](perftest--without-liburing-ost-4k-1-1/dc07089d82d3418474da558981c7a683147c4b26.md) | refs/heads/v0.1/sockaddr | [dc07089](https://github.com/rawstor/librawstor/commit/dc07089d82d3418474da558981c7a683147c4b26) | 5760.11 | 73504.97 | 5734.11 | 96879.23 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
