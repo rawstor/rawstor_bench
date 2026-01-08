@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-08 13:29:11](perftest-ost-4k-2-1/01608020dcdcae486aee81c47df15410bca2789a.md) | refs/heads/v0.0/explicit | [0160802](https://github.com/rawstor/librawstor/commit/01608020dcdcae486aee81c47df15410bca2789a) | 10327.70 | 83173.03 | 10309.00 | 107698.94 |
 | [2026-01-08 13:26:35](perftest-ost-4k-2-1/1e4b8f4d5552caa20c109f42281e0f8183252e27.md) | refs/heads/v0.1/explicit | [1e4b8f4](https://github.com/rawstor/librawstor/commit/1e4b8f4d5552caa20c109f42281e0f8183252e27) | 10195.37 | 83947.05 | 10173.16 | 109590.79 |
 | [2026-01-08 13:25:07](perftest-ost-4k-2-1/08ef765655b473484795a0598f80b788bba5f029.md) | refs/heads/main | [08ef765](https://github.com/rawstor/librawstor/commit/08ef765655b473484795a0598f80b788bba5f029) | 15185.50 | 57175.78 | 15195.80 | 72759.03 |
 | [2026-01-08 13:21:07](perftest-ost-4k-2-1/26ef3740ba5fb6054b2b34af68682e77fd13dda3.md) | refs/heads/fix/explicit | [26ef374](https://github.com/rawstor/librawstor/commit/26ef3740ba5fb6054b2b34af68682e77fd13dda3) | 16073.05 | 53164.58 | 16089.47 | 69521.26 |
@@ -118,5 +119,4 @@
 | [2026-01-08 11:53:28](perftest-ost-4k-2-1/9fa4df8ac8f1daa541636eb38d61fea3beddd28a.md) | refs/heads/v0.1/task | [9fa4df8](https://github.com/rawstor/librawstor/commit/9fa4df8ac8f1daa541636eb38d61fea3beddd28a) | 10612.05 | 80852.64 | 10591.55 | 105071.01 |
 | [2026-01-08 11:51:53](perftest-ost-4k-2-1/06ec489f8e2926544ee167e44cbed6385425d174.md) | refs/heads/main | [06ec489](https://github.com/rawstor/librawstor/commit/06ec489f8e2926544ee167e44cbed6385425d174) | 10248.84 | 84772.39 | 10225.05 | 108214.21 |
 | [2026-01-08 11:45:33](perftest-ost-4k-2-1/e22c38adf1740c4d5cfbc8c5843ea1f2896dfdc1.md) | refs/heads/ref/task | [e22c38a](https://github.com/rawstor/librawstor/commit/e22c38adf1740c4d5cfbc8c5843ea1f2896dfdc1) | 10366.63 | 83503.79 | 10350.32 | 106866.33 |
-| [2026-01-07 22:52:19](perftest-ost-4k-2-1/1dafeb776fd81214c5a0dd8d877cb487fbc058db.md) | refs/heads/add/partial | [1dafeb7](https://github.com/rawstor/librawstor/commit/1dafeb776fd81214c5a0dd8d877cb487fbc058db) | 15847.90 | 53815.04 | 15857.80 | 70825.04 |
 
