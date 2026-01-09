@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-09 21:43:22](perftest-ost-4k-2-1/3943ddc2cc41707446343cb992b78cace8c9e7eb.md) | refs/heads/main | [3943ddc](https://github.com/rawstor/librawstor/commit/3943ddc2cc41707446343cb992b78cace8c9e7eb) | 14173.68 | 61862.45 | 14189.16 | 77895.08 |
 | [2026-01-09 21:39:36](perftest-ost-4k-2-1/6d9d53a2e4931fe57b39638cc45189220a6e8c27.md) | refs/heads/main | [6d9d53a](https://github.com/rawstor/librawstor/commit/6d9d53a2e4931fe57b39638cc45189220a6e8c27) | 10415.84 | 82754.70 | 10400.21 | 106855.83 |
 | [2026-01-09 21:32:04](perftest-ost-4k-2-1/effd33246e96714e15cddfbfbf6722a303fa23f1.md) | refs/heads/del/empty | [effd332](https://github.com/rawstor/librawstor/commit/effd33246e96714e15cddfbfbf6722a303fa23f1) | 11018.00 | 78517.86 | 11001.79 | 100770.95 |
 | [2026-01-09 21:26:05](perftest-ost-4k-2-1/03a691537bfc9d41fc03afe7971ec6cc765e5168.md) | refs/heads/del/empty | [03a6915](https://github.com/rawstor/librawstor/commit/03a691537bfc9d41fc03afe7971ec6cc765e5168) | 10620.42 | 80196.17 | 10602.42 | 105787.93 |
@@ -118,5 +119,4 @@
 | [2026-01-09 11:39:28](perftest-ost-4k-2-1/10aee4796c005e5b236f34df142696f887f8cf8b.md) | refs/heads/add/event | [10aee47](https://github.com/rawstor/librawstor/commit/10aee4796c005e5b236f34df142696f887f8cf8b) | 10021.10 | 84213.35 | 10008.10 | 112544.42 |
 | [2026-01-09 11:27:39](perftest-ost-4k-2-1/8b3ff96aa99735550f8813acca66f2a14ac3c57f.md) | refs/heads/add/event | [8b3ff96](https://github.com/rawstor/librawstor/commit/8b3ff96aa99735550f8813acca66f2a14ac3c57f) | 10447.89 | 80682.80 | 10436.11 | 108270.78 |
 | [2026-01-09 11:20:50](perftest-ost-4k-2-1/20f6391261a6e733080baed9067b90bfa3adb256.md) | refs/heads/add/event | [20f6391](https://github.com/rawstor/librawstor/commit/20f6391261a6e733080baed9067b90bfa3adb256) | 10352.42 | 83686.81 | 10338.11 | 106757.26 |
-| [2026-01-09 11:07:42](perftest-ost-4k-2-1/ce6fb3d66f31775eef1b78a74e38659addf6a345.md) | refs/heads/releases/v0.0 | [ce6fb3d](https://github.com/rawstor/librawstor/commit/ce6fb3d66f31775eef1b78a74e38659addf6a345) | 10103.26 | 84923.52 | 10081.79 | 109954.71 |
 
