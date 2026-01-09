@@ -79,6 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-09 11:01:19](perftest-file-4k-2-1/a7891aae6f02b6af49f876eb703e4ece0223917e.md) | refs/heads/v0.1/ringbuf | [a7891aa](https://github.com/rawstor/librawstor/commit/a7891aae6f02b6af49f876eb703e4ece0223917e) | 63919.30 | 6023.51 | 63880.70 | 24189.63 |
 | [2026-01-09 10:59:36](perftest-file-4k-2-1/6433e762b0a1c295da0e4094b0b95943e8d17595.md) | refs/heads/main | [6433e76](https://github.com/rawstor/librawstor/commit/6433e762b0a1c295da0e4094b0b95943e8d17595) | 65001.37 | 5770.36 | 64934.00 | 23720.51 |
 | [2026-01-09 10:51:17](perftest-file-4k-2-1/175fd10072fb819453349344eb173e51a2ef9ef2.md) | refs/heads/add/ringbuf | [175fd10](https://github.com/rawstor/librawstor/commit/175fd10072fb819453349344eb173e51a2ef9ef2) | 63606.53 | 5870.11 | 63526.74 | 24392.74 |
 | [2026-01-09 10:49:54](perftest-file-4k-2-1/04bf7d4117629f84ddbecb383c8375fae996e2a6.md) | refs/heads/add/ringbuf | [04bf7d4](https://github.com/rawstor/librawstor/commit/04bf7d4117629f84ddbecb383c8375fae996e2a6) | 68613.37 | 5343.26 | 68557.68 | 22760.26 |
@@ -88,7 +89,6 @@
 | [2026-01-09 10:28:25](perftest-file-4k-2-1/e7730082f59f6cab537357f86073e5e549865053.md) | refs/heads/add/ringbuf | [e773008](https://github.com/rawstor/librawstor/commit/e7730082f59f6cab537357f86073e5e549865053) | 67852.11 | 5588.21 | 67810.42 | 22877.24 |
 | [2026-01-08 22:32:38](perftest-file-4k-2-1/4fb3c04d76576bfee5c023ce65b9fe010c3968fe.md) | refs/heads/add/event | [4fb3c04](https://github.com/rawstor/librawstor/commit/4fb3c04d76576bfee5c023ce65b9fe010c3968fe) | 62725.79 | 6139.00 | 62654.95 | 24548.03 |
 | [2026-01-08 22:25:11](perftest-file-4k-2-1/c4410f658bfd6796345c5cbef819fb8364424b9c.md) | refs/heads/add/event | [c4410f6](https://github.com/rawstor/librawstor/commit/c4410f658bfd6796345c5cbef819fb8364424b9c) | 70995.21 | 5132.50 | 70917.21 | 22016.58 |
-| [2026-01-08 21:16:06](perftest-file-4k-2-1/e5aaff4bdf50b2d3928b4255d0dd611fc4d71a9f.md) | refs/heads/add/event | [e5aaff4](https://github.com/rawstor/librawstor/commit/e5aaff4bdf50b2d3928b4255d0dd611fc4d71a9f) | 66974.21 | 5553.53 | 66934.42 | 23241.06 |
 
 ## perftest-ost-4k-1-1
 
