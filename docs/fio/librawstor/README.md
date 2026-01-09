@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-09 21:46:20](perftest-ost-4k-2-1/ac1bb781cec2ed8575244963718a8f83c941662f.md) | refs/heads/v0.0/empty | [ac1bb78](https://github.com/rawstor/librawstor/commit/ac1bb781cec2ed8575244963718a8f83c941662f) | 10668.10 | 81096.01 | 10645.70 | 103945.89 |
 | [2026-01-09 21:44:48](perftest-ost-4k-2-1/1052ffa59401736ea528b40979da8cd8697d21b6.md) | refs/heads/v0.1/empty | [1052ffa](https://github.com/rawstor/librawstor/commit/1052ffa59401736ea528b40979da8cd8697d21b6) | 10570.70 | 81142.34 | 10554.40 | 105558.94 |
 | [2026-01-09 21:43:22](perftest-ost-4k-2-1/3943ddc2cc41707446343cb992b78cace8c9e7eb.md) | refs/heads/main | [3943ddc](https://github.com/rawstor/librawstor/commit/3943ddc2cc41707446343cb992b78cace8c9e7eb) | 14173.68 | 61862.45 | 14189.16 | 77895.08 |
 | [2026-01-09 21:39:36](perftest-ost-4k-2-1/6d9d53a2e4931fe57b39638cc45189220a6e8c27.md) | refs/heads/main | [6d9d53a](https://github.com/rawstor/librawstor/commit/6d9d53a2e4931fe57b39638cc45189220a6e8c27) | 10415.84 | 82754.70 | 10400.21 | 106855.83 |
@@ -118,5 +119,4 @@
 | [2026-01-09 11:59:50](perftest-ost-4k-2-1/ec0b1d6f5d639b2064d70b360357ef91263436c7.md) | refs/heads/v0.1/event | [ec0b1d6](https://github.com/rawstor/librawstor/commit/ec0b1d6f5d639b2064d70b360357ef91263436c7) | 10609.70 | 80342.82 | 10590.00 | 105595.04 |
 | [2026-01-09 11:58:41](perftest-ost-4k-2-1/0ae0e7bf5cb2c8cc2082a8a6cc889789e08c9578.md) | refs/heads/main | [0ae0e7b](https://github.com/rawstor/librawstor/commit/0ae0e7bf5cb2c8cc2082a8a6cc889789e08c9578) | 10369.79 | 83129.33 | 10353.16 | 107554.14 |
 | [2026-01-09 11:39:28](perftest-ost-4k-2-1/10aee4796c005e5b236f34df142696f887f8cf8b.md) | refs/heads/add/event | [10aee47](https://github.com/rawstor/librawstor/commit/10aee4796c005e5b236f34df142696f887f8cf8b) | 10021.10 | 84213.35 | 10008.10 | 112544.42 |
-| [2026-01-09 11:27:39](perftest-ost-4k-2-1/8b3ff96aa99735550f8813acca66f2a14ac3c57f.md) | refs/heads/add/event | [8b3ff96](https://github.com/rawstor/librawstor/commit/8b3ff96aa99735550f8813acca66f2a14ac3c57f) | 10447.89 | 80682.80 | 10436.11 | 108270.78 |
 
