@@ -109,6 +109,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-10 14:36:46](perftest-ost-4k-2-1/154fbb642a5ee80f29a98d7f81502f1f333a004e.md) | refs/heads/add/partial | [154fbb6](https://github.com/rawstor/librawstor/commit/154fbb642a5ee80f29a98d7f81502f1f333a004e) | 10139.89 | 84010.10 | 10122.32 | 110641.05 |
 | [2026-01-10 14:27:32](perftest-ost-4k-2-1/0a5afbac0f86c56e209577cf8cc6f396ae17896d.md) | refs/heads/add/partial | [0a5afba](https://github.com/rawstor/librawstor/commit/0a5afbac0f86c56e209577cf8cc6f396ae17896d) | 10163.10 | 85949.52 | 10147.70 | 108212.79 |
 | [2026-01-10 13:58:00](perftest-ost-4k-2-1/9b016d7c7a59ef001f1df5ea4ded458785febb8f.md) | refs/heads/add/multishot | [9b016d7](https://github.com/rawstor/librawstor/commit/9b016d7c7a59ef001f1df5ea4ded458785febb8f) | 11979.70 | 72899.84 | 11960.60 | 92612.03 |
 | [2026-01-09 22:10:00](perftest-ost-4k-2-1/0fc2495e1063bb1162ac76e917f4a5893c1498d3.md) | refs/heads/main | [0fc2495](https://github.com/rawstor/librawstor/commit/0fc2495e1063bb1162ac76e917f4a5893c1498d3) | 10378.63 | 83633.95 | 10361.79 | 106402.32 |
@@ -118,5 +119,4 @@
 | [2026-01-09 21:46:20](perftest-ost-4k-2-1/ac1bb781cec2ed8575244963718a8f83c941662f.md) | refs/heads/v0.0/empty | [ac1bb78](https://github.com/rawstor/librawstor/commit/ac1bb781cec2ed8575244963718a8f83c941662f) | 10668.10 | 81096.01 | 10645.70 | 103945.89 |
 | [2026-01-09 21:44:48](perftest-ost-4k-2-1/1052ffa59401736ea528b40979da8cd8697d21b6.md) | refs/heads/v0.1/empty | [1052ffa](https://github.com/rawstor/librawstor/commit/1052ffa59401736ea528b40979da8cd8697d21b6) | 10570.70 | 81142.34 | 10554.40 | 105558.94 |
 | [2026-01-09 21:43:22](perftest-ost-4k-2-1/3943ddc2cc41707446343cb992b78cace8c9e7eb.md) | refs/heads/main | [3943ddc](https://github.com/rawstor/librawstor/commit/3943ddc2cc41707446343cb992b78cace8c9e7eb) | 14173.68 | 61862.45 | 14189.16 | 77895.08 |
-| [2026-01-09 21:39:36](perftest-ost-4k-2-1/6d9d53a2e4931fe57b39638cc45189220a6e8c27.md) | refs/heads/main | [6d9d53a](https://github.com/rawstor/librawstor/commit/6d9d53a2e4931fe57b39638cc45189220a6e8c27) | 10415.84 | 82754.70 | 10400.21 | 106855.83 |
 
