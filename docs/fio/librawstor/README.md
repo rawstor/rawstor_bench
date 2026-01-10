@@ -34,6 +34,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-10 14:27:50](perftest--without-liburing-ost-4k-1-1/0a5afbac0f86c56e209577cf8cc6f396ae17896d.md) | refs/heads/add/partial | [0a5afba](https://github.com/rawstor/librawstor/commit/0a5afbac0f86c56e209577cf8cc6f396ae17896d) | 5530.30 | 76461.26 | 5502.50 | 101398.79 |
 | [2026-01-10 13:57:51](perftest--without-liburing-ost-4k-1-1/9b016d7c7a59ef001f1df5ea4ded458785febb8f.md) | refs/heads/add/multishot | [9b016d7](https://github.com/rawstor/librawstor/commit/9b016d7c7a59ef001f1df5ea4ded458785febb8f) | 8139.80 | 50070.78 | 8110.70 | 71197.41 |
 | [2026-01-09 22:09:58](perftest--without-liburing-ost-4k-1-1/0fc2495e1063bb1162ac76e917f4a5893c1498d3.md) | refs/heads/main | [0fc2495](https://github.com/rawstor/librawstor/commit/0fc2495e1063bb1162ac76e917f4a5893c1498d3) | 5376.74 | 78429.17 | 5355.68 | 104179.33 |
 | [2026-01-09 22:05:06](perftest--without-liburing-ost-4k-1-1/08a38927b389f5eb5ab026303d98e2db31a4f87e.md) | refs/heads/del/empty | [08a3892](https://github.com/rawstor/librawstor/commit/08a38927b389f5eb5ab026303d98e2db31a4f87e) | 5727.30 | 73504.98 | 5703.60 | 98360.97 |
@@ -43,7 +44,6 @@
 | [2026-01-09 21:45:03](perftest--without-liburing-ost-4k-1-1/1052ffa59401736ea528b40979da8cd8697d21b6.md) | refs/heads/v0.1/empty | [1052ffa](https://github.com/rawstor/librawstor/commit/1052ffa59401736ea528b40979da8cd8697d21b6) | 5675.37 | 74909.57 | 5655.37 | 98379.97 |
 | [2026-01-09 21:43:17](perftest--without-liburing-ost-4k-1-1/3943ddc2cc41707446343cb992b78cace8c9e7eb.md) | refs/heads/main | [3943ddc](https://github.com/rawstor/librawstor/commit/3943ddc2cc41707446343cb992b78cace8c9e7eb) | 5854.60 | 71414.26 | 5833.10 | 96535.79 |
 | [2026-01-09 21:39:40](perftest--without-liburing-ost-4k-1-1/6d9d53a2e4931fe57b39638cc45189220a6e8c27.md) | refs/heads/main | [6d9d53a](https://github.com/rawstor/librawstor/commit/6d9d53a2e4931fe57b39638cc45189220a6e8c27) | 5975.30 | 70003.26 | 5961.10 | 94350.19 |
-| [2026-01-09 21:32:06](perftest--without-liburing-ost-4k-1-1/effd33246e96714e15cddfbfbf6722a303fa23f1.md) | refs/heads/del/empty | [effd332](https://github.com/rawstor/librawstor/commit/effd33246e96714e15cddfbfbf6722a303fa23f1) | 5847.90 | 72517.43 | 5827.30 | 95565.18 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
