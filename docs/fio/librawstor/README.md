@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-10 19:17:20](perftest--without-liburing-file-4k-1-1/c349068b0cee5681902db8c8dfe6cc10fa135635.md) | refs/heads/releases/v0.1 | [c349068](https://github.com/rawstor/librawstor/commit/c349068b0cee5681902db8c8dfe6cc10fa135635) | 175219.95 | 2251.16 | 175092.11 | 2913.56 |
 | [2026-01-10 19:13:11](perftest--without-liburing-file-4k-1-1/84d7d4440e8d029f005ff8dfcd5accd4ce2d1332.md) | refs/heads/v0.1/multiplexread | [84d7d44](https://github.com/rawstor/librawstor/commit/84d7d4440e8d029f005ff8dfcd5accd4ce2d1332) | 172769.89 | 2278.79 | 172625.05 | 2963.50 |
 | [2026-01-10 19:09:26](perftest--without-liburing-file-4k-1-1/ee8e37cda4f4b957c6e753ccd1b71572425aff2f.md) | refs/heads/main | [ee8e37c](https://github.com/rawstor/librawstor/commit/ee8e37cda4f4b957c6e753ccd1b71572425aff2f) | 177405.58 | 2230.24 | 177265.89 | 2873.90 |
 | [2026-01-10 18:23:48](perftest--without-liburing-file-4k-1-1/88e3b6ba8290f236107a239473243f33cb96a922.md) | refs/heads/del/multiplexread | [88e3b6b](https://github.com/rawstor/librawstor/commit/88e3b6ba8290f236107a239473243f33cb96a922) | 180145.16 | 2177.74 | 180010.32 | 2822.86 |
@@ -13,7 +14,6 @@
 | [2026-01-10 17:32:04](perftest--without-liburing-file-4k-1-1/77da90ca6634f9411bbc116977b81fa125566c0e.md) | refs/heads/add/overflow | [77da90c](https://github.com/rawstor/librawstor/commit/77da90ca6634f9411bbc116977b81fa125566c0e) | 172043.58 | 2304.76 | 171897.05 | 2949.24 |
 | [2026-01-10 17:24:49](perftest--without-liburing-file-4k-1-1/6606179e682b45a8181dde2233213498e4505593.md) | refs/heads/add/overflow | [6606179](https://github.com/rawstor/librawstor/commit/6606179e682b45a8181dde2233213498e4505593) | 178638.30 | 2232.89 | 178438.50 | 2846.70 |
 | [2026-01-10 15:26:21](perftest--without-liburing-file-4k-1-1/9e5f1dc3d6d6bff63c30d1ea1a7da66a07af8c76.md) | refs/heads/add/multishot | [9e5f1dc](https://github.com/rawstor/librawstor/commit/9e5f1dc3d6d6bff63c30d1ea1a7da66a07af8c76) | 169229.26 | 2351.01 | 169082.42 | 2987.26 |
-| [2026-01-10 14:54:28](perftest--without-liburing-file-4k-1-1/bea14734815e736a0a3ee2c9fd21de122a192662.md) | refs/heads/add/partial | [bea1473](https://github.com/rawstor/librawstor/commit/bea14734815e736a0a3ee2c9fd21de122a192662) | 176111.58 | 2261.29 | 175974.84 | 2862.70 |
 
 ## perftest--without-liburing-file-4k-2-1
 
