@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-12 10:07:44](perftest--without-liburing-file-4k-1-1/50738e9b1984eccb5a231b0a6aa212e7a81695b8.md) | refs/heads/main | [50738e9](https://github.com/rawstor/librawstor/commit/50738e9b1984eccb5a231b0a6aa212e7a81695b8) | 173540.85 | 2283.92 | 173367.15 | 2948.00 |
 | [2026-01-12 10:04:28](perftest--without-liburing-file-4k-1-1/3fffedd26f204a9e0af66e93e35820199ceccd8a.md) | refs/heads/add/recvsend | [3fffedd](https://github.com/rawstor/librawstor/commit/3fffedd26f204a9e0af66e93e35820199ceccd8a) | 174525.68 | 2246.71 | 174378.42 | 2936.76 |
 | [2026-01-12 10:02:24](perftest--without-liburing-file-4k-1-1/7429955136e2be459d41517640e4e7a87c008af5.md) | refs/heads/add/recvsend | [7429955](https://github.com/rawstor/librawstor/commit/7429955136e2be459d41517640e4e7a87c008af5) | 180098.00 | 2182.25 | 179960.84 | 2832.25 |
 | [2026-01-11 20:50:43](perftest--without-liburing-file-4k-1-1/c6d655a34f926a97cff789c1db7892529d20100e.md) | refs/heads/add/multishot | [c6d655a](https://github.com/rawstor/librawstor/commit/c6d655a34f926a97cff789c1db7892529d20100e) | 175764.95 | 2241.17 | 175620.32 | 2906.74 |
@@ -13,7 +14,6 @@
 | [2026-01-11 14:54:20](perftest--without-liburing-file-4k-1-1/1d8da44a91631bc12c0f283a8326aa935680fad8.md) | refs/heads/releases/v0.1 | [1d8da44](https://github.com/rawstor/librawstor/commit/1d8da44a91631bc12c0f283a8326aa935680fad8) | 180899.60 | 2183.94 | 180719.80 | 2837.42 |
 | [2026-01-11 14:45:23](perftest--without-liburing-file-4k-1-1/90cad7f9d3672bb6d14d435d4da414bcb5b6fa6a.md) | refs/heads/v0.1/pollapi | [90cad7f](https://github.com/rawstor/librawstor/commit/90cad7f9d3672bb6d14d435d4da414bcb5b6fa6a) | 172821.79 | 2280.65 | 172675.26 | 2969.35 |
 | [2026-01-11 14:44:06](perftest--without-liburing-file-4k-1-1/6239fa7c1dc3cab92519233771dc4be317500b8f.md) | refs/heads/main | [6239fa7](https://github.com/rawstor/librawstor/commit/6239fa7c1dc3cab92519233771dc4be317500b8f) | 180781.40 | 2195.71 | 180605.40 | 2844.72 |
-| [2026-01-11 14:40:45](perftest--without-liburing-file-4k-1-1/de6645ae85882a22f9d3c3a60c7cd0fad625e4ac.md) | refs/heads/fix/pollapi | [de6645a](https://github.com/rawstor/librawstor/commit/de6645ae85882a22f9d3c3a60c7cd0fad625e4ac) | 181298.70 | 2185.01 | 181128.35 | 2827.74 |
 
 ## perftest--without-liburing-file-4k-2-1
 
