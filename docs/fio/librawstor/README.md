@@ -79,7 +79,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
-| [2026-01-13 15:28:17](perftest-file-4k-2-1/f91160f99202a7c58e04fe5af6b8bf773dcaeb58.md) | refs/heads/add/setupring | [f91160f](https://github.com/rawstor/librawstor/commit/f91160f99202a7c58e04fe5af6b8bf773dcaeb58) | 70701.75 | 5253.27 | 70586.35 | 22192.93 |
+| [2026-01-13 15:28:34](perftest-file-4k-2-1/f91160f99202a7c58e04fe5af6b8bf773dcaeb58.md) | refs/heads/add/setupring | [f91160f](https://github.com/rawstor/librawstor/commit/f91160f99202a7c58e04fe5af6b8bf773dcaeb58) | 72853.79 | 5012.37 | 72764.21 | 21409.99 |
 | [2026-01-13 15:22:54](perftest-file-4k-2-1/4ab9facc0ad1e1b9a5ec0a48794cadd5349fe795.md) | refs/heads/add/setupring | [4ab9fac](https://github.com/rawstor/librawstor/commit/4ab9facc0ad1e1b9a5ec0a48794cadd5349fe795) | 70183.47 | 5185.27 | 70109.58 | 22357.40 |
 | [2026-01-13 14:49:39](perftest-file-4k-2-1/a6855d2743555726fabde06f3ca3a81fe59ad008.md) | refs/heads/fix/handleerrors | [a6855d2](https://github.com/rawstor/librawstor/commit/a6855d2743555726fabde06f3ca3a81fe59ad008) | 65600.11 | 5628.88 | 65533.05 | 23661.29 |
 | [2026-01-12 17:12:16](perftest-file-4k-2-1/de1e45163fbd295c70afad0ef1fb936ca7f77629.md) | refs/heads/add/multishot | [de1e451](https://github.com/rawstor/librawstor/commit/de1e45163fbd295c70afad0ef1fb936ca7f77629) | 61937.47 | 6334.36 | 61873.16 | 24586.56 |
