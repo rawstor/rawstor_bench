@@ -94,7 +94,7 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
-| [2026-01-13 16:19:39](perftest-ost-4k-1-1/3d6bde227c287e20190b442c3e8c12888c775c61.md) | refs/heads/v0.1/setupring | [3d6bde2](https://github.com/rawstor/librawstor/commit/3d6bde227c287e20190b442c3e8c12888c775c61) | 6084.30 | 68974.43 | 6067.40 | 92429.35 |
+| [2026-01-13 16:20:30](perftest-ost-4k-1-1/3d6bde227c287e20190b442c3e8c12888c775c61.md) | refs/heads/v0.1/setupring | [3d6bde2](https://github.com/rawstor/librawstor/commit/3d6bde227c287e20190b442c3e8c12888c775c61) | 5639.00 | 75399.74 | 5609.00 | 98813.51 |
 | [2026-01-13 16:17:34](perftest-ost-4k-1-1/52283eb07351ff85b075a8e02f5dfd5b674c9d57.md) | refs/heads/main | [52283eb](https://github.com/rawstor/librawstor/commit/52283eb07351ff85b075a8e02f5dfd5b674c9d57) | 6130.90 | 68741.47 | 6110.60 | 91449.91 |
 | [2026-01-13 16:09:26](perftest-ost-4k-1-1/36344752b1dbfeb5e0b7ea77e3fb23937caed1c9.md) | refs/heads/add/setupring | [3634475](https://github.com/rawstor/librawstor/commit/36344752b1dbfeb5e0b7ea77e3fb23937caed1c9) | 5948.30 | 69549.03 | 5932.90 | 95639.08 |
 | [2026-01-13 16:08:15](perftest-ost-4k-1-1/2c87270b92ac15ecfa8df5a6c216419ab5cd0515.md) | refs/heads/releases/v0.0 | [2c87270](https://github.com/rawstor/librawstor/commit/2c87270b92ac15ecfa8df5a6c216419ab5cd0515) | 5840.63 | 72017.40 | 5811.05 | 96312.55 |
