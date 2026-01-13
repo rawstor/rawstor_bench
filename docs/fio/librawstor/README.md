@@ -34,9 +34,9 @@
 
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
+| [2026-01-13 16:20:51](perftest--without-liburing-ost-4k-1-1/2c87270b92ac15ecfa8df5a6c216419ab5cd0515.md) | refs/heads/v0.0/setupring | [2c87270](https://github.com/rawstor/librawstor/commit/2c87270b92ac15ecfa8df5a6c216419ab5cd0515) | 7374.95 | 58991.51 | 7329.26 | 75638.50 |
 | [2026-01-13 16:19:21](perftest--without-liburing-ost-4k-1-1/3d6bde227c287e20190b442c3e8c12888c775c61.md) | refs/heads/v0.1/setupring | [3d6bde2](https://github.com/rawstor/librawstor/commit/3d6bde227c287e20190b442c3e8c12888c775c61) | 5927.50 | 70856.42 | 5910.50 | 94885.42 |
 | [2026-01-13 16:17:43](perftest--without-liburing-ost-4k-1-1/52283eb07351ff85b075a8e02f5dfd5b674c9d57.md) | refs/heads/main | [52283eb](https://github.com/rawstor/librawstor/commit/52283eb07351ff85b075a8e02f5dfd5b674c9d57) | 5897.68 | 71480.45 | 5870.11 | 95761.29 |
-| [2026-01-13 16:08:25](perftest--without-liburing-ost-4k-1-1/2c87270b92ac15ecfa8df5a6c216419ab5cd0515.md) | refs/heads/releases/v0.0 | [2c87270](https://github.com/rawstor/librawstor/commit/2c87270b92ac15ecfa8df5a6c216419ab5cd0515) | 5825.90 | 71470.99 | 5806.10 | 97229.19 |
 | [2026-01-13 16:08:21](perftest--without-liburing-ost-4k-1-1/36344752b1dbfeb5e0b7ea77e3fb23937caed1c9.md) | refs/heads/add/setupring | [3634475](https://github.com/rawstor/librawstor/commit/36344752b1dbfeb5e0b7ea77e3fb23937caed1c9) | 7978.40 | 51142.26 | 7938.60 | 72604.39 |
 | [2026-01-13 16:07:03](perftest--without-liburing-ost-4k-1-1/3a12521f04fbf55dc6f93488eeff6b724fd247ed.md) | refs/heads/releases/v0.1 | [3a12521](https://github.com/rawstor/librawstor/commit/3a12521f04fbf55dc6f93488eeff6b724fd247ed) | 8343.10 | 49933.89 | 8310.20 | 68327.06 |
 | [2026-01-13 16:03:33](perftest--without-liburing-ost-4k-1-1/a8b1b5c0e8a7080a276d06e2e19cb90d97d29676.md) | refs/heads/v0.0/oss | [a8b1b5c](https://github.com/rawstor/librawstor/commit/a8b1b5c0e8a7080a276d06e2e19cb90d97d29676) | 5993.40 | 70504.74 | 5979.10 | 93511.85 |
