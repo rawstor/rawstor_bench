@@ -18,14 +18,14 @@ def get_date_txt(dt):
     return dt.strftime("%Y-%m-%d %H:%M:%S")
 
 
-def read_fio_txt(prefix, meta):
-    filename = prefix / "data" / "fio" / meta["path"] / meta["data"]["txt"]
+def read_fio_txt(meta_path, meta):
+    filename = meta_path.parent / meta["data"]["txt"]
     with open(filename) as f:
         return f.read()
 
 
-def read_fio_json(prefix, meta):
-    filename = prefix / "data" / "fio" / meta["path"] / meta["data"]["json"]
+def read_fio_json(meta_path, meta):
+    filename = meta_path.parent / meta["data"]["json"]
     with open(filename) as f:
         return json.load(f)
 
@@ -38,9 +38,9 @@ def load_meta(meta_path):
 
 
 def compile_commit_md(
-    prefix, dest_abspath, dest_path, repo_name, meta, fio, name,
+    dest_abspath, dest_path, repo_name, meta_path, meta, fio, name,
 ):
-    fio_txt = read_fio_txt(prefix, meta)
+    fio_txt = read_fio_txt(meta_path, meta)
 
     dest_abspath.mkdir(parents=True, exist_ok=True)
 
@@ -66,7 +66,7 @@ def compile_commit_md(
     return url
 
 
-def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
+def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
     dest_abspath.mkdir(parents=True, exist_ok=True)
 
     url = f"{dest_path}/README.md"
@@ -95,16 +95,16 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
                 "         ---: |"
                 "\n"
             )
-            for meta in metas[:10]:
-                fio = read_fio_json(prefix, meta)
+            for meta_path, meta in metas[:10]:
+                fio = read_fio_json(meta_path, meta)
 
                 commmit_md_dest_path = f"{name}"
                 commmit_md_dest_abspath = dest_abspath / commmit_md_dest_path
                 commmit_md_url = compile_commit_md(
-                    prefix,
                     commmit_md_dest_abspath,
                     commmit_md_dest_path,
                     repo_name,
+                    meta_path,
                     meta,
                     fio,
                     name,
@@ -128,7 +128,7 @@ def compile_repo_md(prefix, dest_abspath, dest_path, repo_name, repo):
     return url
 
 
-def compile_index_md(prefix, dest_abspath, repos):
+def compile_index_md(dest_abspath, repos):
     dest_abspath.mkdir(parents=True, exist_ok=True)
     with open(dest_abspath / "README.md", "w") as index_md:
         index_md.write("[&lt; back](..)\n\n")
@@ -137,7 +137,6 @@ def compile_index_md(prefix, dest_abspath, repos):
             repo_md_dest_path = f"{repo_name}"
             repo_md_dest_abspath = dest_abspath / repo_md_dest_path
             repo_md_url = compile_repo_md(
-                prefix,
                 repo_md_dest_abspath,
                 repo_md_dest_path,
                 repo_name,
@@ -152,19 +151,19 @@ def compile_fio(prefix=None, **kwargs):
 
     metas = []
     for meta_path in src_dir.glob("**/*.meta"):
-        metas.append(load_meta(meta_path))
+        metas.append((meta_path, load_meta(meta_path)))
 
-    metas.sort(key=lambda meta: meta["date"], reverse=True)
+    metas.sort(key=lambda meta: meta[1]["date"], reverse=True)
 
     repos = {}
-    for meta in metas:
+    for meta_path, meta in metas:
         repo = repos.setdefault(meta["repo"], {})
-        repo.setdefault(meta["name"], []).append(meta)
+        repo.setdefault(meta["name"], []).append((meta_path, meta))
     repos = sorted(list(repos.items()))
 
     dest_abspath = Path(prefix) / "docs" / "fio"
     shutil.rmtree(dest_abspath, ignore_errors=True)
-    compile_index_md(prefix, dest_abspath, repos)
+    compile_index_md(dest_abspath, repos)
 
 
 def main():
