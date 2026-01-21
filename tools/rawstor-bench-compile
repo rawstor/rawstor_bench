@@ -37,6 +37,13 @@ def load_meta(meta_path):
     return meta
 
 
+def find_job(fio, job_name):
+    for job in fio["jobs"]:
+        if job["job options"]["name"] == job_name:
+            return job
+    return None
+
+
 def compile_commit_md(
     dest_abspath, dest_path, repo_name, meta_path, meta, fio, name,
 ):
@@ -74,30 +81,49 @@ def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
     with open(filename, "w") as repo_md:
         repo_md.write(f"# [&lt;](..) {repo_name} tests\n\n")
         for name, metas in repo:
+            fios = []
+            for meta_path, meta in metas[:10]:
+                fios.append((meta_path, meta, read_fio_json(meta_path, meta)))
+
+            job_names = set()
+            for meta_path, meta, fio in fios:
+                for job in fio["jobs"]:
+                    job_names.add(job["job options"]["name"])
+            job_names = sorted(list(job_names))
+
             repo_md.write(f"## {name}\n\n")
+
             repo_md.write(
                 "| "
                 "Date | "
                 "Branch | "
                 "Commit | "
-                "Read IOPS | "
-                "Read Latency | "
-                "Write IOPS | "
-                "Write Latency |"
-                "\n"
+            )
+            for job_name in job_names:
+                repo_md.write(
+                    f"{job_name}<br>Read IOPS | "
+                    f"{job_name}<br>Read Latency | "
+                    f"{job_name}<br>Write IOPS | "
+                    f"{job_name}<br>Write Latency |"
+                )
+            repo_md.write("\n")
+
+            repo_md.write(
                 "| "
                 ":--- | "
                 ":---   | "
                 ":---   | "
-                "     ---: | "
-                "        ---: | "
-                "      ---: | "
-                "         ---: |"
-                "\n"
             )
-            for meta_path, meta in metas[:10]:
-                fio = read_fio_json(meta_path, meta)
+            for job_name in job_names:
+                repo_md.write(
+                    "     ---: | "
+                    "        ---: | "
+                    "      ---: | "
+                    "         ---: |"
+                )
+            repo_md.write("\n")
 
+            for meta_path, meta, fio in fios:
                 commmit_md_dest_path = f"{name}"
                 commmit_md_dest_abspath = dest_abspath / commmit_md_dest_path
                 commmit_md_url = compile_commit_md(
@@ -117,12 +143,19 @@ def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
                     f"[{get_date_txt(meta["date"])}]({commmit_md_url}) | "
                     f"{meta["branch"]} | "
                     f"{get_commit_txt(repo_name, commit_sha)} | "
-                    f"{fio["jobs"][0]["read"]["iops_mean"]:.2f} | "
-                    f"{fio["jobs"][0]["read"]["lat_ns"]["mean"]:.2f} | "
-                    f"{fio["jobs"][0]["write"]["iops_mean"]:.2f} | "
-                    f"{fio["jobs"][0]["write"]["lat_ns"]["mean"]:.2f} |"
-                    f"\n"
                 )
+                for job_name in job_names:
+                    job = find_job(fio, job_name)
+                    if job is None:
+                        repo_md.write(" |  |  |  |")
+                    else:
+                        repo_md.write(
+                            f"{job["read"]["iops_mean"]:.2f} | "
+                            f"{job["read"]["lat_ns"]["mean"]:.2f} | "
+                            f"{job["write"]["iops_mean"]:.2f} | "
+                            f"{job["write"]["lat_ns"]["mean"]:.2f} |"
+                        )
+                repo_md.write("\n")
             repo_md.write("\n")
 
     return url
