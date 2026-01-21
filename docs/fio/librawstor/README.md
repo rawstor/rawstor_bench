@@ -2,8 +2,7 @@
 
 ## perftest--without-liburing-file-4k-1-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-1-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest--without-liburing-file-4k-1-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 428418.37 | 2116.94 | 0.00 | 0.00 |
@@ -19,8 +18,7 @@
 
 ## perftest--without-liburing-file-4k-2-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-2-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest--without-liburing-file-4k-2-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 434498.53 | 4389.89 | 0.00 | 0.00 |
@@ -36,8 +34,7 @@
 
 ## perftest--without-liburing-ost-4k-1-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-1-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest--without-liburing-ost-4k-1-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 12925.47 | 75827.86 | 0.00 | 0.00 |
@@ -53,8 +50,7 @@
 
 ## perftest--without-liburing-ost-4k-2-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-2-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest--without-liburing-ost-4k-2-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 29665.95 | 65854.62 | 0.00 | 0.00 |
@@ -70,8 +66,7 @@
 
 ## perftest-file-4k-1-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-1-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest-file-4k-1-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 443815.89 | 2036.57 | 0.00 | 0.00 |
@@ -87,8 +82,7 @@
 
 ## perftest-file-4k-2-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-2-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest-file-4k-2-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 461889.11 | 4124.15 | 0.00 | 0.00 |
@@ -104,8 +98,7 @@
 
 ## perftest-ost-4k-1-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-1-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest-ost-4k-1-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 13740.68 | 71342.63 | 0.00 | 0.00 |
@@ -121,8 +114,7 @@
 
 ## perftest-ost-4k-2-1
 
-|      |        |        | rawstor ||
-|      |        |        | 4k-2-1-randrw ||
+|      |        |        | rawstor |              |            |               |
 | Date | Branch | Commit | Read IOPS | Read Latency | Write IOPS | Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |
 | [2026-01-21 12:19:29](perftest-ost-4k-2-1/c0a9d5fde05158e2c914685dbbfea484287c8290.md) | refs/heads/fix/perftest | [c0a9d5f](https://github.com/rawstor/librawstor/commit/c0a9d5fde05158e2c914685dbbfea484287c8290) | 30317.11 | 64807.69 | 0.00 | 0.00 |
