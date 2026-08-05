@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest--without-liburing-file-4k-1-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 268868.05 | 3495.83 | 0.00 | 0.00 |0.00 | 0.00 | 344956.85 | 2653.58 |
 | [2026-08-05 19:33:30](perftest--without-liburing-file-4k-1-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 332777.30 | 2763.05 | 0.00 | 0.00 |0.00 | 0.00 | 281747.15 | 3296.71 |
 | [2026-08-05 12:19:57](perftest--without-liburing-file-4k-1-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 261231.45 | 3578.64 | 0.00 | 0.00 |0.00 | 0.00 | 336479.20 | 2705.81 |
 | [2026-08-05 12:10:08](perftest--without-liburing-file-4k-1-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 328087.90 | 2808.44 | 0.00 | 0.00 |0.00 | 0.00 | 265112.70 | 3499.81 |
@@ -13,12 +14,12 @@
 | [2026-08-05 11:14:35](perftest--without-liburing-file-4k-1-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 257264.60 | 3636.45 | 0.00 | 0.00 |0.00 | 0.00 | 323709.25 | 2829.37 |
 | [2026-08-05 11:08:42](perftest--without-liburing-file-4k-1-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 262837.25 | 3549.36 | 0.00 | 0.00 |0.00 | 0.00 | 335318.00 | 2704.25 |
 | [2026-08-05 11:01:47](perftest--without-liburing-file-4k-1-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 339329.80 | 2708.15 | 0.00 | 0.00 |0.00 | 0.00 | 272118.85 | 3407.82 |
-| [2026-08-05 11:01:09](perftest--without-liburing-file-4k-1-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 267213.70 | 3489.87 | 0.00 | 0.00 |0.00 | 0.00 | 343897.00 | 2643.74 |
 
 ## perftest--without-liburing-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest--without-liburing-file-4k-2-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 265105.40 | 7323.41 | 0.00 | 0.00 |0.00 | 0.00 | 342482.95 | 5591.97 |
 | [2026-08-05 19:33:30](perftest--without-liburing-file-4k-2-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 266512.15 | 7269.45 | 0.00 | 0.00 |0.00 | 0.00 | 336734.25 | 5685.41 |
 | [2026-08-05 12:19:57](perftest--without-liburing-file-4k-2-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 320220.80 | 6007.41 | 0.00 | 0.00 |0.00 | 0.00 | 259656.40 | 7423.92 |
 | [2026-08-05 12:10:08](perftest--without-liburing-file-4k-2-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 408558.75 | 4699.51 | 0.00 | 0.00 |0.00 | 0.00 | 330922.50 | 5850.54 |
@@ -28,12 +29,12 @@
 | [2026-08-05 11:14:35](perftest--without-liburing-file-4k-2-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 325104.40 | 5914.88 | 0.00 | 0.00 |0.00 | 0.00 | 266318.15 | 7237.99 |
 | [2026-08-05 11:08:43](perftest--without-liburing-file-4k-2-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 548859.95 | 3469.01 | 0.00 | 0.00 |0.00 | 0.00 | 439827.75 | 4353.31 |
 | [2026-08-05 11:01:47](perftest--without-liburing-file-4k-2-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 404697.25 | 4743.95 | 0.00 | 0.00 |0.00 | 0.00 | 344232.70 | 5616.95 |
-| [2026-08-05 11:01:09](perftest--without-liburing-file-4k-2-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 319145.35 | 6026.18 | 0.00 | 0.00 |0.00 | 0.00 | 262607.00 | 7345.69 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest--without-liburing-ost-4k-1-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 6310.15 | 157259.77 | 0.00 | 0.00 |0.00 | 0.00 | 6069.05 | 163462.90 |
 | [2026-08-05 19:33:30](perftest--without-liburing-ost-4k-1-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 10735.95 | 92696.47 | 0.00 | 0.00 |0.00 | 0.00 | 10727.30 | 92747.14 |
 | [2026-08-05 12:19:57](perftest--without-liburing-ost-4k-1-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 6607.50 | 150513.32 | 0.00 | 0.00 |0.00 | 0.00 | 6364.90 | 156207.31 |
 | [2026-08-05 12:10:08](perftest--without-liburing-ost-4k-1-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 6260.10 | 158468.44 | 0.00 | 0.00 |0.00 | 0.00 | 6149.75 | 161273.06 |
@@ -43,12 +44,12 @@
 | [2026-08-05 11:14:35](perftest--without-liburing-ost-4k-1-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 6365.15 | 155849.13 | 0.00 | 0.00 |0.00 | 0.00 | 6109.40 | 162271.38 |
 | [2026-08-05 11:08:43](perftest--without-liburing-ost-4k-1-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 6678.40 | 148962.25 | 0.00 | 0.00 |0.00 | 0.00 | 6463.40 | 153813.56 |
 | [2026-08-05 11:01:47](perftest--without-liburing-ost-4k-1-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 6639.15 | 149814.41 | 0.00 | 0.00 |0.00 | 0.00 | 6415.65 | 154961.58 |
-| [2026-08-05 11:01:09](perftest--without-liburing-ost-4k-1-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 9394.30 | 105452.64 | 0.00 | 0.00 |0.00 | 0.00 | 8723.70 | 113431.78 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest--without-liburing-ost-4k-2-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 10878.50 | 183377.57 | 0.00 | 0.00 |0.00 | 0.00 | 10743.00 | 185659.00 |
 | [2026-08-05 19:33:30](perftest--without-liburing-ost-4k-2-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 9811.85 | 203261.97 | 0.00 | 0.00 |0.00 | 0.00 | 9819.85 | 202996.21 |
 | [2026-08-05 12:19:57](perftest--without-liburing-ost-4k-2-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 10933.20 | 182284.69 | 0.00 | 0.00 |0.00 | 0.00 | 10761.10 | 185128.79 |
 | [2026-08-05 12:10:08](perftest--without-liburing-ost-4k-2-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 10447.85 | 190944.25 | 0.00 | 0.00 |0.00 | 0.00 | 10595.60 | 188249.81 |
@@ -58,7 +59,6 @@
 | [2026-08-05 11:14:35](perftest--without-liburing-ost-4k-2-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 10833.20 | 183880.62 | 0.00 | 0.00 |0.00 | 0.00 | 9909.35 | 201027.93 |
 | [2026-08-05 11:08:43](perftest--without-liburing-ost-4k-2-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 13296.10 | 150010.21 | 0.00 | 0.00 |0.00 | 0.00 | 13517.85 | 147472.30 |
 | [2026-08-05 11:01:47](perftest--without-liburing-ost-4k-2-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 10832.65 | 183888.12 | 0.00 | 0.00 |0.00 | 0.00 | 10478.95 | 190098.66 |
-| [2026-08-05 11:01:09](perftest--without-liburing-ost-4k-2-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 10606.80 | 188103.67 | 0.00 | 0.00 |0.00 | 0.00 | 10424.40 | 191317.13 |
 
 ## perftest--without-liburing-ost-legacy-4k-1-1
 
@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest-file-4k-1-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 366534.80 | 2485.49 | 0.00 | 0.00 |0.00 | 0.00 | 36797.45 | 26678.26 |
 | [2026-08-05 19:33:30](perftest-file-4k-1-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 360270.00 | 2535.73 | 0.00 | 0.00 |0.00 | 0.00 | 36659.90 | 26751.68 |
 | [2026-08-05 12:19:57](perftest-file-4k-1-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 698452.85 | 1282.16 | 0.00 | 0.00 |0.00 | 0.00 | 32517.45 | 30034.90 |
 | [2026-08-05 12:10:08](perftest-file-4k-1-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 424900.25 | 2108.19 | 0.00 | 0.00 |0.00 | 0.00 | 28921.80 | 33875.52 |
@@ -103,12 +104,12 @@
 | [2026-08-05 11:14:35](perftest-file-4k-1-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 450724.50 | 1977.18 | 0.00 | 0.00 |0.00 | 0.00 | 29721.60 | 32891.88 |
 | [2026-08-05 11:08:43](perftest-file-4k-1-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 398648.55 | 2246.25 | 0.00 | 0.00 |0.00 | 0.00 | 30850.45 | 31846.41 |
 | [2026-08-05 11:01:48](perftest-file-4k-1-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 752398.70 | 1197.40 | 0.00 | 0.00 |0.00 | 0.00 | 41494.50 | 23656.29 |
-| [2026-08-05 11:01:09](perftest-file-4k-1-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 392990.25 | 2284.33 | 0.00 | 0.00 |0.00 | 0.00 | 27606.50 | 35471.91 |
 
 ## perftest-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest-file-4k-2-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 535946.70 | 3526.09 | 0.00 | 0.00 |0.00 | 0.00 | 61333.50 | 32030.10 |
 | [2026-08-05 19:33:30](perftest-file-4k-2-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 443765.20 | 4280.25 | 0.00 | 0.00 |0.00 | 0.00 | 76868.60 | 25623.89 |
 | [2026-08-05 12:19:57](perftest-file-4k-2-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 466366.60 | 4079.84 | 0.00 | 0.00 |0.00 | 0.00 | 59409.75 | 33254.52 |
 | [2026-08-05 12:10:08](perftest-file-4k-2-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 506746.55 | 3740.08 | 0.00 | 0.00 |0.00 | 0.00 | 59248.40 | 33251.85 |
@@ -118,12 +119,12 @@
 | [2026-08-05 11:14:35](perftest-file-4k-2-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 607103.80 | 3124.44 | 0.00 | 0.00 |0.00 | 0.00 | 71094.20 | 27747.44 |
 | [2026-08-05 11:08:43](perftest-file-4k-2-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 502335.35 | 3770.26 | 0.00 | 0.00 |0.00 | 0.00 | 60883.55 | 32332.67 |
 | [2026-08-05 11:01:48](perftest-file-4k-2-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 537220.25 | 3515.41 | 0.00 | 0.00 |0.00 | 0.00 | 62803.05 | 31349.97 |
-| [2026-08-05 11:01:09](perftest-file-4k-2-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 505265.30 | 3753.45 | 0.00 | 0.00 |0.00 | 0.00 | 58459.25 | 33666.44 |
 
 ## perftest-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest-ost-4k-1-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 22411.55 | 43938.71 | 0.00 | 0.00 |0.00 | 0.00 | 13336.90 | 74446.88 |
 | [2026-08-05 19:33:30](perftest-ost-4k-1-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 20860.30 | 47505.08 | 0.00 | 0.00 |0.00 | 0.00 | 13021.00 | 76157.38 |
 | [2026-08-05 12:19:57](perftest-ost-4k-1-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 15889.55 | 62053.77 | 0.00 | 0.00 |0.00 | 0.00 | 10463.60 | 94435.50 |
 | [2026-08-05 12:10:08](perftest-ost-4k-1-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 24256.35 | 40572.53 | 0.00 | 0.00 |0.00 | 0.00 | 14472.10 | 68434.26 |
@@ -133,12 +134,12 @@
 | [2026-08-05 11:14:35](perftest-ost-4k-1-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 20692.75 | 47845.94 | 0.00 | 0.00 |0.00 | 0.00 | 13046.20 | 76007.72 |
 | [2026-08-05 11:08:43](perftest-ost-4k-1-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 25293.10 | 38937.97 | 0.00 | 0.00 |0.00 | 0.00 | 15173.65 | 65248.76 |
 | [2026-08-05 11:01:48](perftest-ost-4k-1-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 15347.95 | 64315.54 | 0.00 | 0.00 |0.00 | 0.00 | 9912.85 | 99755.08 |
-| [2026-08-05 11:01:09](perftest-ost-4k-1-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 13702.80 | 71960.25 | 0.00 | 0.00 |0.00 | 0.00 | 9313.45 | 106142.50 |
 
 ## perftest-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-05 19:39:48](perftest-ost-4k-2-1/a3695ab0ce790bad7fe8f29b3774254252763b80.md) | refs/heads/worktree-rawstor-location-info | [a3695ab](https://github.com/rawstor/librawstor/commit/a3695ab0ce790bad7fe8f29b3774254252763b80) | 35930.75 | 55346.43 | 0.00 | 0.00 |0.00 | 0.00 | 22779.75 | 87313.17 |
 | [2026-08-05 19:33:30](perftest-ost-4k-2-1/81978d77c4f0321ba53362d94c27264aeefa6379.md) | refs/heads/worktree-rawstor-location-info | [81978d7](https://github.com/rawstor/librawstor/commit/81978d77c4f0321ba53362d94c27264aeefa6379) | 25078.55 | 79158.73 | 0.00 | 0.00 |0.00 | 0.00 | 17165.25 | 115732.94 |
 | [2026-08-05 12:19:57](perftest-ost-4k-2-1/579b3ad5ee60841f12ab2a64a4efb249ec5bede0.md) | refs/heads/releases/v0.2 | [579b3ad](https://github.com/rawstor/librawstor/commit/579b3ad5ee60841f12ab2a64a4efb249ec5bede0) | 45226.70 | 43964.08 | 0.00 | 0.00 |0.00 | 0.00 | 28570.40 | 69620.04 |
 | [2026-08-05 12:10:08](perftest-ost-4k-2-1/35557c2ba1c6ee152e838c53e7640631f8a46b82.md) | refs/heads/v0.2/print | [35557c2](https://github.com/rawstor/librawstor/commit/35557c2ba1c6ee152e838c53e7640631f8a46b82) | 35916.95 | 55376.42 | 0.00 | 0.00 |0.00 | 0.00 | 22266.10 | 89336.71 |
@@ -148,7 +149,6 @@
 | [2026-08-05 11:14:35](perftest-ost-4k-2-1/e1e792f5d406a915791215e231139caa427a8a99.md) | refs/heads/worktree-rawstor-drop-flag-compat | [e1e792f](https://github.com/rawstor/librawstor/commit/e1e792f5d406a915791215e231139caa427a8a99) | 25562.90 | 77679.95 | 0.00 | 0.00 |0.00 | 0.00 | 17631.50 | 112708.74 |
 | [2026-08-05 11:08:43](perftest-ost-4k-2-1/c4c635b821bb30d82865293599c5aa5cda67507d.md) | refs/heads/releases/v0.2 | [c4c635b](https://github.com/rawstor/librawstor/commit/c4c635b821bb30d82865293599c5aa5cda67507d) | 24902.05 | 79713.36 | 0.00 | 0.00 |0.00 | 0.00 | 17058.75 | 116462.75 |
 | [2026-08-05 11:01:48](perftest-ost-4k-2-1/724c674a3f755672241e052f3386871f0cfb1c55.md) | refs/heads/v0.2/exit | [724c674](https://github.com/rawstor/librawstor/commit/724c674a3f755672241e052f3386871f0cfb1c55) | 35936.25 | 55297.01 | 0.00 | 0.00 |0.00 | 0.00 | 22145.50 | 89766.07 |
-| [2026-08-05 11:01:09](perftest-ost-4k-2-1/f5e158c74ee5c14cda2c17bfa0c995013b8a406b.md) | refs/heads/main | [f5e158c](https://github.com/rawstor/librawstor/commit/f5e158c74ee5c14cda2c17bfa0c995013b8a406b) | 24340.70 | 81490.19 | 0.00 | 0.00 |0.00 | 0.00 | 16733.90 | 118737.85 |
 
 ## perftest-ost-legacy-4k-1-1
 
