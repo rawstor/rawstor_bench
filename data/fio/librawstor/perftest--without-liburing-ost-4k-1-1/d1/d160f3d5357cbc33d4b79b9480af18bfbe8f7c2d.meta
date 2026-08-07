@@ -2,9 +2,9 @@
     "repo": "librawstor",
     "name": "perftest--without-liburing-ost-4k-1-1",
     "path": "librawstor/perftest--without-liburing-ost-4k-1-1",
-    "branch": "refs/heads/releases/v0.2",
+    "branch": "refs/tags/v0.2.5",
     "commit": "d160f3d5357cbc33d4b79b9480af18bfbe8f7c2d",
-    "date": "2026-08-07T13:01:55+00:00",
+    "date": "2026-08-07T13:02:22+00:00",
     "data": {
         "txt": "d160f3d5357cbc33d4b79b9480af18bfbe8f7c2d.txt",
         "json": "d160f3d5357cbc33d4b79b9480af18bfbe8f7c2d.json"
