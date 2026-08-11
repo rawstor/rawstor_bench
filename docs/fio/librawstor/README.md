@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:01](perftest--without-liburing-file-4k-1-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 416031.35 | 2163.80 | 0.00 | 0.00 |0.00 | 0.00 | 337282.40 | 2698.02 |
 | [2026-08-11 22:23:39](perftest--without-liburing-file-4k-1-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 332689.75 | 2752.14 | 0.00 | 0.00 |0.00 | 0.00 | 265167.50 | 3504.80 |
 | [2026-08-11 22:22:21](perftest--without-liburing-file-4k-1-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 327932.15 | 2814.66 | 0.00 | 0.00 |0.00 | 0.00 | 261867.25 | 3557.05 |
 | [2026-08-11 22:19:33](perftest--without-liburing-file-4k-1-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 333623.00 | 2742.35 | 0.00 | 0.00 |0.00 | 0.00 | 262519.90 | 3544.22 |
@@ -13,12 +14,12 @@
 | [2026-08-11 20:13:10](perftest--without-liburing-file-4k-1-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 331770.85 | 2762.13 | 0.00 | 0.00 |0.00 | 0.00 | 268757.25 | 3461.53 |
 | [2026-08-11 11:30:11](perftest--without-liburing-file-4k-1-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 414222.85 | 2224.05 | 0.00 | 0.00 |0.00 | 0.00 | 330007.90 | 2814.97 |
 | [2026-08-11 11:28:58](perftest--without-liburing-file-4k-1-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 651894.80 | 1397.61 | 0.00 | 0.00 |0.00 | 0.00 | 529520.50 | 1740.98 |
-| [2026-08-11 11:27:02](perftest--without-liburing-file-4k-1-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 339610.85 | 2698.08 | 0.00 | 0.00 |0.00 | 0.00 | 268498.80 | 3468.95 |
 
 ## perftest--without-liburing-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:01](perftest--without-liburing-file-4k-2-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 317500.85 | 6040.81 | 0.00 | 0.00 |0.00 | 0.00 | 260679.30 | 7402.22 |
 | [2026-08-11 22:23:39](perftest--without-liburing-file-4k-2-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 403717.45 | 4714.32 | 0.00 | 0.00 |0.00 | 0.00 | 323190.75 | 5928.44 |
 | [2026-08-11 22:22:21](perftest--without-liburing-file-4k-2-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 407441.70 | 4667.89 | 0.00 | 0.00 |0.00 | 0.00 | 331871.35 | 5770.86 |
 | [2026-08-11 22:19:33](perftest--without-liburing-file-4k-2-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 385089.45 | 4954.78 | 0.00 | 0.00 |0.00 | 0.00 | 314318.95 | 6100.20 |
@@ -28,12 +29,12 @@
 | [2026-08-11 20:13:10](perftest--without-liburing-file-4k-2-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 408525.80 | 4650.77 | 0.00 | 0.00 |0.00 | 0.00 | 332329.75 | 5758.50 |
 | [2026-08-11 11:30:11](perftest--without-liburing-file-4k-2-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 408893.75 | 4663.62 | 0.00 | 0.00 |0.00 | 0.00 | 332505.10 | 5761.43 |
 | [2026-08-11 11:28:58](perftest--without-liburing-file-4k-2-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 400652.15 | 4765.28 | 0.00 | 0.00 |0.00 | 0.00 | 331160.95 | 5790.92 |
-| [2026-08-11 11:27:02](perftest--without-liburing-file-4k-2-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 409607.60 | 4652.65 | 0.00 | 0.00 |0.00 | 0.00 | 336069.85 | 5695.19 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:01](perftest--without-liburing-ost-4k-1-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 6184.95 | 160413.52 | 0.00 | 0.00 |0.00 | 0.00 | 5987.95 | 165624.00 |
 | [2026-08-11 22:23:39](perftest--without-liburing-ost-4k-1-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 6501.40 | 152969.23 | 0.00 | 0.00 |0.00 | 0.00 | 6313.50 | 157426.57 |
 | [2026-08-11 22:22:21](perftest--without-liburing-ost-4k-1-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 6336.90 | 156526.93 | 0.00 | 0.00 |0.00 | 0.00 | 5994.90 | 165332.35 |
 | [2026-08-11 22:19:33](perftest--without-liburing-ost-4k-1-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 9997.80 | 99515.17 | 0.00 | 0.00 |0.00 | 0.00 | 9722.45 | 102287.36 |
@@ -43,12 +44,12 @@
 | [2026-08-11 20:13:10](perftest--without-liburing-ost-4k-1-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 9578.25 | 103497.69 | 0.00 | 0.00 |0.00 | 0.00 | 9075.95 | 109122.64 |
 | [2026-08-11 11:30:11](perftest--without-liburing-ost-4k-1-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 6427.15 | 154704.35 | 0.00 | 0.00 |0.00 | 0.00 | 6344.75 | 156711.79 |
 | [2026-08-11 11:28:58](perftest--without-liburing-ost-4k-1-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 6569.45 | 151423.42 | 0.00 | 0.00 |0.00 | 0.00 | 6211.55 | 159982.77 |
-| [2026-08-11 11:27:02](perftest--without-liburing-ost-4k-1-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 6126.90 | 161901.54 | 0.00 | 0.00 |0.00 | 0.00 | 6049.80 | 163931.26 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:01](perftest--without-liburing-ost-4k-2-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 9651.10 | 206636.89 | 0.00 | 0.00 |0.00 | 0.00 | 10308.85 | 193409.95 |
 | [2026-08-11 22:23:39](perftest--without-liburing-ost-4k-2-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 10188.50 | 195774.27 | 0.00 | 0.00 |0.00 | 0.00 | 10404.15 | 191697.30 |
 | [2026-08-11 22:22:21](perftest--without-liburing-ost-4k-2-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 9989.95 | 199447.16 | 0.00 | 0.00 |0.00 | 0.00 | 9209.65 | 216306.71 |
 | [2026-08-11 22:19:33](perftest--without-liburing-ost-4k-2-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 9521.65 | 209226.93 | 0.00 | 0.00 |0.00 | 0.00 | 8808.20 | 226169.84 |
@@ -58,7 +59,6 @@
 | [2026-08-11 20:13:10](perftest--without-liburing-ost-4k-2-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 10860.35 | 183585.19 | 0.00 | 0.00 |0.00 | 0.00 | 10560.85 | 188784.41 |
 | [2026-08-11 11:30:11](perftest--without-liburing-ost-4k-2-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 10594.90 | 188050.14 | 0.00 | 0.00 |0.00 | 0.00 | 9760.95 | 204121.83 |
 | [2026-08-11 11:28:58](perftest--without-liburing-ost-4k-2-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 10044.55 | 198372.09 | 0.00 | 0.00 |0.00 | 0.00 | 10020.15 | 198764.14 |
-| [2026-08-11 11:27:02](perftest--without-liburing-ost-4k-2-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 17372.40 | 114555.86 | 0.00 | 0.00 |0.00 | 0.00 | 16864.25 | 117999.38 |
 
 ## perftest--without-liburing-ost-legacy-4k-1-1
 
@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:02](perftest-file-4k-1-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 546811.30 | 1613.92 | 0.00 | 0.00 |0.00 | 0.00 | 39972.85 | 24398.31 |
 | [2026-08-11 22:23:39](perftest-file-4k-1-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 399448.40 | 2255.00 | 0.00 | 0.00 |0.00 | 0.00 | 29116.35 | 33557.79 |
 | [2026-08-11 22:22:21](perftest-file-4k-1-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 331659.15 | 2757.41 | 0.00 | 0.00 |0.00 | 0.00 | 37124.70 | 26473.44 |
 | [2026-08-11 22:19:33](perftest-file-4k-1-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 380943.60 | 2376.88 | 0.00 | 0.00 |0.00 | 0.00 | 28169.00 | 34681.03 |
@@ -103,12 +104,12 @@
 | [2026-08-11 20:13:10](perftest-file-4k-1-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 341070.65 | 2678.32 | 0.00 | 0.00 |0.00 | 0.00 | 34309.70 | 28607.89 |
 | [2026-08-11 11:30:11](perftest-file-4k-1-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 426860.45 | 2152.59 | 0.00 | 0.00 |0.00 | 0.00 | 44145.90 | 22249.53 |
 | [2026-08-11 11:28:58](perftest-file-4k-1-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 413371.75 | 2165.56 | 0.00 | 0.00 |0.00 | 0.00 | 30836.15 | 31871.24 |
-| [2026-08-11 11:27:02](perftest-file-4k-1-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 351754.45 | 2593.59 | 0.00 | 0.00 |0.00 | 0.00 | 35624.65 | 27583.16 |
 
 ## perftest-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:02](perftest-file-4k-2-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 407128.20 | 4686.84 | 0.00 | 0.00 |0.00 | 0.00 | 77595.60 | 25394.51 |
 | [2026-08-11 22:23:40](perftest-file-4k-2-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 466090.40 | 4079.65 | 0.00 | 0.00 |0.00 | 0.00 | 66037.40 | 29903.46 |
 | [2026-08-11 22:22:21](perftest-file-4k-2-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 420088.60 | 4540.65 | 0.00 | 0.00 |0.00 | 0.00 | 78497.80 | 25130.19 |
 | [2026-08-11 22:19:33](perftest-file-4k-2-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 778613.95 | 2441.99 | 0.00 | 0.00 |0.00 | 0.00 | 87787.50 | 22509.14 |
@@ -118,12 +119,12 @@
 | [2026-08-11 20:13:10](perftest-file-4k-2-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 486648.60 | 3890.51 | 0.00 | 0.00 |0.00 | 0.00 | 59508.25 | 33080.49 |
 | [2026-08-11 11:30:11](perftest-file-4k-2-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 468592.05 | 4050.97 | 0.00 | 0.00 |0.00 | 0.00 | 59438.45 | 33102.92 |
 | [2026-08-11 11:28:58](perftest-file-4k-2-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 405451.85 | 4707.31 | 0.00 | 0.00 |0.00 | 0.00 | 75282.40 | 26203.85 |
-| [2026-08-11 11:27:02](perftest-file-4k-2-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 693410.35 | 2736.50 | 0.00 | 0.00 |0.00 | 0.00 | 64598.65 | 30321.64 |
 
 ## perftest-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:02](perftest-ost-4k-1-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 13928.95 | 70762.63 | 0.00 | 0.00 |0.00 | 0.00 | 9238.95 | 106981.95 |
 | [2026-08-11 22:23:40](perftest-ost-4k-1-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 14442.25 | 68261.50 | 0.00 | 0.00 |0.00 | 0.00 | 9374.50 | 105414.54 |
 | [2026-08-11 22:22:21](perftest-ost-4k-1-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 24640.60 | 40078.21 | 0.00 | 0.00 |0.00 | 0.00 | 14832.95 | 66729.41 |
 | [2026-08-11 22:19:33](perftest-ost-4k-1-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 13926.90 | 70850.59 | 0.00 | 0.00 |0.00 | 0.00 | 9401.55 | 105157.10 |
@@ -133,12 +134,12 @@
 | [2026-08-11 20:13:10](perftest-ost-4k-1-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 20643.25 | 47900.82 | 0.00 | 0.00 |0.00 | 0.00 | 13249.80 | 74808.98 |
 | [2026-08-11 11:30:11](perftest-ost-4k-1-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 20184.50 | 49074.72 | 0.00 | 0.00 |0.00 | 0.00 | 12963.75 | 76586.96 |
 | [2026-08-11 11:28:58](perftest-ost-4k-1-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 13842.65 | 71149.62 | 0.00 | 0.00 |0.00 | 0.00 | 9253.60 | 106802.57 |
-| [2026-08-11 11:27:02](perftest-ost-4k-1-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 27078.70 | 36616.18 | 0.00 | 0.00 |0.00 | 0.00 | 16697.35 | 59405.87 |
 
 ## perftest-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-11 22:24:02](perftest-ost-4k-2-1/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9.md) | refs/heads/fix/macos-poll-nosigpipe | [7cc1398](https://github.com/rawstor/librawstor/commit/7cc1398f0fd4e901ec33a29c480cabe15eefa0f9) | 36075.10 | 55108.06 | 0.00 | 0.00 |0.00 | 0.00 | 22822.95 | 87169.66 |
 | [2026-08-11 22:23:40](perftest-ost-4k-2-1/b6c0fe96c587ad41dd83de6edaebf41194e614a5.md) | refs/heads/fix/macos-poll-nosigpipe | [b6c0fe9](https://github.com/rawstor/librawstor/commit/b6c0fe96c587ad41dd83de6edaebf41194e614a5) | 35800.10 | 55518.40 | 0.00 | 0.00 |0.00 | 0.00 | 22640.20 | 87852.81 |
 | [2026-08-11 22:22:21](perftest-ost-4k-2-1/23031ee8350ece8200adbe248dc55ab5aa311ce1.md) | refs/heads/v0.2/telemetry | [23031ee](https://github.com/rawstor/librawstor/commit/23031ee8350ece8200adbe248dc55ab5aa311ce1) | 45702.65 | 43521.50 | 0.00 | 0.00 |0.00 | 0.00 | 28843.90 | 68962.54 |
 | [2026-08-11 22:19:33](perftest-ost-4k-2-1/01d0dbab60a255b06c83fe50576d57cd14d3fba1.md) | refs/heads/fix/macos-poll-nosigpipe | [01d0dba](https://github.com/rawstor/librawstor/commit/01d0dbab60a255b06c83fe50576d57cd14d3fba1) | 24589.50 | 80684.86 | 0.00 | 0.00 |0.00 | 0.00 | 17351.25 | 114496.11 |
@@ -148,7 +149,6 @@
 | [2026-08-11 20:13:10](perftest-ost-4k-2-1/d35336548b1247ef86aa92a0fd3ed36bd7beaa61.md) | refs/heads/add/ost-telemetry | [d353365](https://github.com/rawstor/librawstor/commit/d35336548b1247ef86aa92a0fd3ed36bd7beaa61) | 24947.50 | 79546.87 | 0.00 | 0.00 |0.00 | 0.00 | 17282.25 | 114993.97 |
 | [2026-08-11 11:30:11](perftest-ost-4k-2-1/fd839b02b45366fdf09669638fd734ade4fe9046.md) | refs/heads/add/ost-telemetry | [fd839b0](https://github.com/rawstor/librawstor/commit/fd839b02b45366fdf09669638fd734ade4fe9046) | 24670.85 | 80486.66 | 0.00 | 0.00 |0.00 | 0.00 | 17175.90 | 115710.14 |
 | [2026-08-11 11:28:58](perftest-ost-4k-2-1/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f.md) | refs/heads/add/ost-telemetry | [e3b5c3f](https://github.com/rawstor/librawstor/commit/e3b5c3f5d4c6584e5af01ee43d7f9601a131ce0f) | 25775.80 | 77012.40 | 0.00 | 0.00 |0.00 | 0.00 | 17267.80 | 115112.93 |
-| [2026-08-11 11:27:02](perftest-ost-4k-2-1/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a.md) | refs/heads/add/ost-telemetry | [d5e7e85](https://github.com/rawstor/librawstor/commit/d5e7e85fe3f47a753cb4f3d7e8282bc40c513c4a) | 24281.25 | 81785.97 | 0.00 | 0.00 |0.00 | 0.00 | 17111.40 | 116115.49 |
 
 ## perftest-ost-legacy-4k-1-1
 
