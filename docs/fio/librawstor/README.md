@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest--without-liburing-file-4k-1-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 413836.95 | 2191.23 | 0.00 | 0.00 |0.00 | 0.00 | 333262.30 | 2759.81 |
 | [2026-08-12 09:31:16](perftest--without-liburing-file-4k-1-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 423336.35 | 2169.97 | 0.00 | 0.00 |0.00 | 0.00 | 339608.65 | 2734.92 |
 | [2026-08-12 09:29:40](perftest--without-liburing-file-4k-1-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 324493.35 | 2836.26 | 0.00 | 0.00 |0.00 | 0.00 | 260986.70 | 3572.88 |
 | [2026-08-12 09:22:50](perftest--without-liburing-file-4k-1-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 422756.95 | 2134.00 | 0.00 | 0.00 |0.00 | 0.00 | 335584.40 | 2730.15 |
@@ -13,12 +14,12 @@
 | [2026-08-12 09:10:12](perftest--without-liburing-file-4k-1-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 310483.40 | 2937.38 | 0.00 | 0.00 |0.00 | 0.00 | 254344.50 | 3639.08 |
 | [2026-08-12 08:59:00](perftest--without-liburing-file-4k-1-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 395176.00 | 2289.96 | 0.00 | 0.00 |0.00 | 0.00 | 322678.40 | 2841.78 |
 | [2026-08-11 22:54:35](perftest--without-liburing-file-4k-1-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 383826.75 | 2366.17 | 0.00 | 0.00 |0.00 | 0.00 | 307635.95 | 2995.84 |
-| [2026-08-11 22:33:23](perftest--without-liburing-file-4k-1-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 413240.35 | 2181.13 | 0.00 | 0.00 |0.00 | 0.00 | 329183.75 | 2778.78 |
 
 ## perftest--without-liburing-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest--without-liburing-file-4k-2-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 399389.05 | 4768.57 | 0.00 | 0.00 |0.00 | 0.00 | 325309.35 | 5885.55 |
 | [2026-08-12 09:31:16](perftest--without-liburing-file-4k-2-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 524551.30 | 3638.05 | 0.00 | 0.00 |0.00 | 0.00 | 416203.20 | 4615.91 |
 | [2026-08-12 09:29:40](perftest--without-liburing-file-4k-2-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 384825.40 | 4951.93 | 0.00 | 0.00 |0.00 | 0.00 | 320120.30 | 5994.19 |
 | [2026-08-12 09:22:50](perftest--without-liburing-file-4k-2-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 396092.90 | 4817.20 | 0.00 | 0.00 |0.00 | 0.00 | 328445.60 | 5847.47 |
@@ -28,12 +29,12 @@
 | [2026-08-12 09:10:12](perftest--without-liburing-file-4k-2-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 579967.45 | 3296.84 | 0.00 | 0.00 |0.00 | 0.00 | 460670.85 | 4187.82 |
 | [2026-08-12 08:59:00](perftest--without-liburing-file-4k-2-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 406016.45 | 4687.42 | 0.00 | 0.00 |0.00 | 0.00 | 334045.95 | 5740.57 |
 | [2026-08-11 22:54:35](perftest--without-liburing-file-4k-2-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 731692.20 | 2604.72 | 0.00 | 0.00 |0.00 | 0.00 | 548017.35 | 3520.86 |
-| [2026-08-11 22:33:23](perftest--without-liburing-file-4k-2-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 323793.90 | 5944.09 | 0.00 | 0.00 |0.00 | 0.00 | 263358.85 | 7336.24 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest--without-liburing-ost-4k-1-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 6054.55 | 163829.22 | 0.00 | 0.00 |0.00 | 0.00 | 5867.85 | 168960.72 |
 | [2026-08-12 09:31:16](perftest--without-liburing-ost-4k-1-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 6021.60 | 164650.23 | 0.00 | 0.00 |0.00 | 0.00 | 5957.65 | 166383.94 |
 | [2026-08-12 09:29:40](perftest--without-liburing-ost-4k-1-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 6435.15 | 154478.76 | 0.00 | 0.00 |0.00 | 0.00 | 6375.85 | 155917.13 |
 | [2026-08-12 09:22:50](perftest--without-liburing-ost-4k-1-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 9674.40 | 102881.67 | 0.00 | 0.00 |0.00 | 0.00 | 9618.30 | 103478.48 |
@@ -43,12 +44,12 @@
 | [2026-08-12 09:10:12](perftest--without-liburing-ost-4k-1-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 6336.40 | 156560.40 | 0.00 | 0.00 |0.00 | 0.00 | 6326.40 | 156758.69 |
 | [2026-08-12 08:59:00](perftest--without-liburing-ost-4k-1-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 6560.50 | 151232.94 | 0.00 | 0.00 |0.00 | 0.00 | 6367.45 | 155804.76 |
 | [2026-08-11 22:54:35](perftest--without-liburing-ost-4k-1-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 6567.15 | 151416.05 | 0.00 | 0.00 |0.00 | 0.00 | 6491.45 | 153180.27 |
-| [2026-08-11 22:33:23](perftest--without-liburing-ost-4k-1-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 6337.50 | 156548.20 | 0.00 | 0.00 |0.00 | 0.00 | 6173.10 | 160641.30 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest--without-liburing-ost-4k-2-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 9605.85 | 207420.76 | 0.00 | 0.00 |0.00 | 0.00 | 9331.15 | 213458.02 |
 | [2026-08-12 09:31:16](perftest--without-liburing-ost-4k-2-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 10687.60 | 186577.20 | 0.00 | 0.00 |0.00 | 0.00 | 10577.85 | 188403.66 |
 | [2026-08-12 09:29:41](perftest--without-liburing-ost-4k-2-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 9377.45 | 212671.04 | 0.00 | 0.00 |0.00 | 0.00 | 10486.95 | 190156.87 |
 | [2026-08-12 09:22:50](perftest--without-liburing-ost-4k-2-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 10125.85 | 196761.36 | 0.00 | 0.00 |0.00 | 0.00 | 9963.60 | 199933.70 |
@@ -58,7 +59,6 @@
 | [2026-08-12 09:10:13](perftest--without-liburing-ost-4k-2-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 10158.75 | 196318.47 | 0.00 | 0.00 |0.00 | 0.00 | 10358.75 | 192484.32 |
 | [2026-08-12 08:59:00](perftest--without-liburing-ost-4k-2-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 9968.50 | 200029.13 | 0.00 | 0.00 |0.00 | 0.00 | 9777.20 | 203900.72 |
 | [2026-08-11 22:54:35](perftest--without-liburing-ost-4k-2-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 19810.80 | 100657.33 | 0.00 | 0.00 |0.00 | 0.00 | 19864.70 | 100384.10 |
-| [2026-08-11 22:33:23](perftest--without-liburing-ost-4k-2-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 9933.55 | 200552.94 | 0.00 | 0.00 |0.00 | 0.00 | 9929.35 | 200590.90 |
 
 ## perftest--without-liburing-ost-legacy-4k-1-1
 
@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest-file-4k-1-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 417684.60 | 2160.85 | 0.00 | 0.00 |0.00 | 0.00 | 31464.15 | 31216.92 |
 | [2026-08-12 09:31:16](perftest-file-4k-1-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 612039.50 | 1475.96 | 0.00 | 0.00 |0.00 | 0.00 | 36743.25 | 26738.87 |
 | [2026-08-12 09:29:41](perftest-file-4k-1-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 438335.70 | 2087.51 | 0.00 | 0.00 |0.00 | 0.00 | 47185.80 | 20824.45 |
 | [2026-08-12 09:22:50](perftest-file-4k-1-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 382646.80 | 2365.14 | 0.00 | 0.00 |0.00 | 0.00 | 28430.00 | 34428.13 |
@@ -103,12 +104,12 @@
 | [2026-08-12 09:10:13](perftest-file-4k-1-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 392847.50 | 2297.15 | 0.00 | 0.00 |0.00 | 0.00 | 28036.75 | 34935.06 |
 | [2026-08-12 08:59:00](perftest-file-4k-1-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 395895.50 | 2276.05 | 0.00 | 0.00 |0.00 | 0.00 | 29816.55 | 32869.32 |
 | [2026-08-11 22:54:35](perftest-file-4k-1-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 398892.60 | 2249.46 | 0.00 | 0.00 |0.00 | 0.00 | 28263.00 | 34514.62 |
-| [2026-08-11 22:33:23](perftest-file-4k-1-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 344590.15 | 2649.57 | 0.00 | 0.00 |0.00 | 0.00 | 36238.45 | 27123.33 |
 
 ## perftest-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest-file-4k-2-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 480956.25 | 3944.12 | 0.00 | 0.00 |0.00 | 0.00 | 62431.95 | 31552.88 |
 | [2026-08-12 09:31:16](perftest-file-4k-2-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 400917.75 | 4762.69 | 0.00 | 0.00 |0.00 | 0.00 | 75235.00 | 26169.61 |
 | [2026-08-12 09:29:41](perftest-file-4k-2-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 502950.90 | 3763.66 | 0.00 | 0.00 |0.00 | 0.00 | 57921.00 | 33936.63 |
 | [2026-08-12 09:22:50](perftest-file-4k-2-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 602878.80 | 3149.21 | 0.00 | 0.00 |0.00 | 0.00 | 69447.05 | 28411.70 |
@@ -118,12 +119,12 @@
 | [2026-08-12 09:10:13](perftest-file-4k-2-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 501000.55 | 3783.70 | 0.00 | 0.00 |0.00 | 0.00 | 61039.70 | 32341.32 |
 | [2026-08-12 08:59:00](perftest-file-4k-2-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 699943.15 | 2724.47 | 0.00 | 0.00 |0.00 | 0.00 | 79489.35 | 24875.22 |
 | [2026-08-11 22:54:35](perftest-file-4k-2-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 452737.40 | 4201.06 | 0.00 | 0.00 |0.00 | 0.00 | 58818.20 | 33504.45 |
-| [2026-08-11 22:33:23](perftest-file-4k-2-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 475117.35 | 4000.11 | 0.00 | 0.00 |0.00 | 0.00 | 58212.30 | 33810.23 |
 
 ## perftest-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest-ost-4k-1-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 14159.60 | 69685.70 | 0.00 | 0.00 |0.00 | 0.00 | 9502.75 | 104018.06 |
 | [2026-08-12 09:31:16](perftest-ost-4k-1-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 14185.90 | 69477.14 | 0.00 | 0.00 |0.00 | 0.00 | 9560.45 | 103394.07 |
 | [2026-08-12 09:29:41](perftest-ost-4k-1-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 24800.35 | 39901.93 | 0.00 | 0.00 |0.00 | 0.00 | 14325.75 | 69211.64 |
 | [2026-08-12 09:22:50](perftest-ost-4k-1-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 20452.25 | 48448.70 | 0.00 | 0.00 |0.00 | 0.00 | 13540.35 | 73373.18 |
@@ -133,12 +134,12 @@
 | [2026-08-12 09:10:13](perftest-ost-4k-1-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 15638.70 | 63066.88 | 0.00 | 0.00 |0.00 | 0.00 | 10265.95 | 96277.28 |
 | [2026-08-12 08:59:00](perftest-ost-4k-1-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 13759.10 | 71548.49 | 0.00 | 0.00 |0.00 | 0.00 | 9228.10 | 107071.14 |
 | [2026-08-11 22:54:35](perftest-ost-4k-1-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 20312.40 | 48725.04 | 0.00 | 0.00 |0.00 | 0.00 | 13240.70 | 74872.86 |
-| [2026-08-11 22:33:23](perftest-ost-4k-1-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 21173.65 | 46760.35 | 0.00 | 0.00 |0.00 | 0.00 | 13288.05 | 74627.74 |
 
 ## perftest-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-12 09:33:19](perftest-ost-4k-2-1/5aad78140054a06a2d0552bacceb84baef4b38d4.md) | refs/heads/v0.2/macos | [5aad781](https://github.com/rawstor/librawstor/commit/5aad78140054a06a2d0552bacceb84baef4b38d4) | 23210.15 | 85468.06 | 0.00 | 0.00 |0.00 | 0.00 | 16382.80 | 121286.82 |
 | [2026-08-12 09:31:16](perftest-ost-4k-2-1/e98154a1b62b96fa3ea1bad72c04f65d462b0608.md) | refs/heads/main | [e98154a](https://github.com/rawstor/librawstor/commit/e98154a1b62b96fa3ea1bad72c04f65d462b0608) | 23453.40 | 84611.68 | 0.00 | 0.00 |0.00 | 0.00 | 16339.05 | 121611.51 |
 | [2026-08-12 09:29:41](perftest-ost-4k-2-1/3da3a30161239aab6cbbc049df3da2eed2b28d6d.md) | refs/heads/add/pypi-publish | [3da3a30](https://github.com/rawstor/librawstor/commit/3da3a30161239aab6cbbc049df3da2eed2b28d6d) | 25235.35 | 78664.81 | 0.00 | 0.00 |0.00 | 0.00 | 17806.05 | 111631.70 |
 | [2026-08-12 09:22:50](perftest-ost-4k-2-1/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751.md) | refs/heads/add/pypi-publish | [e77de02](https://github.com/rawstor/librawstor/commit/e77de02d2b3640cfeef5c3eb4fbd0961d12a5751) | 35743.15 | 55650.68 | 0.00 | 0.00 |0.00 | 0.00 | 22377.50 | 88867.19 |
@@ -148,7 +149,6 @@
 | [2026-08-12 09:10:13](perftest-ost-4k-2-1/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31.md) | refs/heads/fix/macos-poll-nosigpipe | [9f5fdf2](https://github.com/rawstor/librawstor/commit/9f5fdf2d44f0aa6e868e83b9ce860b7b07b18d31) | 23591.60 | 84146.45 | 0.00 | 0.00 |0.00 | 0.00 | 16834.15 | 118073.57 |
 | [2026-08-12 08:59:01](perftest-ost-4k-2-1/69349ca4c48c7744ac76d7e4315612a5ab310a0e.md) | refs/heads/add/pypi-publish | [69349ca](https://github.com/rawstor/librawstor/commit/69349ca4c48c7744ac76d7e4315612a5ab310a0e) | 24173.15 | 82089.60 | 0.00 | 0.00 |0.00 | 0.00 | 16497.70 | 120448.32 |
 | [2026-08-11 22:54:36](perftest-ost-4k-2-1/3a662dd7e32031e0161815cf7eb547bbd3529ac3.md) | refs/heads/add/pypi-publish | [3a662dd](https://github.com/rawstor/librawstor/commit/3a662dd7e32031e0161815cf7eb547bbd3529ac3) | 24527.85 | 80932.81 | 0.00 | 0.00 |0.00 | 0.00 | 17106.95 | 116188.62 |
-| [2026-08-11 22:33:23](perftest-ost-4k-2-1/5275cb907ab37ff71121cbe3d100f204b80bb3e0.md) | refs/heads/releases/v0.2 | [5275cb9](https://github.com/rawstor/librawstor/commit/5275cb907ab37ff71121cbe3d100f204b80bb3e0) | 45629.80 | 43563.78 | 0.00 | 0.00 |0.00 | 0.00 | 29033.00 | 68482.09 |
 
 ## perftest-ost-legacy-4k-1-1
 
