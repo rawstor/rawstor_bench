@@ -2,9 +2,9 @@
     "repo": "librawstor",
     "name": "perftest-file-4k-1-1",
     "path": "librawstor/perftest-file-4k-1-1",
-    "branch": "refs/heads/releases/v0.2",
+    "branch": "refs/tags/v0.2.8",
     "commit": "c592406d2414629fe173c1f47edc3eb1893be8ce",
-    "date": "2026-08-14T22:04:02+00:00",
+    "date": "2026-08-14T22:04:46+00:00",
     "data": {
         "txt": "c592406d2414629fe173c1f47edc3eb1893be8ce.txt",
         "json": "c592406d2414629fe173c1f47edc3eb1893be8ce.json"
