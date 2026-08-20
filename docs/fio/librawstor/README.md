@@ -4,6 +4,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest--without-liburing-file-4k-1-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 414310.05 | 2168.66 | 0.00 | 0.00 |0.00 | 0.00 | 326144.70 | 2796.43 |
 | [2026-08-20 12:32:59](perftest--without-liburing-file-4k-1-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 412754.90 | 2183.78 | 0.00 | 0.00 |0.00 | 0.00 | 331081.25 | 2771.12 |
 | [2026-08-20 11:49:13](perftest--without-liburing-file-4k-1-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 636948.70 | 1427.33 | 0.00 | 0.00 |0.00 | 0.00 | 487806.05 | 1905.48 |
 | [2026-08-19 23:26:35](perftest--without-liburing-file-4k-1-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 334057.35 | 2748.43 | 0.00 | 0.00 |0.00 | 0.00 | 270113.50 | 3432.34 |
@@ -13,12 +14,12 @@
 | [2026-08-16 20:51:48](perftest--without-liburing-file-4k-1-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 399851.30 | 2263.57 | 0.00 | 0.00 |0.00 | 0.00 | 324808.25 | 2797.92 |
 | [2026-08-16 20:42:18](perftest--without-liburing-file-4k-1-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 411563.90 | 2193.31 | 0.00 | 0.00 |0.00 | 0.00 | 332517.50 | 2753.83 |
 | [2026-08-16 20:30:37](perftest--without-liburing-file-4k-1-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 401831.70 | 2248.96 | 0.00 | 0.00 |0.00 | 0.00 | 323896.30 | 2820.78 |
-| [2026-08-16 20:26:14](perftest--without-liburing-file-4k-1-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 400326.30 | 2255.73 | 0.00 | 0.00 |0.00 | 0.00 | 334780.50 | 2726.56 |
 
 ## perftest--without-liburing-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest--without-liburing-file-4k-2-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 401354.00 | 4748.62 | 0.00 | 0.00 |0.00 | 0.00 | 325946.50 | 5882.34 |
 | [2026-08-20 12:32:59](perftest--without-liburing-file-4k-2-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 612927.10 | 3112.48 | 0.00 | 0.00 |0.00 | 0.00 | 494026.90 | 3886.74 |
 | [2026-08-20 11:49:13](perftest--without-liburing-file-4k-2-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 407912.60 | 4675.84 | 0.00 | 0.00 |0.00 | 0.00 | 332176.70 | 5778.88 |
 | [2026-08-19 23:26:35](perftest--without-liburing-file-4k-2-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 333736.30 | 5744.62 | 0.00 | 0.00 |0.00 | 0.00 | 270128.60 | 7138.09 |
@@ -28,12 +29,12 @@
 | [2026-08-16 20:51:48](perftest--without-liburing-file-4k-2-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 406871.05 | 4729.02 | 0.00 | 0.00 |0.00 | 0.00 | 327555.95 | 5891.96 |
 | [2026-08-16 20:42:18](perftest--without-liburing-file-4k-2-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 332492.95 | 5764.82 | 0.00 | 0.00 |0.00 | 0.00 | 267994.10 | 7206.24 |
 | [2026-08-16 20:30:37](perftest--without-liburing-file-4k-2-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 385674.30 | 4948.59 | 0.00 | 0.00 |0.00 | 0.00 | 313525.45 | 6119.77 |
-| [2026-08-16 20:26:14](perftest--without-liburing-file-4k-2-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 330868.65 | 5793.84 | 0.00 | 0.00 |0.00 | 0.00 | 272315.05 | 7073.81 |
 
 ## perftest--without-liburing-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest--without-liburing-ost-4k-1-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 5740.60 | 172769.31 | 0.00 | 0.00 |0.00 | 0.00 | 5709.10 | 173692.86 |
 | [2026-08-20 12:32:59](perftest--without-liburing-ost-4k-1-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 5592.85 | 177536.43 | 0.00 | 0.00 |0.00 | 0.00 | 5483.25 | 181050.23 |
 | [2026-08-20 11:49:13](perftest--without-liburing-ost-4k-1-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 11043.20 | 90043.33 | 0.00 | 0.00 |0.00 | 0.00 | 10229.85 | 97212.02 |
 | [2026-08-19 23:26:35](perftest--without-liburing-ost-4k-1-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 6102.80 | 162629.75 | 0.00 | 0.00 |0.00 | 0.00 | 5861.70 | 169215.40 |
@@ -43,12 +44,12 @@
 | [2026-08-16 20:51:48](perftest--without-liburing-ost-4k-1-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 5703.60 | 173889.32 | 0.00 | 0.00 |0.00 | 0.00 | 5597.95 | 177148.28 |
 | [2026-08-16 20:42:18](perftest--without-liburing-ost-4k-1-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 5971.00 | 166244.54 | 0.00 | 0.00 |0.00 | 0.00 | 5857.00 | 169406.13 |
 | [2026-08-16 20:30:37](perftest--without-liburing-ost-4k-1-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 7846.70 | 126823.39 | 0.00 | 0.00 |0.00 | 0.00 | 7767.90 | 128069.14 |
-| [2026-08-16 20:26:14](perftest--without-liburing-ost-4k-1-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 5960.80 | 166489.25 | 0.00 | 0.00 |0.00 | 0.00 | 5753.40 | 172429.22 |
 
 ## perftest--without-liburing-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest--without-liburing-ost-4k-2-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 9107.15 | 219013.14 | 0.00 | 0.00 |0.00 | 0.00 | 8751.95 | 227850.61 |
 | [2026-08-20 12:32:59](perftest--without-liburing-ost-4k-2-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 8732.65 | 228465.43 | 0.00 | 0.00 |0.00 | 0.00 | 8458.75 | 235836.68 |
 | [2026-08-20 11:49:13](perftest--without-liburing-ost-4k-2-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 8823.60 | 225886.50 | 0.00 | 0.00 |0.00 | 0.00 | 8498.90 | 234509.09 |
 | [2026-08-19 23:26:35](perftest--without-liburing-ost-4k-2-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 8764.65 | 227468.35 | 0.00 | 0.00 |0.00 | 0.00 | 8563.70 | 232801.40 |
@@ -58,7 +59,6 @@
 | [2026-08-16 20:51:48](perftest--without-liburing-ost-4k-2-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 9074.90 | 219712.24 | 0.00 | 0.00 |0.00 | 0.00 | 8719.65 | 228642.18 |
 | [2026-08-16 20:42:18](perftest--without-liburing-ost-4k-2-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 10982.30 | 181703.41 | 0.00 | 0.00 |0.00 | 0.00 | 10688.30 | 186646.27 |
 | [2026-08-16 20:30:37](perftest--without-liburing-ost-4k-2-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 17627.60 | 113116.12 | 0.00 | 0.00 |0.00 | 0.00 | 17229.75 | 115693.69 |
-| [2026-08-16 20:26:14](perftest--without-liburing-ost-4k-2-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 8570.45 | 232614.48 | 0.00 | 0.00 |0.00 | 0.00 | 8530.00 | 233707.14 |
 
 ## perftest--without-liburing-ost-legacy-4k-1-1
 
@@ -94,6 +94,7 @@
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest-file-4k-1-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 312641.15 | 2915.05 | 0.00 | 0.00 |0.00 | 0.00 | 31064.65 | 31616.22 |
 | [2026-08-20 12:32:59](perftest-file-4k-1-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 411249.50 | 2184.47 | 0.00 | 0.00 |0.00 | 0.00 | 28425.90 | 34386.29 |
 | [2026-08-20 11:49:13](perftest-file-4k-1-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 401450.50 | 2249.70 | 0.00 | 0.00 |0.00 | 0.00 | 30239.10 | 32388.95 |
 | [2026-08-19 23:26:35](perftest-file-4k-1-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 343577.50 | 2658.54 | 0.00 | 0.00 |0.00 | 0.00 | 36274.40 | 27092.67 |
@@ -103,12 +104,12 @@
 | [2026-08-16 20:51:48](perftest-file-4k-1-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 403951.50 | 2225.54 | 0.00 | 0.00 |0.00 | 0.00 | 30119.10 | 32496.09 |
 | [2026-08-16 20:42:18](perftest-file-4k-1-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 417686.30 | 2143.35 | 0.00 | 0.00 |0.00 | 0.00 | 30835.00 | 31784.80 |
 | [2026-08-16 20:30:37](perftest-file-4k-1-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 536480.70 | 1648.32 | 0.00 | 0.00 |0.00 | 0.00 | 38790.15 | 25194.18 |
-| [2026-08-16 20:26:14](perftest-file-4k-1-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 352990.85 | 2591.85 | 0.00 | 0.00 |0.00 | 0.00 | 35768.05 | 27454.18 |
 
 ## perftest-file-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest-file-4k-2-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 473661.75 | 4013.27 | 0.00 | 0.00 |0.00 | 0.00 | 61259.20 | 32159.97 |
 | [2026-08-20 12:32:59](perftest-file-4k-2-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 457985.45 | 4146.92 | 0.00 | 0.00 |0.00 | 0.00 | 59091.50 | 33266.88 |
 | [2026-08-20 11:49:13](perftest-file-4k-2-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 464843.80 | 4084.70 | 0.00 | 0.00 |0.00 | 0.00 | 61240.45 | 32136.90 |
 | [2026-08-19 23:26:35](perftest-file-4k-2-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 474349.00 | 4003.24 | 0.00 | 0.00 |0.00 | 0.00 | 62712.30 | 31445.94 |
@@ -118,12 +119,12 @@
 | [2026-08-16 20:51:48](perftest-file-4k-2-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 481638.35 | 3930.44 | 0.00 | 0.00 |0.00 | 0.00 | 60379.40 | 32561.56 |
 | [2026-08-16 20:42:18](perftest-file-4k-2-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 469900.25 | 4045.61 | 0.00 | 0.00 |0.00 | 0.00 | 58726.70 | 33474.60 |
 | [2026-08-16 20:30:37](perftest-file-4k-2-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 438490.80 | 4341.67 | 0.00 | 0.00 |0.00 | 0.00 | 56917.90 | 34512.42 |
-| [2026-08-16 20:26:14](perftest-file-4k-2-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 465768.00 | 4086.16 | 0.00 | 0.00 |0.00 | 0.00 | 64607.00 | 30603.51 |
 
 ## perftest-ost-4k-1-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest-ost-4k-1-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 14011.25 | 70378.14 | 0.00 | 0.00 |0.00 | 0.00 | 9211.70 | 107231.71 |
 | [2026-08-20 12:32:59](perftest-ost-4k-1-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 31003.15 | 31846.10 | 0.00 | 0.00 |0.00 | 0.00 | 11905.00 | 83551.13 |
 | [2026-08-20 11:49:13](perftest-ost-4k-1-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 14110.70 | 69831.55 | 0.00 | 0.00 |0.00 | 0.00 | 9193.80 | 107461.08 |
 | [2026-08-19 23:26:35](perftest-ost-4k-1-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 15931.75 | 61886.37 | 0.00 | 0.00 |0.00 | 0.00 | 10467.45 | 94389.05 |
@@ -133,12 +134,12 @@
 | [2026-08-16 20:51:48](perftest-ost-4k-1-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 14168.90 | 69641.61 | 0.00 | 0.00 |0.00 | 0.00 | 9394.85 | 105181.92 |
 | [2026-08-16 20:42:18](perftest-ost-4k-1-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 33403.10 | 29550.52 | 0.00 | 0.00 |0.00 | 0.00 | 17858.90 | 55611.70 |
 | [2026-08-16 20:30:37](perftest-ost-4k-1-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 20625.40 | 48034.11 | 0.00 | 0.00 |0.00 | 0.00 | 12685.60 | 78195.23 |
-| [2026-08-16 20:26:14](perftest-ost-4k-1-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 15564.30 | 63389.23 | 0.00 | 0.00 |0.00 | 0.00 | 10199.40 | 96954.72 |
 
 ## perftest-ost-4k-2-1
 
 | Date | Branch | Commit | randread<br>Read IOPS | randread<br>Read Latency | randread<br>Write IOPS | randread<br>Write Latency |randwrite<br>Read IOPS | randwrite<br>Read Latency | randwrite<br>Write IOPS | randwrite<br>Write Latency |
 | :--- | :---   | :---   |      ---: |         ---: |       ---: |          ---: |     ---: |         ---: |       ---: |          ---: |
+| [2026-08-20 13:21:34](perftest-ost-4k-2-1/1f64df46c5bd929458fd6e61c4e7edb19144b5bb.md) | refs/heads/ref/librawio-coroutines | [1f64df4](https://github.com/rawstor/librawstor/commit/1f64df46c5bd929458fd6e61c4e7edb19144b5bb) | 35024.95 | 56794.46 | 0.00 | 0.00 |0.00 | 0.00 | 22012.35 | 90421.31 |
 | [2026-08-20 12:32:59](perftest-ost-4k-2-1/acb19d5e1a802a03bd5e59293391ef813417a529.md) | refs/heads/ref/librawio-coroutines | [acb19d5](https://github.com/rawstor/librawstor/commit/acb19d5e1a802a03bd5e59293391ef813417a529) | 25013.40 | 79395.23 | 0.00 | 0.00 |0.00 | 0.00 | 17616.30 | 112821.58 |
 | [2026-08-20 11:49:13](perftest-ost-4k-2-1/668862efc00753bcbfaf6a58b9589b6e2c9ada3a.md) | refs/heads/ref/librawio-coroutines | [668862e](https://github.com/rawstor/librawstor/commit/668862efc00753bcbfaf6a58b9589b6e2c9ada3a) | 23834.05 | 83256.34 | 0.00 | 0.00 |0.00 | 0.00 | 16499.40 | 120382.05 |
 | [2026-08-19 23:26:35](perftest-ost-4k-2-1/664d0b3ab329295dca27ffcd922361525b3bd0fa.md) | refs/heads/ref/librawio-coroutines | [664d0b3](https://github.com/rawstor/librawstor/commit/664d0b3ab329295dca27ffcd922361525b3bd0fa) | 23712.45 | 83718.89 | 0.00 | 0.00 |0.00 | 0.00 | 16122.70 | 123268.10 |
@@ -148,7 +149,6 @@
 | [2026-08-16 20:51:48](perftest-ost-4k-2-1/200604fd8af94ba329636becd79ba6107e947c24.md) | refs/heads/releases/v0.2 | [200604f](https://github.com/rawstor/librawstor/commit/200604fd8af94ba329636becd79ba6107e947c24) | 36369.40 | 54690.35 | 0.00 | 0.00 |0.00 | 0.00 | 22779.00 | 87372.00 |
 | [2026-08-16 20:42:18](perftest-ost-4k-2-1/859daa136469ce4f2e6a0fe23222c5703acbe01e.md) | refs/heads/add/mds-protocol | [859daa1](https://github.com/rawstor/librawstor/commit/859daa136469ce4f2e6a0fe23222c5703acbe01e) | 54114.95 | 36686.78 | 0.00 | 0.00 |0.00 | 0.00 | 25096.45 | 79420.31 |
 | [2026-08-16 20:30:37](perftest-ost-4k-2-1/adf2f0d616297c6afae1c7eee13c71a93969adba.md) | refs/heads/v0.2/telemetry | [adf2f0d](https://github.com/rawstor/librawstor/commit/adf2f0d616297c6afae1c7eee13c71a93969adba) | 35317.60 | 56330.32 | 0.00 | 0.00 |0.00 | 0.00 | 22108.70 | 89995.70 |
-| [2026-08-16 20:26:15](perftest-ost-4k-2-1/bda782d51ed612ba8926991523b1e5d9fc514aa6.md) | refs/heads/main | [bda782d](https://github.com/rawstor/librawstor/commit/bda782d51ed612ba8926991523b1e5d9fc514aa6) | 25767.95 | 77079.55 | 0.00 | 0.00 |0.00 | 0.00 | 17203.15 | 115540.66 |
 
 ## perftest-ost-legacy-4k-1-1
 
