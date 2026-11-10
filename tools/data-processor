@@ -1,0 +1,354 @@
+#!/usr/bin/env python3
+
+"""Generate dashboard data.json from raw fio benchmark results.
+
+Reads per-test JSON + .meta sidecar files, extracts IOPS/latency metrics,
+groups by config and branch, downsamples to 1 point/day/group, and writes
+a single data.json for the frontend dashboard.
+
+Usage:
+    python3 tools/data-processor [DAYS]
+
+DAYS=0 means include all available data.
+Positive DAYS includes only dated results in that window.
+"""
+
+import json
+import os
+import sys
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+from typing import Any, Dict, List, Optional, Set, Tuple
+from urllib.parse import quote
+
+METRICS = ['iops_read', 'iops_write', 'latency_read', 'latency_write']
+TIMESTAMP_FORMATS = [
+    '%Y-%m-%dT%H:%M:%S.%f',
+    '%Y-%m-%dT%H:%M:%S',
+    '%Y-%m-%d %H:%M:%S',
+    '%Y-%m-%d',
+]
+
+
+def main() -> None:
+    days = _parse_days_arg()
+    script_dir = Path(__file__).parent
+    repo_root = script_dir.parent
+    data_path = repo_root / 'data' / 'fio' / 'librawstor'
+    output_path = repo_root / 'docs' / 'fio' / 'librawstor' / 'dashboard' / 'data.json'
+
+    if not data_path.exists():
+        print(f"Data path does not exist: {data_path}")
+        sys.exit(1)
+
+    # days=0 (or missing) means no cutoff — include all available data.
+    if days and days > 0:
+        cutoff_date = datetime.now(tz=timezone.utc).replace(tzinfo=None) \
+            - timedelta(days=days)
+    else:
+        cutoff_date = None
+        days = 0
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
+    reports_path = output_path.parent.parent
+    results = collect_raw_data(data_path, cutoff_date, reports_path)
+
+    charts = prepare_charts_data(results)
+    summary = build_summary(results)
+
+    output = {
+        'generated_at': _utc_iso(datetime.now(tz=timezone.utc)),
+        'filter': {
+            'days': days,
+            'cutoff_date': _utc_iso(cutoff_date),
+            'applied': cutoff_date is not None,
+        },
+        'charts': charts,
+        'summary': summary,
+    }
+
+    with output_path.open('w', encoding='utf-8') as f:
+        json.dump(output, f, separators=(',', ':'), ensure_ascii=False)
+
+    size_mb = output_path.stat().st_size / (1024 * 1024)
+    print(f"data.json: {len(results)} tests, {size_mb:.1f} MB, {days or 'all'} days")
+
+
+def _parse_days_arg() -> Optional[int]:
+    """Return number of days from CLI arg, or None (= all data) if absent/0."""
+    if len(sys.argv) > 1:
+        try:
+            value = int(sys.argv[1])
+            return value if value > 0 else None
+        except ValueError:
+            print(f"Invalid argument: {sys.argv[1]}, using all data")
+    return None
+
+
+def parse_timestamp(raw: str) -> Optional[datetime]:
+    """Parse a timestamp string to a naive-UTC datetime.
+
+    Accepts ISO 8601 with optional timezone offset (Z, +HH:MM, +HHMM, +HH).
+    Timezone-aware inputs are converted to UTC and stripped to naive so all
+    downstream comparisons and emissions share one convention.
+    """
+    if not raw:
+        return None
+    s = raw.strip()
+    # Normalize trailing 'Z' to '+00:00' so fromisoformat handles pre-3.11.
+    if s.endswith('Z'):
+        s = s[:-1] + '+00:00'
+    try:
+        dt = datetime.fromisoformat(s)
+        if dt.tzinfo is not None:
+            dt = dt.astimezone(timezone.utc).replace(tzinfo=None)
+        return dt
+    except ValueError:
+        pass
+    # Fall back to space-separated / date-only formats (treated as UTC).
+    for fmt in TIMESTAMP_FORMATS:
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            continue
+    return None
+
+
+def _utc_iso(dt: Optional[datetime]) -> Optional[str]:
+    """Emit a datetime as ISO 8601 UTC 'Z' string (naive UTC -> ...Z)."""
+    if dt is None:
+        return None
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(timezone.utc).replace(tzinfo=None)
+    return dt.isoformat() + 'Z'
+
+
+def collect_raw_data(
+    data_path: Path,
+    cutoff_date: Optional[datetime] = None,
+    reports_path: Optional[Path] = None,
+) -> List[Dict[str, Any]]:
+    """Collect test results from all config directories, optionally filtered by date."""
+    results: List[Dict[str, Any]] = []
+    published_reports = {
+        path.relative_to(reports_path) for path in reports_path.glob('*/*.md')
+        if path.is_file()
+    } if reports_path is not None else set()
+
+    for config_dir in sorted(data_path.iterdir()):
+        if not config_dir.is_dir():
+            continue
+
+        for json_file in config_dir.rglob('*.json'):
+            try:
+                result = _process_test_file(data_path, json_file, cutoff_date, published_reports)
+                if result:
+                    results.append(result)
+            except (OSError, UnicodeDecodeError) as e:
+                print(f"  I/O error reading {json_file.name}: {e}")
+            except (json.JSONDecodeError, KeyError, TypeError, ValueError) as e:
+                print(f"  Bad data in {json_file.name}: {e}")
+
+    return results
+
+
+def _process_test_file(
+    data_path: Path,
+    json_file: Path,
+    cutoff_date: Optional[datetime],
+    published_reports: Set[Path],
+) -> Optional[Dict[str, Any]]:
+    config_name = json_file.relative_to(data_path).parts[0]
+    meta_file = json_file.with_suffix('.meta')
+
+    test_data = json.loads(json_file.read_text(encoding='utf-8'))
+    meta_data = {}
+    if meta_file.exists():
+        meta_data = json.loads(meta_file.read_text(encoding='utf-8'))
+
+    commit_sha = meta_data.get('commit')
+    if not isinstance(commit_sha, str) or not commit_sha.strip() or any(c in commit_sha for c in '/\\\0'):
+        commit_sha = json_file.stem
+
+    timestamp = parse_timestamp(meta_data.get('date', ''))
+    if cutoff_date is not None and (timestamp is None or timestamp < cutoff_date):
+        return None
+
+    metrics = extract_fio_metrics(test_data)
+    if not metrics:
+        return None
+
+    ts_str = _utc_iso(timestamp) or 'Unknown date'
+    report = Path(config_name) / f'{commit_sha}.md'
+    if report in published_reports:
+        test_url = f"../{quote(report.with_suffix('.html').as_posix())}"
+    else:
+        test_url = _source_report_url(data_path, json_file, meta_data)
+
+    return {
+        'config': config_name,
+        'commit_sha': commit_sha,
+        'timestamp': ts_str,
+        'timestamp_obj': timestamp,
+        'branch': meta_data.get('branch', 'unknown'),
+        'test_url': test_url,
+        **metrics,
+    }
+
+
+def _source_report_url(data_path: Path, json_file: Path, meta_data: Dict[str, Any]) -> str:
+    files = meta_data.get('data')
+    txt_name = files.get('txt') if isinstance(files, dict) else None
+    txt_file = json_file.with_suffix('.txt')
+    if isinstance(txt_name, str) and txt_name and Path(txt_name).name == txt_name:
+        txt_file = json_file.with_name(txt_name)
+
+    source = txt_file if txt_file.is_file() else json_file
+    source_path = quote(source.relative_to(data_path.parent).as_posix())
+    repo = os.getenv('GITHUB_REPOSITORY', 'rawstor/rawstor_bench')
+    ref = os.getenv('GITHUB_SHA', 'main')
+    return f'https://github.com/{repo}/blob/{ref}/data/fio/{source_path}'
+
+
+def extract_fio_metrics(test_data: Dict[str, Any]) -> Dict[str, float]:
+    """Extract IOPS and latency metrics from fio JSON output.
+
+    A test file may contain a single mixed ``randrw`` job or a pair of pure
+    ``randread``/``randwrite`` jobs. For each direction, pick the job that
+    actually performed IO there (``io_bytes > 0``): pure jobs report zero for
+    the opposite direction, so blindly reading ``jobs[0]`` would emit zeros
+    and drop the second job's real numbers.
+    """
+    metrics: Dict[str, float] = {}
+
+    jobs = test_data.get('jobs', [])
+    if not jobs:
+        return metrics
+
+    for direction in ('read', 'write'):
+        section = None
+        for job in jobs:
+            s = job.get(direction, {})
+            if isinstance(s, dict) and s.get('io_bytes', 0) > 0:
+                section = s
+                break
+        if section is None:
+            continue
+
+        # IOPS
+        iops = section.get('iops')
+        if iops is not None:
+            metrics[f'iops_{direction}'] = float(iops)
+
+        # Latency (preferred: lat_ns.mean in nanoseconds)
+        lat_ns = section.get('lat_ns', {})
+        if isinstance(lat_ns, dict) and 'mean' in lat_ns:
+            metrics[f'latency_{direction}'] = float(lat_ns['mean']) / 1_000_000
+        else:
+            # Fallback: lat.mean in microseconds
+            lat = section.get('lat', {})
+            if isinstance(lat, dict) and 'mean' in lat:
+                metrics[f'latency_{direction}'] = float(lat['mean']) / 1000
+
+    return metrics
+
+
+def prepare_charts_data(results: List[Dict[str, Any]]) -> Dict[str, List[Dict]]:
+    """Build chart arrays grouped by config with daily downsampling.
+
+    Each point carries both ``branch`` and ``config``; the dashboard derives
+    branch-view grouping client-side, so only one chart set is needed.
+    """
+    dated = [r for r in results if r.get('timestamp_obj')]
+    undated = [r for r in results if not r.get('timestamp_obj')]
+    dated.sort(key=lambda r: r['timestamp_obj'])
+
+    charts: Dict[str, List[Dict]] = {}
+    for metric in METRICS:
+        charts[f'{metric}_by_config'] = _group_by(dated + undated, metric, 'config')
+    return charts
+
+
+def _group_by(
+    results: List[Dict[str, Any]],
+    metric: str,
+    key_field: str,
+) -> List[Dict]:
+    """Group results by a field, extract chart points, and downsample daily."""
+    op = 'read' if metric.endswith('_read') else 'write'
+    groups: Dict[str, List[Dict]] = {}
+    for r in results:
+        if metric not in r or r[metric] is None:
+            continue
+        key = r[key_field]
+        groups.setdefault(key, []).append({
+            'group': key,
+            'timestamp': r['timestamp'],
+            'value': r[metric],
+            'commit_sha': r['commit_sha'],
+            'branch': r['branch'],
+            'config': r['config'],
+            'test_url': r['test_url'],
+            'operation': op,
+        })
+
+    chart_data: List[Dict] = []
+    for key in sorted(groups.keys()):
+        chart_data.extend(downsample_daily(groups[key]))
+    return chart_data
+
+
+def downsample_daily(points: List[Dict]) -> List[Dict]:
+    """Keep at most 1 point per (day, branch) per group (the latest one).
+
+    Bucketing by branch too is necessary so that ``_by_config`` charts retain
+    each branch's run on a given config-day. Without it, runs of different
+    branches sharing a config on the same day compete and only the
+    latest-timestamp branch survives — filtering the chart to a single branch
+    (e.g. ``main``) then yields zero points even though that branch ran.
+
+    For undated points (timestamp == 'Unknown date') all share the day key
+    'Unknown date'; the first encountered wins per branch (we have no ordering
+    signal — intentionally not the latest, since 'latest' has no meaning here).
+    """
+    if not points:
+        return points
+
+    daily: Dict[Tuple[str, str], Dict] = {}
+    for p in points:
+        ts = p['timestamp']
+        day_key = 'Unknown date' if ts == 'Unknown date' else ts[:10]
+        bucket = (day_key, p.get('branch', ''))
+        if bucket not in daily or ts > daily[bucket]['timestamp']:
+            daily[bucket] = p
+
+    return sorted(
+        daily.values(),
+        key=lambda x: x['timestamp'] if x['timestamp'] != 'Unknown date' else '9999-12-31',
+    )
+
+
+def build_summary(results: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Build summary metadata for the dashboard."""
+    configs = sorted({r['config'] for r in results})
+    branches = sorted({r['branch'] for r in results})
+
+    timestamps = [r['timestamp_obj'] for r in results if r.get('timestamp_obj')]
+    time_range = {
+        'start': _utc_iso(min(timestamps)) if timestamps else None,
+        'end': _utc_iso(max(timestamps)) if timestamps else None,
+    }
+
+    return {
+        'total_tests': len(results),
+        'tests_without_date': sum(1 for r in results if not r.get('timestamp_obj')),
+        'total_configurations': len(configs),
+        'total_branches': len(branches),
+        'configurations': configs,
+        'branches': branches,
+        'time_range': time_range,
+    }
+
+
+if __name__ == '__main__':
+    main()
