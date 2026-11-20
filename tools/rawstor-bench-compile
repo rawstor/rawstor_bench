@@ -7,6 +7,10 @@ from pathlib import Path
 import shutil
 
 
+# Maximum detail pages and summary rows per test name.
+REPO_TABLE_COMMIT_LIMIT = 10
+
+
 def get_commit_txt(repo_name, commit_sha):
     commit_url = \
         f"https://github.com/rawstor/{repo_name}/commit/" \
@@ -33,7 +37,30 @@ def read_fio_json(meta_path, meta):
 def load_meta(meta_path):
     with open(meta_path, 'r') as f:
         meta = json.load(f)
-        meta["date"] = datetime.datetime.fromisoformat(meta["date"])
+        if not isinstance(meta, dict):
+            raise ValueError(f"metadata must be an object in {meta_path}")
+        for field in ('repo', 'name'):
+            if not isinstance(meta.get(field), str) or not meta[field]:
+                raise ValueError(f"missing/invalid '{field}' in {meta_path}")
+        commit = meta.get("commit")
+        if not isinstance(commit, str) or not commit.strip() or any(c in commit for c in "/\\\0"):
+            meta["commit"] = meta_path.stem
+        date_raw = meta.get("date")
+        if not date_raw:
+            raise ValueError(f"missing 'date' in {meta_path}")
+        data_block = meta.get("data") or {}
+        if not isinstance(data_block, dict) or any(
+            not isinstance(data_block.get(field), str) or not data_block[field]
+            for field in ('txt', 'json')
+        ):
+            raise ValueError(f"missing/invalid 'data.txt' or 'data.json' in {meta_path}")
+        if not isinstance(date_raw, str):
+            raise ValueError(f"invalid 'date' in {meta_path}")
+        parsed = datetime.datetime.fromisoformat(date_raw.replace('Z', '+00:00'))
+        # Match data-processor: dates without an offset are interpreted as UTC.
+        if parsed.tzinfo is not None:
+            parsed = parsed.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+        meta["date"] = parsed
     return meta
 
 
@@ -59,13 +86,13 @@ def compile_commit_md(
     with open(filename, "w") as commit_md:
         commit_md.write("[&lt; back](..)\n\n")
         commit_md.write(f"# {name}\n\n")
-        commit_md.write(f"{get_date_txt(meta["date"])}\n\n")
-        commit_md.write(f"{meta["branch"]}\n\n")
+        commit_md.write(f"{get_date_txt(meta['date'])}\n\n")
+        commit_md.write(f"{meta['branch']}\n\n")
         commit_md.write(f"{get_commit_txt(repo_name, commit_sha)}\n\n")
-        commit_md.write(f"rw = {job["rw"]}, ")
-        commit_md.write(f"bs = {job["bs"]}, ")
-        commit_md.write(f"iodepth = {job["iodepth"]}, ")
-        commit_md.write(f"numjobs = {job["numjobs"]}\n\n")
+        commit_md.write(f"rw = {job['rw']}, ")
+        commit_md.write(f"bs = {job['bs']}, ")
+        commit_md.write(f"iodepth = {job['iodepth']}, ")
+        commit_md.write(f"numjobs = {job['numjobs']}\n\n")
         commit_md.write("```\n")
         commit_md.write(fio_txt)
         commit_md.write("```\n")
@@ -82,14 +109,21 @@ def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
         repo_md.write(f"# [&lt;](..) {repo_name} tests\n\n")
         for name, metas in repo:
             fios = []
-            for meta_path, meta in metas[:10]:
-                fios.append((meta_path, meta, read_fio_json(meta_path, meta)))
+            for meta_path, meta in metas:
+                fio = read_fio_json(meta_path, meta)
+                commit_md_url = compile_commit_md(
+                    dest_abspath / name, name, repo_name,
+                    meta_path, meta, fio, name,
+                )
+                fios.append((meta_path, meta, fio, commit_md_url))
+                if len(fios) == REPO_TABLE_COMMIT_LIMIT:
+                    break
 
             job_names = set()
-            for meta_path, meta, fio in fios:
+            for meta_path, meta, fio, commit_md_url in fios:
                 for job in fio["jobs"]:
                     job_names.add(job["job options"]["name"])
-            job_names = sorted(list(job_names))
+            job_names = sorted(job_names)
 
             repo_md.write(f"## {name}\n\n")
 
@@ -123,25 +157,13 @@ def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
                 )
             repo_md.write("\n")
 
-            for meta_path, meta, fio in fios:
-                commmit_md_dest_path = f"{name}"
-                commmit_md_dest_abspath = dest_abspath / commmit_md_dest_path
-                commmit_md_url = compile_commit_md(
-                    commmit_md_dest_abspath,
-                    commmit_md_dest_path,
-                    repo_name,
-                    meta_path,
-                    meta,
-                    fio,
-                    name,
-                )
-
+            for meta_path, meta, fio, commit_md_url in fios:
                 commit_sha = meta["commit"]
 
                 repo_md.write(
                     f"| "
-                    f"[{get_date_txt(meta["date"])}]({commmit_md_url}) | "
-                    f"{meta["branch"]} | "
+                    f"[{get_date_txt(meta['date'])}]({commit_md_url}) | "
+                    f"{meta['branch']} | "
                     f"{get_commit_txt(repo_name, commit_sha)} | "
                 )
                 for job_name in job_names:
@@ -150,10 +172,10 @@ def compile_repo_md(dest_abspath, dest_path, repo_name, repo):
                         repo_md.write(" |  |  |  |")
                     else:
                         repo_md.write(
-                            f"{job["read"]["iops_mean"]:.2f} | "
-                            f"{job["read"]["lat_ns"]["mean"]:.2f} | "
-                            f"{job["write"]["iops_mean"]:.2f} | "
-                            f"{job["write"]["lat_ns"]["mean"]:.2f} |"
+                            f"{job['read']['iops_mean']:.2f} | "
+                            f"{job['read']['lat_ns']['mean']:.2f} | "
+                            f"{job['write']['iops_mean']:.2f} | "
+                            f"{job['write']['lat_ns']['mean']:.2f} |"
                         )
                 repo_md.write("\n")
             repo_md.write("\n")
