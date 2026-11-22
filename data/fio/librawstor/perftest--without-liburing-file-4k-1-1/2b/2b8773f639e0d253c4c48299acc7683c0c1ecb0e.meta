@@ -2,9 +2,9 @@
     "repo": "librawstor",
     "name": "perftest--without-liburing-file-4k-1-1",
     "path": "librawstor/perftest--without-liburing-file-4k-1-1",
-    "branch": "refs/heads/releases/v0.3",
+    "branch": "refs/tags/v0.3.1",
     "commit": "2b8773f639e0d253c4c48299acc7683c0c1ecb0e",
-    "date": "2026-11-22T11:28:53+00:00",
+    "date": "2026-11-22T11:32:51+00:00",
     "data": {
         "txt": "2b8773f639e0d253c4c48299acc7683c0c1ecb0e.txt",
         "json": "2b8773f639e0d253c4c48299acc7683c0c1ecb0e.json"
